@@ -1,0 +1,1135 @@
+.adven-img{
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-map{
+    width: 100%;
+    height: 100%;
+    max-width: 750px;
+}
+
+.position-let{
+    position: absolute;
+    right: 316px;
+    top: 100px;
+}
+
+.position-let p{
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 0.9;
+}
+
+.position-let h3{
+    font-size: 45px;
+}
+
+.position-tree{
+    position: absolute;
+    right: 316px;
+    top: 46px;
+}
+
+.position-tree .img-tree{
+    max-width: 45px;
+    object-fit: cover;
+}
+
+.position-circle{
+    position: absolute;
+    top: 125px;
+    left: 373px;
+}
+
+.position-circle .img-circle{
+    max-width: 130px;
+    object-fit: cover;
+}
+
+.anchor-book{
+    position: absolute;
+    top: 86px;
+    font-size: 14px;
+    left: 23px;
+}
+
+.position-tree2{
+    position: absolute;
+    top: 268px;
+    left: 347px;
+
+}
+
+.position-tree2 .img-tree{
+    max-width: 60px;
+}
+
+.position-bush{
+    position: absolute;
+    top: 194px;
+    left: 540px;
+}
+
+.img-bush{
+    max-width: 55px;
+}
+
+.position-school{
+    position: absolute;
+    bottom: 85px;
+    left: 239px;
+}
+
+.img-school{
+    max-width: 130px;
+}
+
+.anchor-school{
+    position: absolute;
+    top: 86px;
+    font-size: 14px;
+    left: 31px;
+}
+
+.position-bush2{
+    position: absolute;
+    bottom: 83px;
+    left: 365px;
+}
+
+.position-path{
+    position: absolute;
+    bottom: 145px;
+    left: 368px;
+}
+
+.img-a1{
+    max-width: 80px;
+}
+
+.about-me{
+    position: absolute;
+    bottom: 171px;
+    left: 434px;
+}
+
+.img-about{
+    max-width: 130px;
+}
+
+.about{
+    position: absolute;
+    top: 89px;
+    font-size: 14px;
+    left: 31px;
+}
+
+.position-city{
+    position: absolute;
+}
+
+.path1{
+    position: absolute;
+    top: 246px;
+    left: 429px;
+}
+
+.path3{
+    position: absolute;
+    top: 188px;
+    left: 498px;
+}
+
+.path4{
+    position: absolute;
+    right: 337px;
+    top: 273px;
+}
+
+.path1-img{
+    max-width: 80px;
+}
+
+.position-city{
+    position: absolute;
+    right: 212px;
+    top: 243px;
+}
+
+.img-city{
+    max-width: 130px;
+}
+
+.position-home{
+    position: absolute;
+    top: 218px;
+    left: 579px;
+}
+
+.img-home{
+    max-width: 130px;
+}
+
+.anchor-home{
+    position: absolute;
+    top: 86px;
+    font-size: 14px;
+    left: 31px;
+}
+
+.anchor-city{
+    position: absolute;
+    top: 91px;
+    font-size: 14px;
+    left: 40px;
+}
+
+.my-activity{
+    background-color: #75A3DA;
+    border-radius: 50%;
+    max-width: 34px;
+    padding: 3px 4px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 3px solid #ffff;
+}
+
+.my-school{
+    background-color: #B0D46F;
+    border-radius: 50%;
+    max-width: 34px;
+    padding: 3px 6px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 3px solid #ffff;
+}
+
+.my-about{
+    background-color: #FF6BA7;
+    border-radius: 50%;
+    max-width: 34px;
+    padding: 3px 4px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 3px solid #ffff;
+}
+
+.my-home{
+    background-color: #AB77B8;
+    border-radius: 50%;
+    max-width: 34px;
+    padding: 3px 4px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 3px solid #ffff;
+}
+
+.my-city{
+    background-color: #FFC165;
+    border-radius: 50%;
+    max-width: 34px;
+    padding: 3px 4px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 3px solid #ffff;
+}
+
+.tree2-img{
+    max-width: 70px;
+}
+
+.city-tree{
+    position: absolute;
+    left: 650px;
+    bottom: 150px
+}
+
+.img-rock{
+    max-width: 70px;
+}
+
+.position-rock{
+    position: absolute;
+    left: -49px;
+    bottom: -10px
+}
+
+.bush-city{
+    position: absolute;
+    left: -42px;
+    top: 100px;
+}
+
+.rock2{
+    position: absolute;
+    top: -57px;
+    left: -55px;
+}
+.rounded-6 {
+    border-radius: 60px;
+}
+
+.mn-logo {
+    max-width: 274px;
+}
+/* --------------------
+    create account 
+-------------------- */
+.signup-bg {
+    background: #E9EB8C;
+}
+
+
+
+.signup-bg input,
+.signup-bg select {
+    background: #f9f9de;
+}
+
+.min-100 {
+    min-height: 100vh;
+}
+
+.pink-btn {
+    border: 2px solid #ff90bd;
+    color: #ff90bd;;
+}
+
+
+.min-100minus {
+    min-height: calc(100vh - 0px);
+}
+
+.new-abs {
+    position: absolute !important;
+    top: -21px;
+    left: 14px;
+}
+.py-c {
+    padding: 12px 10px;
+}
+.h-minus {
+    min-height: calc(100vh - 113px);
+    /* margin-bottom: 14px; */
+}
+
+
+.vac-bx.in-preview-popup {
+    max-width: 100%;
+}
+
+
+.advn-map {
+    /* max-width: 1197px; */
+    /* margin-top: -30px;+ */
+    position: relative;
+}
+
+.crd-main {
+    max-width: 990px;
+    margin: -30px auto 0;
+}
+
+.cir-box {
+    height: calc(100vh - 58px);
+    z-index: 4;
+}
+
+.yel-video {
+    bottom: 0;
+    background: #FFC165;
+    border-top: 0;
+    padding-bottom: 8px;
+    border-radius: 0 0 26px 26px
+}
+
+.y-video {
+    border: 14px solid white;
+    border-radius: 40px;
+    max-width: 524px;
+    height: auto;
+}
+.vol-3-main img {
+    width: 15px;
+}
+.y-video video {
+    border-top-left-radius: 26px;
+        border-top-right-radius: 26px;
+    border-top: 4px solid #fff;
+    border-bottom: 10px solid #fff !important;
+}
+/* .index2 {
+    background-image: url("../img/Mask\ group.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    background-position: -22%;
+} */
+
+.index5{
+    position: relative;
+}
+.index5:before{
+    content: '';
+    background-image: url("../img/Mask\ group.png");
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-position: center;
+    
+}
+   
+/* .index2:before {
+    position: absolute;
+    content: '';
+    background: url("../img/login-cir.png") no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position: 57% 100%;
+    background-size: 250px
+}
+    */
+    /* .index2:after {
+       position: absolute;
+       content: '';
+       background: url("../img/log-top.png") no-repeat;
+       width: 100%;
+       height: 100%;
+       background-size: 300px;
+       background-position: 86% 0;
+   } */
+   /* .main-r {
+    max-width: 759px;
+    margin: 0 auto
+} */
+.opacity-6 {
+    opacity: 0.6;
+}
+.links-m img {
+    width: 27px
+}
+.file {
+    margin-bottom: 14px;
+}
+.sheet-icon {
+    width: 50px;
+    height: 50px;
+    padding: 14px 14px;
+}
+
+.pg-det .vac-btn{
+    margin-top: 19px;
+    margin-left: 15px;
+}
+.disable {
+    color: #49494980;
+}
+.carousel .hero-img {
+    width: 180px;
+}
+.mtr{
+    margin-left: 49px;
+}
+.wrapper-index {
+    overflow: hidden
+}
+
+.index2:before {
+    position: absolute;
+    content: '';
+    width: 83%;
+    height: calc(100vh + 19%);
+    background: #FFC165;
+    border-radius: 50%;
+    left: -40%;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: hidden;
+    position: fixed;
+}
+.index2:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+ background:url(../img/login-cir.png) 58% 100% no-repeat,
+    url(../img/log-top.png) 89% 0 no-repeat;
+background-size: 433px,449px;
+}
+.border-welcome {
+    border: 27px solid #fff;
+}
+
+@media screen and (min-width:2500px){
+    .index2 .my-container {
+        max-width: 2002px;
+    }
+    .login-sec {
+        padding-left: 0;
+        max-width: 657px;
+    }
+    .index2:before {
+        width: 85%;
+        height: calc(100vh + 30%);
+    }
+    .mn-logo {
+        max-width: 457px;
+    }
+    
+    .log-font {
+        font-size: 69px;
+    }
+    .wel-font {
+        font-size: 43px;
+        margin-top: 0;
+    }
+    .border-welcome {
+        border: 35px solid #fff;
+    }
+    .border-welcome {
+        border-radius: 159px;
+    }
+    .pink-t {
+        padding: 123px 38px 50px;
+    }
+    .u-name,
+    .u-name2 {
+        font-size: 27px;
+        margin-left: 12px !important;
+    }
+    .myinput {
+        font-size: 27px;
+        padding: 20px 15px !important;
+    }
+    .ubtm {
+        margin-bottom: 26px;
+    }
+    .u-name1 {
+        font-size: 23px;
+    }
+    .pbtm {
+        margin-bottom: 14px;
+    }
+    .pink-clr {
+        font-size: 24px;
+        margin-top: 41px;
+        padding: 14px 123px !important
+
+    }
+    .cr-btn.u-name2 {
+        font-size: 23px;
+    }
+    .index2:after {
+        background: url(../img/login-cir.png) 64% 100% no-repeat, url(../img/log-top.png) 98% 0 no-repeat;
+        background-size: 740px,733px;
+    }
+}
+
+@media screen and (max-width:1728px){
+    .index2:after {
+    background:url(../img/login-cir.png) 58% 100% no-repeat,
+        url(../img/log-top.png) 94% 0 no-repeat;
+    background-size: 433px,449px;
+    }
+}
+@media screen and (max-width:1600px){
+    .index2:before {
+        width: 83%;
+        height: calc(100vh + 45%);
+    }
+    .index2:after {
+        background:url(../img/login-cir.png) 62% 109% no-repeat,
+            url(../img/log-top.png) 99% -16% no-repeat;
+        background-size: 433px,449px;
+        }
+        .mn-logo {
+            max-width: 220px;
+        }
+       
+        .border-welcome {
+            border: 20px solid #fff
+        }
+        .l-m {
+            width: 40%;
+        }
+    }
+@media screen and (max-width:1400px){
+  
+    .index2:after {
+        background:url(../img/login-cir.png) 62% 109% no-repeat,
+        url(../img/log-top.png) 99% -16% no-repeat;
+        background-size: 384px,384px;
+    }
+    .mn-logo {
+        max-width: 190px;
+    }
+}
+@media screen and (max-width:1200px){
+   
+    .border-welcome {
+        border: 17px solid #fff;
+    }
+    .signup-bg .logo {
+        margin: 0 20px;
+    }
+     .position-circle{
+        left: 258px;
+     }
+
+     .position-let{
+        right: 198px;
+     }
+
+     .position-tree{
+        right: 211px;
+     }
+
+     .position-tree2{
+        top: 293px;
+        left: 237px;
+     }
+
+     .position-school{ 
+        bottom: 74px;
+        left: 133px;
+     }
+
+     .position-bush2{
+        left: 263px;
+     }
+
+     .position-path{
+        left: 266px;
+     }
+
+     .about-me{
+        left: 331px;
+     }
+
+     .path1{
+       left: 311px;
+     }
+
+     .path3{
+        left: 385px;
+     }
+
+     .position-home{
+        left: 466px;
+     }
+
+     .position-city{
+        right: 124px;
+     }
+
+     .path4{
+        right: 257px;
+        top: 249px;
+     }
+
+     .position-bush{
+        top: 173px;
+        left: 416px;
+     }
+
+     .city-tree {
+        position: absolute;
+        left: 563px;
+        bottom: 136px;
+    }
+    .index2{
+        background-size: cover;
+        background-position: 126%;
+    }
+    .mn-logo {
+        max-width: 180px;
+    }
+    .index2:after {
+        background:url(../img/login-cir.png) 62% 109% no-repeat,
+        url(../img/log-top.png) 99% -16% no-repeat;
+        background-size: 350px,330px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .crd-main {
+        margin:0 auto;
+    }
+    .pg-det .vac-btn  {
+        margin-top: 32px;
+    }
+    .h-minus {
+        padding-top: 44px;
+    }
+    .carousel .hero-img {
+        width: 160px;
+    }
+    .position-circle {
+        left: 147px;
+    }
+
+    .position-let {
+        right: 100px;
+    }
+
+    .position-tree {
+        right: 98px;
+    }
+
+    .position-tree2 {
+        top: 293px;
+        left: 134px;
+    }
+
+    .position-school {
+        bottom: 74px;
+        left: 38px;
+    }
+
+    .position-path {
+        left: 145px;
+    }
+
+    .position-bush2 {
+        left: 166px;
+    }
+
+    .about-me {
+        left: 241px;
+        top: 295px;
+    }
+
+    .path1 {
+        left: 170px;
+        top: 216px;
+    }
+
+    .anchor-home {
+        position: absolute;
+        top: 67px;
+        font-size: 13px;
+        left: 18px;
+    }
+
+    .img-home{
+        max-width: 100px;
+    }
+
+    .position-circle .img-circle {
+        max-width: 100px;
+        object-fit: cover;
+    }
+
+    .anchor-book {
+        position: absolute;
+        top: 64px;
+        font-size: 12px;
+        left: 13px;
+    }
+
+    .img-about {
+        max-width: 100px;
+    }
+
+    .about{
+        position: absolute;
+        top: 66px;
+        font-size: 13px;
+        left: 18px;
+    }
+
+    .path3 {
+        left: 247px;
+        top: 160px;
+    }
+
+    .position-home {
+        left: 353px;
+        top: 189px;
+    }
+
+    .img-city {
+        max-width: 100px;
+    }
+
+    .anchor-city {
+        position: absolute;
+        top: 69px;
+        font-size: 13px;
+        left: 26px;
+    }
+
+    .position-city {
+        right: 31px;
+    }
+
+    .path1-img {
+        max-width: 105px;
+    }
+
+    .path4 {
+        right: 134px;
+        top: 212px;
+    }
+
+    .img-school {
+        max-width: 100px;
+    }
+
+    .anchor-school {
+        position: absolute;
+        top: 68px;
+        font-size: 13px;
+        left: 19px;
+    }
+
+    .img-a1 {
+        max-width: 105px;
+    }
+
+    .position-bush {
+        top: 173px;
+        left: 289px;
+    }
+
+    .position-let p {
+        font-size: 21px;
+    }
+
+    .position-let h3 {
+        font-size: 38px;
+    }
+
+    .city-tree {
+        position: absolute;
+        left: 412px;
+        bottom: 136px;
+    }
+
+    .bush-city {
+        position: absolute;
+        left: -54px;
+        top: 70px;
+    }
+
+    
+    .index2{
+        background-position: 0%;
+    }
+    .h-minus {
+        min-height: calc(100vh - 163px);
+    }
+    .mn-logo {
+        max-width: 150px;
+    }
+    .index2:after {
+        background:url(../img/login-cir.png) 62% 109% no-repeat,
+        url(../img/log-top.png) 99% -16% no-repeat;
+        background-size: 320px,300px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .carousel .hero-img {
+        width: 140px;
+    }
+    .advn-map {
+        margin-top: 0;
+    }
+    
+    .position-circle {
+        left: 104px;
+        top: 90px;
+    }
+
+    .position-tree2 {
+        top: 217px;
+        left: 97px;
+    }
+
+    .position-tree2 .img-tree {
+        max-width: 48px;
+    }
+
+    .position-bush2 {
+        left: 110px;
+    }
+
+    .position-school {
+        bottom: 65px;
+        left: 11px;
+    }
+
+    .img-bush {
+        max-width: 40px;
+    }
+
+    .position-let p {
+        font-size: 18px;
+    }
+
+    .position-let {
+        right: 73px;
+    }
+
+    .img-school {
+        max-width: 80px;
+    }
+
+    .anchor-school {
+        position: absolute;
+        top: 54px;
+        font-size: 11px;
+        left: 14px;
+    }
+
+    .position-bush2 {
+        left: 103px;
+        bottom: 65px;
+    }
+
+    .position-let h3 {
+        font-size: 30px;
+    }
+
+    .img-a1 {
+        max-width: 70px;
+    }
+
+    .position-path {
+        left: 94px;
+        bottom: 100px;
+    }
+
+    .position-circle .img-circle {
+        max-width: 80px;
+        object-fit: cover;
+    }
+
+    .anchor-book {
+        position: absolute;
+        top: 51px;
+        font-size: 10px;
+        left: 10px;
+    }
+
+    .position-tree {
+        right: 70px;
+    }
+
+    .path1-img {
+        max-width: 70px;
+    }
+
+    .path1 {
+        left: 122px;
+        top: 164px;
+    }
+
+    .img-about {
+        max-width: 80px;
+    }
+
+    .about-me {
+        left: 160px;
+        top: 245px;
+    }
+
+    .about {
+        position: absolute;
+        top: 54px;
+        font-size: 11px;
+        left: 13px;
+    }
+
+    .path3 {
+        left: 179px;
+        top: 132px;
+    }
+
+    .position-bush {
+        top: 140px;
+        left: 218px;
+    }
+
+    .img-home {
+        max-width: 80px;
+    }
+
+    .city-tree {
+        position: absolute;
+        left: 315px;
+        bottom: 110px;
+    }
+
+    .img-city {
+        max-width: 80px;
+    }
+
+    .anchor-city {
+        position: absolute;
+        top: 55px;
+        font-size: 12px;
+        left: 18px;
+    }
+
+    .position-home {
+        left: 258px;
+        top: 172px;
+    }
+
+    .anchor-home {
+        position: absolute;
+        top: 50px;
+        font-size: 13px;
+        left: 10px;
+    }
+
+    .city-tree {
+        position: absolute;
+        left: 318px;
+        bottom: 112px;
+    }
+
+    .position-city {
+        right: 19px;
+        top: 191px;
+    }    
+
+    .path4 {
+        right: 105px;
+        top: 188px;
+    }
+
+    .img-bush {
+        max-width: 34px;
+    }
+
+    .position-bush2 {
+        left: 128px;
+        bottom: 77px;
+    }
+
+    .rock2 {
+        position: absolute;
+        top: -39px;
+        left: -55px;
+    }
+
+    .bush-city {
+        position: absolute;
+        left: -34px;
+        top: 60px;
+    }
+    
+.signup {
+    border-radius: 40px;
+}
+/* .h-minus {
+    min-height: calc(100vh - 162px);
+} */
+.cir-box {
+    height: calc(100vh - 82px);
+}
+.y-video {
+    max-width: 578px;
+    height: 337px;
+}
+.playPauseButton {
+    width: 55px;
+    height: 55px;
+}
+.playPauseButton i{
+   font-size: 18px !important;
+}
+.h-minus {
+    padding-top: 21px;
+}
+
+.mn-logo {
+    max-width: 160px;
+}
+.index2:before {
+    width: 83%;
+    height: calc(100vh + 10%);
+}
+.l-m {
+    width: 30%;
+}
+.index2 .my-container {
+    padding: 0 40px;
+}
+}
+@media screen and (max-width: 620px){
+
+.cir-box {
+    height: calc(100vh - 173px);
+}
+
+.y-video {
+    max-width: 457px;
+    height: 270px;
+}
+.mn-logo {
+    max-width: 120px;
+}
+}
+@media screen and (max-width: 600px){
+.mtr {
+    margin-left: auto;
+}
+.l-m {
+    width:100%;
+}
+}
+@media screen and (max-width: 576px){
+    .width-map{
+        width: 515px;
+        overflow-x: auto;
+    }
+    .mn-logo {
+        max-width: 115px;
+    }
+    .cir-box {
+        height: calc(100vh - 200px);
+    }
+    /* .index2 {
+        background-image: url("../img/bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:17% 50% ;
+    } */
+   
+    .index2:before {
+        width: 93%;
+        height: calc(100vh + 2%);
+    }
+}
+@media screen and (max-width: 480px){
+
+    .cir-box {
+        height: calc(100vh - 228px);
+    }
+.lang-bg {
+    margin-top: 0;
+}
+.y-video {
+    max-width: 370px;
+    height: 270px;
+}
+
+}
+@media (min-width: 1400px){
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1140px;
+}
+}
+

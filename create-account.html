@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/pixel.css">
+  <link rel="icon" type="image/x-icon" href="/img/logo.png">
+    <title>Create Account</title>
+</head>
+
+<body>
+    <div class="signup-bg min-100 poppin-font ">
+       <div class="container-fluid min-100 px-0 px-sm-4 px-md-0 position-relative">
+        <div class="d-flex flex-wrap sign-box position-fixed align-items-center h-100 justify-content-center justify-content-md-between  min-100 ">
+            <div class="logo ps-md-5">
+                <img src="img/logo.png" alt="" class="w-100">
+            </div>
+            <div class="form-cr mb-3 mb-md-0 py-5 py-md-4  bg-white signup vh-100" >
+               <div class="row m-0 signup-ov py-md-3 h-100" style="overflow: auto;">
+                <div class="form-row d-flex flex-column justify-content-center">
+                    <form action="payment.html">
+                        <div class="cr-form">
+                            <h2 class="mb-0 ">Create Your Account</h2>
+                            <p class="mb-0 sub-h">Fill in all the neccessary information
+                            </p>
+                            <div class="d-flex who">
+                                <div class="my-2 d-flex flex-wrap me-3">
+                                    <label for="teacherRadio" class="container op-label">
+                                        Are you a teacher?
+                                        <input type="radio" class="px-2 rounded-pill border-0" id="teacherRadio" name="who">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label for="schoolRadio" class="container op-label">
+                                        Are you a school?
+                                        <input type="radio" class="px-2 rounded-pill border-0" id="schoolRadio" name="who">
+                                        <span class="checkmark"></span>
+                                </div>
+                                
+                            </div>
+                            <!-- <p class="mb-5">Credit Card</p> -->
+                                <div class="row">
+                                    <div class="fields col-md-4">
+                                        <label for="f-name">First Name*</label><br>
+                                        <input type="text" class="w-100 rounded-pill border-0" id="f-name">
+                                    </div>
+                                    <div class="fields col-md-8">
+                                        <label for="l-name">Last Name*</label><br>
+                                        <input type="text" class="w-100 rounded-pill border-0" id="l-name">
+                                    </div>
+                                    <div class="fields col-md-6">
+                                        <label for="email">Email*</label><br>
+                                        <input type="text" class="w-100 rounded-pill border-0" id="email">
+                                    </div>
+                                    <div class="col-md-6">
+                                    <div class="row">
+                                        <div class="fields col-4 col-xl-3">
+                                            <label for="phone">Phone*</label><br>
+                                            <input type="text" class="w-100 rounded-pill border-0" id="phone">
+                                        </div>
+                                        <div class="fields col-8  col-xl-9">
+                                            <label for="phone"></label><br>
+                                            <input type="text" class="w-100 rounded-pill border-0" id="phone">
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="fields col-12">
+                                        <label for="bname">Business Name*</label><br>
+                                        <input type="text" class="w-100 rounded-pill border-0" id="bname">
+                                    </div>
+                                    <div class="fields col-12">
+                                        <label for="lang">Language*</label><br>
+                                        <select name="" id="lang" class="w-100 rounded-pill border-0 ">
+                                            <option selected disabled hidden>Select...</option>
+                                            <option value="English">English</option>
+                                            <option value="Urdu">Urdu</option>
+                                            <option value="French">French</option>
+                                            <option value="Chinese">Chinese</option>
+            
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-11 col-xl-10">
+                                        <div class="row">
+                                            <div class="fields col-md-6">
+                                                <label for="pass">Password*</label><br>
+                                                <input type="text" class="w-100 rounded-pill border-0" id="pass">
+                                            </div>
+                                            <div class="fields col-md-6">
+                                                <label for="repass">Confirm Password</label><br>
+                                                <input type="text" class="w-100 rounded-pill border-0" id="repass">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-11 col-xl-10">
+                                        <div class="row">
+                                            <div class="g-recaptcha mt-3" data-sitekey="6LeBmyQoAAAAAFxir8E41Hf4gB59bhuWSQW5Vd_y" data-callback="onSubmit"></div>
+                                                <script>
+                                                function onSubmit(token) {
+                                                    document.getElementById("signin-form").submit();
+                                                }
+                                            </script>
+                                        </div>
+                                    </div>
+                                
+                                </div>
+                        </div>
+                        <div class="check-mn">
+                            <div class="col-lg-12 mt-2">
+                                <div class="row">
+                                    <div class="fields check-field d-flex align-items-center">
+                                        <label class="container">
+                                            I acknowledge that I have read and accept the <a href="#">Terms of Use Agreement</a> and consent to the <a href="#">Privacy Policy.</a>
+                                            <input type="checkbox" class=" px-2 rounded-pill border-0" id="check">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="create-btn">
+                                <button type="submit" class="pink-btn pink-cr rounded-pill  ">Create Account</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+               </div>
+            </div>
+        </div>
+       </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <script>
+ $(document).ready(function () {
+    // Add event handler for radio buttons
+    $("#teacherRadio").change(function () {
+        if (this.checked) {
+            // If "Are you a teacher?" is selected
+            $("label[for='teacherRadio']").removeClass("disabled");
+            $("label[for='schoolRadio']").addClass("disabled");
+        }
+    });
+
+    $("#schoolRadio").change(function () {
+        if (this.checked) {
+            // If "Are you a school?" is selected
+            $("label[for='schoolRadio']").removeClass("disabled");
+            $("label[for='teacherRadio']").addClass("disabled");
+        }
+    });
+});
+
+
+  </script>
+</body>
+
+</html>

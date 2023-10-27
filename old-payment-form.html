@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/pixel.css">
+    <title>old payment</title>
+</head>
+
+<body>
+    <div class="signup-bg min-100 poppin-font">
+       <div class="container-fluid min-100 px-4 px-lg-0 position-relative">
+        <div class="d-flex flex-wrap align-items-center h-100 justify-content-center justify-content-md-between min-100 ">
+            <div class="logo ps-md-5">
+                <img src="img/logo.png" alt="" class="w-100">
+            </div>
+            <div class="form-cr mb-3 mb-md-0 px-4 px-sm-5 py-3 d-flex flex-column justify-content-center bg-white signup min-100minus ">
+               <div class="row ps-xl-4 py-4 py-md-3">
+                    <div class="col-xxl-10">
+                        <h2 class="mb-0 fw-bold">Payment Form</h2>
+                        <p class="mb-0 mt-1 sub-h">We have to think together what is necessary!
+                        </p>
+                      
+                        <div class="row mt-2">
+                            <div class="my-2 col-4">
+                                <p class="mb-0 me-4 small-cr">
+                                    Credit Card
+                                </p>
+                            </div>
+                           
+                        </div>
+                        <!-- <p class="mb-5">Credit Card</p> -->
+                        <form action="" class="mt-4" id="captchaForm">
+                            <div class="row">
+                                <div class="fields col-md-4">
+                                    <label  for="f-name">Credit Card Number*</label><br>
+                                    <input type="text" class="w-100 px-2 rounded-pill border-0" id="f-name">
+                                </div>
+                                <div class="fields col-md-8">
+                                    <label  for="l-name">Last Name*</label><br>
+                                    <input type="text" class="w-100 px-2 rounded-pill border-0" id="l-name">
+                                </div>
+                                <div class="fields col-md-6">
+                                    <label  for="email">Email*</label><br>
+                                    <input type="text" class="w-100 px-2 rounded-pill border-0" id="email">
+                                </div>
+                                <div class="col-md-6">
+                                   <div class="row">
+                                    <div class="fields col-4 col-lg-3">
+                                        <label  for="phone">Phone*</label><br>
+                                        <input type="text" class="w-100 px-2 rounded-pill border-0" id="phone">
+                                    </div>
+                                    <div class="fields col-8 col-lg-9">
+                                        <label  for="phone"></label><br>
+                                        <input type="text" class="w-100 px-2 rounded-pill border-0" id="phone">
+                                    </div>
+                                   </div>
+                                </div>
+                                <div class="fields col-12">
+                                    <label  for="bname">Business Name*</label><br>
+                                    <input type="text" class="w-100 px-2 rounded-pill border-0" id="bname">
+                                </div>
+                                <div class="fields col-12">
+                                    <label  for="lang">Language*</label><br>
+                                    <select name="" id="lang" class="w-100 px-2 rounded-pill border-0">
+                                        <option selected disabled hidden>Select...</option>
+                                        <option value="English">English</option>
+                                        <option value="Urdu">Urdu</option>
+                                        <option value="French">French</option>
+                                        <option value="Chinese">Chinese</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-11 col-xl-10">
+                                    <div class="row">
+                                        <div class="fields col-md-6">
+                                            <label  for="pass">Password*</label><br>
+                                            <input type="text" class="w-100 px-2 rounded-pill border-0" id="pass">
+                                        </div>
+                                        <div class="fields col-md-6">
+                                            <label  for="repass">Confirm Password</label><br>
+                                            <input type="text" class="w-100 px-2 rounded-pill border-0" id="repass">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-11 col-xl-10">
+                                    <div class="row">
+                                        <div class="fields col-md-6">
+                                            <label  for="captchaInput">I'm not a robot</label><br>
+                                            <input type="text" id="captchaInput" class=" px-2 rounded-pill border-0" >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-11 col-xl-10 mt-2">
+                                    <div class="row">
+                                        <div class="fields col-md-6 d-flex align-items-center">
+                                            <input type="checkbox" class=" px-2 rounded-pill border-0" id="check">
+                                            <label  for="check">xacjsbmnsvkchjv  cnjhcksjbcjh</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <button type="submit" class="pink-btn pink-cr rounded-pill bg-transparent">Create Account</button>
+                            </div>
+                        </form>
+                    </div>
+               </div>
+            </div>
+        </div>
+       </div>
+    </div>
+    <script>
+        // Generate a random CAPTCHA code
+        function generateCaptcha() {
+            var chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+            var captcha = "";
+            for (var i = 0; i < 6; i++) {
+                var randomIndex = Math.floor(Math.random() * chars.length);
+                captcha += chars[randomIndex];
+            }
+            return captcha;
+        }
+    
+        var correctCaptcha = generateCaptcha(); // Generate the correct CAPTCHA code
+        var captchaInput = document.getElementById('captchaInput');
+    
+        document.getElementById('captchaForm').addEventListener('submit', function(event) {
+            var userInput = captchaInput.value.trim();
+    
+            if (userInput !== correctCaptcha) {
+                event.preventDefault(); // Prevent form submission
+                alert('Please enter the correct CAPTCHA code.');
+                captchaInput.value = ''; // Clear the input field
+                correctCaptcha = generateCaptcha(); // Generate a new correct CAPTCHA code
+            }
+        });
+    </script>
+    
+</body>
+
+</html>

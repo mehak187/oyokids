@@ -1,0 +1,288 @@
+.test{
+    border: 1px solid red;
+}
+.ritual{
+    background-color: #B0D46F !important;
+}
+.mobile_h-w{
+    /* height: 65vh; */
+    width: 260px;
+    border: 12px solid white;
+    border-radius: 40px;
+}
+.video_h-w{
+    /* height: 65vh; */
+    width: 50%;
+}
+.play-video_h-w{
+    /* height: 60vh; */
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+}
+.play-video_game_h-w{
+    height: 60vh;
+    width: 100%;
+}
+.music_icon_center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.music_icon{
+    /* height: 50px; 
+    width: 50px;  */
+    border-radius: 50%; 
+    background-color: #f9c575;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 30px;
+}
+.tab_button_class{
+    border: 2px solid #b1d570;
+    width: 100px;  
+    white-space: nowrap;
+    text-decoration: none;
+    color: black;
+}
+.tab_button_class_2{
+    border: 2px solid #b1d570; width: 100px; white-space: nowrap;
+    text-decoration: none;
+    color: black;
+}
+.tab_button_class_3{
+    border: 2px solid #b1d570; width: 100px; white-space: nowrap;
+    text-decoration: none;
+    color: black;
+}
+.tab_button_class_4{
+    border: 2px solid #b1d570; width: 100px; white-space: nowrap;
+    text-decoration: none;
+    color: black;
+}
+.tab_button_class_5{
+    border: 2px solid #b1d570; width: 100px; white-space: nowrap;
+    text-decoration: none;
+    color: black;
+}
+.tab_button_class_6{
+    border: 2px solid #b1d570; width: 100px; white-space: nowrap;
+    text-decoration: none;
+    color: black;
+}
+.tab_button_class_7{
+    border: 2px solid #e5e864; width: 100px; white-space: nowrap;
+    text-decoration: none;
+    color: black;
+}
+.tab_button_class_8{
+    border: 2px solid #b1d570; width: 100px; white-space: nowrap;
+    text-decoration: none;
+    color: black;
+}
+.second_slider_img{
+    height: 5.5rem;
+}
+.play_video_btn{
+    width: max-content;
+}
+
+/* fliper */
+.flip-container {
+    perspective: 1000px;
+    background-color: #b1d570;
+  }
+  
+  .flip-container, .front, .back {
+    width: 70px;
+    height: 90px;
+    border: 4px solid white;
+    border-radius: 15px;
+  }
+  
+  .flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+  }
+  
+  .front {
+    backface-visibility: hidden;
+    position: absolute;
+    top: -4px;
+    left: 1px;
+  }
+  .back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: -20px;
+    left: -90px;
+  }
+  
+  .front {
+    z-index: 2;
+    transform: rotateY(0deg);
+    background: #b1d570;
+  }
+  
+  .back {
+    transform: rotateY(180deg);
+    background: cornflowerBlue;
+  }
+  
+  .hover .flipper {
+    transform: rotateY(180deg);
+  }
+  
+/* fliper */
+/* .css-square {
+    width: 70px;
+    height: 90px;
+} */
+/* .css-square {
+    transform:rotate(8deg);
+    -ms-transform:rotate(8deg);
+    -webkit-transform:rotate(8deg);
+} */
+.all_card_div {
+    position: relative;
+    width: 170px;
+  }
+  .img_box1 {
+    position: absolute;
+    left: 0;
+    background-color: #f00; /* Use your desired background color */
+    border: 1px solid #000; /* Optional: Add a border */
+  }
+.img_box2{
+    position: absolute;
+    left: 4px;
+    background-color: #f00; /* Use your desired background color */
+    border: 1px solid #000; /* Optional: Add a border */
+    transform:rotate(4deg);
+    -ms-transform:rotate(4deg);
+    -webkit-transform:rotate(4deg);
+}
+.img_box3{
+    position: absolute;
+    left: 8px;
+    background-color: #f00; /* Use your desired background color */
+    border: 1px solid #000; /* Optional: Add a border */
+    transform:rotate(8deg);
+    -ms-transform:rotate(8deg);
+    -webkit-transform:rotate(8deg);
+}
+.img_box4{
+    position: absolute;
+    left: 12px;
+    background-color: #f00; /* Use your desired background color */
+    border: 1px solid #000; /* Optional: Add a border */
+    transform:rotate(12deg);
+    -ms-transform:rotate(12deg);
+    -webkit-transform:rotate(12deg);
+}
+.img_box5{
+    position: absolute;
+    left: 16px;
+    background-color: #f00; /* Use your desired background color */
+    border: 1px solid #000; /* Optional: Add a border */
+    transform:rotate(16deg);
+    -ms-transform:rotate(16deg);
+    -webkit-transform:rotate(16deg);
+}
+.img_box6{
+    position: absolute;
+    left: 20px;
+    background-color: #f00; /* Use your desired background color */
+    border: 1px solid #000; /* Optional: Add a border */
+    transform:rotate(20deg);
+    -ms-transform:rotate(20deg);
+    -webkit-transform:rotate(20deg);
+}
+.img_box7{
+    position: absolute;
+    left: 24px;
+    background-color: #f00; /* Use your desired background color */
+    border: 1px solid #000; /* Optional: Add a border */
+    transform:rotate(24deg);
+    -ms-transform:rotate(24deg);
+    -webkit-transform:rotate(24deg);
+}
+.img_box8{
+    position: absolute;
+    left: 28px;
+    background-color: #f00; /* Use your desired background color */
+    border: 1px solid #000; /* Optional: Add a border */
+    transform:rotate(28deg);
+    -ms-transform:rotate(28deg);
+    -webkit-transform:rotate(28deg);
+}
+.img_box9{
+    position: absolute;
+    left: 32px;
+    background-color: #f00; /* Use your desired background color */
+    border: 1px solid #000; /* Optional: Add a border */
+    transform:rotate(32deg);
+    -ms-transform:rotate(32deg);
+    -webkit-transform:rotate(32deg);
+}
+.play-video_game_h-w{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.btn_Go{
+    border-style: none;
+    background-color: #b79fc7;
+    border: 4px solid #b7eaf4;
+    height: 50px;
+    width: 50px;
+}
+.game_img_center{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.card_height_width{
+    height:120px; width: 90px;
+    border-radius: 10px;
+}
+.cap_icon_div{
+    height: 60px; width: 60px; align-items: center; display: flex; justify-content: center;
+}
+
+@media screen and (max-width: 991px) {
+    /* .video_h-w{
+        width: 80%;
+    } */
+    .play-video_h-w{
+        /* height: 60vh; */
+        width: 60%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .video_h-w{
+        width: 80%;
+    }
+    .play-video_h-w{
+        /* height: 60vh; */
+        width: 80%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .card_height_width{
+        height:90px; width: 70px;
+        border-radius: 10px;
+    }
+    .all_card_div{
+        width: 75px;
+    }
+    .btn_Go{
+        top: 0;
+        position: absolute;
+    }
+}

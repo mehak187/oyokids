@@ -1,0 +1,830 @@
+.yel-bg{
+    background-color: #e9eb8c;
+}
+
+.round-payment{
+    border-radius: 145px;
+    /* padding: 70px 127px; */
+    padding:7% 6.2%;
+}
+
+.black-clr{
+    color: #494949;
+}
+
+.myInput1{
+    background-color: #f9f9de;
+    width: 100%;
+    padding: 4px 22px;
+    font-size: 27px;
+}
+
+.myInput1:focus{
+    outline: none;
+}
+
+.field-p {
+    font-size: 27px;
+    margin-left: 4px;
+}
+
+.my-bill{
+    font-size: 27px;
+    margin-left: 0;
+} 
+
+.p-border{
+    border: 2px solid #ff90bd;
+}
+
+.pay-pink{
+    color: #ff90bd;
+    border: 2px solid #ff90bd;
+    background: transparent;
+    font-size: 27px;
+    padding: 9px 36px;
+    transition: all 0.3s;
+}
+.pay-pink:hover{
+    background: #ff90bd;
+   color: #fff;
+}
+.pink-sub {
+    padding: 9px 62px;
+}
+.margin-credit{
+    margin-top: 22%;
+}
+.method-margin {
+    margin-top: 60px;
+    margin-bottom: 54px;
+}
+.visa-img{
+    width: 140px;
+    margin-left: 25px;
+}
+
+.cards-pay h3 {
+    font-size: 71px;
+    font-weight: 500;
+    margin-top: 37px;
+}
+
+.cards-pay .p-lg {
+    font-size: 44px;
+}
+.cards-pay .p-lg2 {
+    font-size: 43px;
+    line-height: 1.22;
+    font-weight: 400;
+    margin-top: 60px;
+}
+.cards-pay .p-lg3 {
+    font-size: 41px;
+    line-height: 1.22;
+    font-weight: 500;
+}
+
+.min-logo-img{
+    max-width: 268px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.w-1{
+    margin-left: 11%;
+    margin-top: 2%;
+}
+
+.cards-pay {
+    width: 72%;
+}
+
+.w-2{
+    width: calc(50% - 12px);
+}
+
+.w-3{
+    width: calc(50% - 100px);
+    border-top-left-radius: 122px;
+    border-bottom-left-radius: 122px;
+    padding: 70px 79px;
+    padding: 7% 3.9%;
+}
+
+.w-4{
+    width: calc(50% - 12px) !important;
+    margin: 0 6px;
+}
+
+.m-security{
+    margin-right: 0px;
+    margin-left: 14.5%;
+}
+.m-security2{
+    margin-right: 0px;
+    margin-left: 31.5%;
+}
+.m-expire{
+    margin-left: 0;
+} 
+
+.fs-xl2{
+    font-size: 26px;
+    line-height: 1.1;
+}
+
+.position-elipse{
+    position: absolute;
+    left: 18%;
+    top: 10%;
+    width: 25%;
+}
+.position-elipse-2 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 10%;
+}
+.position-elipse-2 img,
+.position-elipse img{
+    width: 100%;
+}
+
+.border-dot{
+    position: relative;
+    width: 100%;
+    margin: 0 14px;
+}
+
+.border-dot:before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    border-bottom: 1px dotted #000;
+    bottom: -5px;
+}
+
+.field-mn {
+    margin-bottom: 48px;
+    width: 100%;
+}
+.p-sm {
+    font-size: 26px;
+}
+.total-f {
+    font-size: 39px;
+    font-weight: 500;
+    margin-top: 45px;
+}
+.link-blue {
+    color: #75A3DA;
+}
+.confirm-p {
+    /* margin-top: 24%; */
+    margin-top: 10vh;
+}
+.inner-voucher {
+    padding-right: 54px;
+}
+.confirm-margin {
+    margin-top: 19%;
+}
+.packs {
+    margin: 60px 0;
+}
+.pack-item {
+    margin: 10px 0;
+}
+.subt p{
+    margin-top: 6px;
+}
+.margin-credit2 {
+    margin-top: 32%;
+}
+.margin-credit3 {
+    margin-top: 29%;
+    margin-top: 13vh;
+}
+/* --------radio buttons styling--------- */
+.cards-pay .container{
+    display: block;
+    position: relative;
+    padding-left: 42px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: max-content;
+    max-width: 100%;
+    font-size: 27px;
+  }
+  
+  .cards-pay .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .cards-pay .checkmark{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0px;
+    height: 30px;
+    width: 30px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+  }
+  
+  .cards-pay .container:hover input ~ .checkmark {
+    background-color: #D9D9D9;
+  }
+  
+  .cards-pay .container input:checked ~ .checkmark{
+    background-color: #D9D9D9;
+  }
+  
+  .cards-pay .checkmark:after{
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .cards-pay .container input:checked ~ .checkmark:after  {
+    display: block;
+  }
+  
+  .cards-pay .container .checkmark:after {
+       top: 50%;
+      left:50%;
+      transform: translate(-50%,-50%);
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background: #000;
+  }
+
+  .nmbr{
+    width: 50px;
+  }
+
+  .o-auto {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+  }
+  .o-auto::-webkit-scrollbar {
+    width: 18px;
+    width: 0;
+  }
+/* .o-auto::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+  .o-auto::-webkit-scrollbar-thumb {
+    background: #e9eb8c; 
+    border: 8px solid #fff;
+    border-radius: 50px;
+  }
+  .o-auto::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  } */
+.payment-met {
+    margin: 9vh 0;
+}
+
+@media screen and (max-width:2560px){
+    .cards-pay h3 {
+        font-size: 55px;
+        margin-top: 36px;
+    }
+    .cards-pay .p-lg {
+        font-size: 34px;
+    }
+    .margin-credit {
+        margin-top: 14%;
+    }
+    .method-margin {
+        margin-top: 30px;
+        margin-bottom: 46px;
+    }
+    .confirm-p {
+        margin-top: 2vh;
+    }
+    .cards-pay .p-lg2 {
+        font-size: 36px;
+    }
+    .cards-pay .p-lg3 {
+        font-size: 34px;
+    }
+    .packs {
+        margin: 55px 0;
+    }
+    .total-f {
+        margin-top: 36px;
+    }
+    .cards-pay .container.my-bill {
+        font-size: 23px;
+    }
+    .fs-xl2 {
+        font-size: 23px;
+    }
+    .margin-credit2 {
+        margin-top: 22%;
+    }
+    .margin-credit3 {
+        margin-top: 8vh;
+    }
+
+    .cards-pay .p-lg2 {
+        margin-top: 14px;
+    }
+}
+@media screen and (max-width:2400px){
+
+    .round-payment {
+        border-radius: 145px;
+        /* padding: 70px 127px; */
+        padding: 7% 5.2%;
+    }
+
+    .field-p {
+        font-size: 20px;
+    }
+    .cards-pay .container.my-bill {
+        font-size: 20px;
+    }
+    .fs-xl2 {
+        font-size: 20px;
+    }
+    .m-security {
+        margin-left:6%;
+    }
+}
+@media screen and (max-width:2100px){
+
+    .w-1 {
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+    .cards-pay h3 {
+        font-size: 48px;
+    }
+    .cards-pay .p-lg {
+        font-size: 30px;
+    }
+    .field-mn {
+        margin-bottom: 35px;
+    }
+    .cards-pay .container  {
+        font-size: 22px;
+    }
+    .cards-pay h3 {
+        margin-top: 0;
+    }
+    .myInput {
+        font-size: 22px;
+    }
+    .cards-pay .checkmark {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0px;
+        height: 24px;
+        width: 24px;
+    }
+    .cards-pay .container .checkmark:after {
+        width: 12px;
+        height: 12px;
+    }
+    .cards-pay .container {
+        padding-left: 36px;
+    }
+    .margin-credit {
+        margin-top: 10%;
+    }
+    .method-margin {
+        margin-top: 12px;
+    }
+    .m-security {
+        margin-left:4%;
+    }
+    .pay-pink {
+        font-size: 22px;
+    }
+    .myInput1 {
+        font-size: 22px;
+        padding: 4px 15px;
+    }
+    .cards-pay .p-lg2 {
+        font-size: 30px;
+    }
+    .cards-pay .p-lg3 {
+        font-size: 30px;
+    }
+    .p-sm {
+        font-size: 22px;
+    }
+    .total-f {
+        margin-top: 24px;
+        font-size: 30px;
+    }
+    .confirm-margin {
+        margin-top: 13%;
+    }
+    .margin-credit2 {
+        margin-top: 13%;
+    }
+    .packs {
+        margin: 53px 0;
+    }
+}
+@media screen and (max-width:1920px){
+
+    .w-2 {
+        width: calc(53% - 12px);
+    }
+    .w-3 {
+        width: calc(47% - 50px);
+    }
+    .cards-pay {
+        width: 70%;
+    }
+    .min-logo-img {
+        max-width: 200px;
+    }
+   
+} 
+@media screen and (max-width:1920px){
+
+    .round-payment {
+        border-radius: 90px;
+    }
+    .w-3 {
+        border-top-left-radius: 100px;
+        border-bottom-left-radius: 100px;
+        width: calc(47% - 30px);
+
+    }
+    .cards-pay h3 {
+        font-size: 41px;
+    }
+    .cards-pay .p-lg {
+        font-size: 24px;
+    }
+    .cards-pay .p-lg2 {
+        font-size: 26px;
+    }
+    .cards-pay .container {
+        font-size: 18px;
+    }
+    .myInput1 {
+        font-size: 18px;
+    }
+    .field-p {
+        font-size: 18px;
+    }
+    .visa-img {
+        width: 110px;
+    }
+    .cards-pay .container.my-bill {
+        font-size: 16px;
+    }
+    .pay-pink {
+        font-size: 18px;
+        margin-bottom: 2px;
+    }
+    .round-payment {
+        padding: 7% 4.4%;
+    }
+    .cards-pay .checkmark {
+        height: 20px;
+        width: 20px;
+    }
+    .cards-pay .container .checkmark:after {
+        width: 10px;
+        height: 10px;
+    }
+    .field-mn {
+        margin-bottom: 24px;
+    }
+    .fs-xl2 {
+        font-size: 16px;
+    }
+    .p-sm {
+        font-size: 16px;
+    }
+    .cards-pay .p-lg3 {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width:1440px){
+
+.round-payment {
+    border-radius: 70px;
+}
+.w-3 {
+    border-top-left-radius: 70px;
+    border-bottom-left-radius: 70px;
+}
+.cards-pay {
+    width: 63%;
+}
+.position-elipse {
+    left: 26%;
+}
+.min-logo-img {
+    max-width: 150px;
+}
+.w-1 {
+    margin-right: 10px;
+}
+.cards-pay .container.my-bill {
+    font-size: 14px;
+}
+.cards-pay .container {
+    padding-left: 30px;
+}
+.cards-pay .container {
+    font-size: 16px;
+}
+
+.field-p {
+    font-size: 14px;
+}
+.cards-pay .checkmark {
+    height: 18px;
+    width: 18px;
+}
+.cards-pay .container {
+    padding-left: 26px;
+}
+.cards-pay h3 {
+    font-size: 34px;
+}
+.cards-pay .p-lg {
+    font-size: 20px;
+}
+.cards-pay .p-lg2 {
+    font-size: 22px;
+}
+.cards-pay .p-lg3 {
+    font-size: 22px;
+} 
+.total-f {
+    margin-top: 24px;
+    font-size: 22px;
+}
+.fs-xl2 {
+    font-size: 14px;
+    line-height: 1.3;
+}
+}
+@media screen and (max-width:1350px){
+    .cards-pay h3 {
+        font-size: 30px;
+    }
+    .cards-pay .p-lg,
+    .cards-pay .p-lg3,
+    .cards-pay .p-lg2 {
+        font-size: 16px;
+    }
+    .myInput1 {
+        font-size: 12px;
+    }
+    .cards-pay .container.my-bill,
+    .fs-xl2 {
+        font-size: 12px;
+    }
+    .pay-pink {
+        font-size: 14px;
+    }
+    .inner-voucher {
+        padding-right: 0;
+    }
+    .field-mn {
+        margin-bottom: 12px;
+    }
+    .cards-pay .container {
+        font-size: 14px;
+    }
+    .cards-pay .container {
+        margin-bottom: 0;
+        padding-left: 20px;
+    }
+    .cards-pay .container.my-bill {
+        margin-top: 10px;
+    }
+    .pay-pink {
+        padding: 8px 24px;
+    }
+    .cards-pay .checkmark {
+        height: 14px;
+        width: 14px;
+    }
+    .cards-pay .container .checkmark:after {
+    width: 8px;
+    height: 8px;
+}
+    .method-margin {
+        margin-bottom: 35px;
+    }
+    .w-3 {
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        width: calc(47% - 12px);
+    }
+    .round-payment {
+        border-radius: 45px;
+    }
+    .cards-pay {
+        width: 66%;
+    }
+    .p-sm {
+        font-size: 14px;
+    }
+    .visa-img {
+        width: 89px;
+    }
+    .packs {
+        margin: 29px 0;
+    }
+    .total-f {
+        margin-top: 0;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:992px){
+    .cards-pay {
+        width: 75%;
+    }
+    .min-logo-img {
+        max-width: 102px;
+    }
+    .position-elipse {
+        left: 16%;
+    }
+}
+@media screen and (max-width:900px){
+    .cards-pay {
+        width: 88%;
+    }
+    .min-logo-img {
+        max-width: 102px;
+    }
+    .position-elipse {
+        left: 11%;
+    }
+}
+@media screen and (max-width:768px){
+
+.w-2 {
+    width: calc(53% - 8px);
+}
+.w-3 {
+    width: calc(47% - 8px);
+}
+.position-elipse {
+    left: 5%;
+}
+.min-logo-img {
+    max-width: 90px;
+}
+.w-1 {
+    margin-left: 0%;
+}
+.pay-pink {
+    font-size: 12px;
+}
+.cards-pay h3 {
+    font-size: 26px;
+}
+.field-p {
+    font-size: 12px;
+}
+.cards-pay .p-lg {
+    font-size: 14px;
+}
+.cards-pay .container {
+    font-size: 12px;
+}
+.w-4 {
+    width: calc(100% - 0px) !important;
+    margin: 0
+}
+.w4main {
+    flex-wrap: wrap;
+}
+.w4-sec {
+    margin-top: 12px;
+}
+.cards-pay .container.my-bill, .fs-xl2 {
+    font-size: 10px;
+}
+.method-margin {
+    margin-bottom: 28px;
+}
+.margin-credit2 {
+    margin-top: 22%;
+}
+.margin-credit3 {
+    margin-top: 11vh;
+}
+.w-4.m-security2 {
+    margin-left: 31.5%;
+}
+}
+@media screen and (max-width:620px){
+    .cards-pay {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .cards-pay-mn {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    .w-2,
+    .w-3 {
+        height: calc(100vh - 118px) !important;
+    }
+    .field-mn {
+        margin-bottom: 10px;
+    }
+    .margin-credit {
+        margin-top: 5%;
+    }
+    .method-margin {
+        margin-bottom: 20px;
+    }
+    .myInput1 {
+        font-size: 10px;
+        padding: 4px 12px;
+    }
+    .cards-pay h3 {
+        font-size: 22px;
+    }
+    .pay-pink {
+        padding: 7px 17px;
+        font-size: 10px;
+    }
+    .p-sm {
+        font-size: 12px;
+    }
+    .margin-credit2 {
+        margin-top: 13%;
+    }
+    .packs {
+        margin: 19px 0;
+    }
+    .margin-credit3 {
+        margin-top: 6vh;
+    }
+    .round-payment {
+        border-radius: 35px;
+    }
+    .w-3 {
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px
+    }
+
+    .w4-sec {
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:480px){
+
+.w-3,
+.w-2 {
+    width: calc(100% - 30px);
+}
+.w-3 {
+    margin: 20px 0;
+    border-radius: 35px;
+}
+.cards-pay {
+    justify-content: center !important;
+}
+.container-fluid  {
+    padding: 0;
+}
+.w-2,
+.w-3 {
+     height: calc(100% - 0px) !important;
+     padding: 40px 30px;
+}
+.visa-img {
+    width: 65px;
+    margin-left: 15px;
+}
+.w-4.m-security2 {
+    margin-left: 20%;
+}
+}

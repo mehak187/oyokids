@@ -1,0 +1,5752 @@
+
+.adven-img .my-container{
+    max-width: 1470px;
+}
+.hero-img {
+    padding-top: 51px;
+}
+
+.school-p {
+    font-size: 1vw;
+    padding: 0.7vh 2.4vw;
+    margin-bottom: 42px;
+    margin-left: 33px;
+}
+.links-m {
+    margin-top: 40px;
+}
+.links-m a {
+    padding-left: 22px
+}
+.links-m img {
+    width: 40px;
+}
+.links-m {
+    padding-top: 28px;
+}
+
+
+.school-box {
+    margin-top: 46px;
+    border-radius: 4vw;
+    max-width: 30vw;
+    border: 1.2vw solid #fff;
+    padding-top: 5vh;
+    padding-bottom: 7px;
+    
+}
+.school-abs img {
+    width: 6.4vw;
+}
+.school-abs {
+    top: -8.5vh;
+    width: 27%;
+    display: flex;
+    height: 53%;
+    padding: 10px 10px !important;
+    align-items: center;
+    justify-content: center;
+    top: -34%;
+}
+.school-box h6{
+    margin-top: 12px;
+    font-size: 1.4vw !important;
+}
+.school-box h2 {
+    font-size:3.8vw !important
+}
+
+.school-box .progress {
+    margin: 12px 15% 0;
+    height: 2vh;
+}
+.progress-size.small {
+    font-size: 1.4vw;
+}
+
+.school-box .school-progress {
+    height: 100%;
+}
+.school-box p.small {
+    margin-top: 4px
+}
+.main-r .school-bx,
+.main-r .culture-bx  {
+    padding: 2vh 3px;
+    border-radius: 1.6vw
+}
+
+.school-bx p {
+    margin-top: 0.5vh;
+}
+.main-r .school-bx p,
+.main-r .culture-bx  p{
+    font-size: 1.45vw !important;
+    font-weight: 500 !important;
+}
+
+.sheet-icon {
+    margin-right: 0;
+    padding: 1.4vh;
+    margin-top: 1.4vw;
+    width: 6%;
+    height: 66%;
+}
+
+.sheet-icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.culture-bx {
+    margin-top: 20px;
+}
+/* ----------------
+   goodbye 
+--------------- */
+.goodbye .my-container{
+    max-width: 895px;
+}
+
+.p-lang .my-container {
+    max-width: 1470px;
+}
+
+/* ------------------
+lang 
+------------------ */
+
+.l-bx {
+    max-width: 425px
+}
+.lang-border {
+    border: 23px solid #fff;
+}
+/* .lang-sec {
+    margin-top: -72px;
+} */
+.lang-sec h2 {
+    font-size: 42px
+}
+.l-bx .green-bg {
+    padding: 48px 26px 27px;
+    border-radius: 91px
+}
+
+.l-bx label {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+.l-bx .dropdown button {
+    font-size: 16px;
+}
+.drop-m {
+    margin-bottom: 34px;
+    margin-top: 20px;
+}
+
+.l-bx .dropdown {
+    line-height: 0
+}
+
+.start-btn {
+    font-size: 10px;
+    margin-top: 19px;
+}
+
+.start-btn button {
+    padding: 7px 49px;
+    font-size: 16px;
+}
+
+.l-bx  .dropdown-menu {
+    min-width: 97px;
+    /* transform: translatey(-17px); */
+    transform: translate(0px, 0px) !important;
+    padding:5px 0;
+}
+.l-bx .drop-m .dropdown-item,
+.l-bx .drop-main .dropdown-item {
+    line-height: 1.58;
+    font-size: 10px;
+    padding: 0 14px;
+    color:#494949;
+}
+.carousel .hero-img{
+    width: 164px;
+}
+.vac-btn {
+    font-size: 13px;
+    line-height: 1.2;
+}
+.music_icon i {
+    font-size: 57px;
+}
+.music_icon img {
+    width: 51px;
+    vertical-align: middle;
+}
+.music_icon_center {
+    margin-top: 36px
+}
+#currentTime,
+#totalTime {
+    font-size: 9px
+}
+.a-time {
+    margin: 3px 2px
+}
+.music-txt {
+    letter-spacing: 0.5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+}
+.vol-m-icon img{
+    width: 14px !important
+}
+.vol-m-icon {
+    margin-top: -4px;
+}
+.play-area {
+    padding-top: 9px !important;
+        padding-bottom: 9px !important;
+        border-bottom-left-radius: 25px; 
+        border-bottom-right-radius: 25px;
+}
+.h-minus-inn {
+    margin-bottom: 16px;
+    height: calc(100vh - 227px);
+}
+.dropdown-toggle {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.drop-main {
+    margin-top: 25px;
+}
+.adven-img {
+    background-color: rgb(127, 164, 214);
+}
+.adven-img:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(../img/mp1.png) 46% 0% no-repeat,
+    url(../img/mp2.png) 10% 81% no-repeat, 
+    url(../img/mp3.png) 94% 100% no-repeat, 
+    url(../img/mp4.png) 17% 100% no-repeat;
+background-size: 303px, 189px, 724px, 290px;
+}
+.h-minus2 {
+    min-height: calc(100vh - 192px);
+}
+.advn-map {
+    position: relative
+}
+/* ------------------------
+create account
+------------------------ */
+.op-label {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+.op-label.disabled {
+    opacity: 0.5;
+}
+.form-cr {
+    /* max-width: 1140px; */
+    max-width: 59.3%;
+    width: 100%;
+}
+.signup-bg .logo img{
+    max-width: 175px;
+}
+.form-row {
+    /* max-width: 950px; */
+    max-width: 83.1%;
+    width: 100%;
+    margin: 0 auto;
+}
+.signup-bg .logo {
+    width: calc(100% - 59.3%);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-left: 0 !important;
+}
+.cr-form {
+    padding: 0 45px 0 144px;
+}
+.check-mn{
+    padding: 0px 0px 0 147px;
+}
+.form-cr > .row h2 {
+    font-size: 42px;
+}
+
+.form-cr .sub-h {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.form-cr label {
+    font-size: 17px;
+    margin-left: 5px;
+    color: #494949;
+}
+.check-field label{
+    font-size: 14px;
+    color: #494949;
+}
+.form-cr input,
+.form-cr select {
+    font-size: 16px;
+    padding: 5px 12px;
+    display: block;
+    margin-top: 0px;
+    color: #494949;
+}
+.form-cr select {
+    color: gray;
+    padding: 9px 12px;
+}
+.form-cr input:focus,
+.form-cr select:focus {
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+.form-cr .fields {
+    margin: 8px 0
+}
+/* .form-cr form {
+    margin-top: 16px;
+} */
+.pink-cr {
+    padding: 6px 28px;
+    font-size: 16px;
+    background: transparent;
+}
+.pink-cr:hover {
+    background: #ff6ba7;
+    color: #fff;
+}
+.who {
+    margin-top: 44px;
+    padding-left: 4px
+}
+
+.signup-bg {
+    position: relative;
+}
+.signup-bg:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: url(../img/sign-1.png) 43% 21% no-repeat, url(../img/sign-3.png) -4% 100% no-repeat;
+    background-size: 395px, 250px;
+}
+.small-cr {
+    font-size: 12px;
+}
+.frg {
+    max-width: 220px
+}
+.learn-td {
+    max-width: 657px;
+}
+.learn-td img{
+    border-radius: 44px;
+     border: 12px solid #fff
+ }
+ .l-bx .dropdown-menu li {
+    margin: 0 2px
+}
+.labelContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.playedTimeLabel,
+.totalTimeLabel {
+    font-size: 11px;
+    margin-top: 2px
+}
+
+.lang-hero {
+    max-width: 139px;
+}
+.lang-bg {
+    background: #A5D0E3; 
+    border-radius: 50%; 
+    max-width: 909px;
+    width: 100%;
+    height: 915px;
+    z-index: 2
+}
+.lang-purple:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    background: url(../img/lang-top-bg.png) no-repeat;
+    background-size: 459px;
+    background-position: 90% 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.lang-purple:after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    right: 0;
+    background: url(../img/lang-bottom-bg.png) no-repeat;
+    background-size: 265px;
+    background-position: 17% 100%;
+    width: 100%;
+    height: 100%;
+}
+.adven-img .my-container {
+    min-height: 100vh;
+    position: relative;
+}
+.adven-img .h-minus2{
+    min-height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.advn-map {
+    width: 1172px;
+}
+.thanks-mn {
+    max-width: 537px;
+}
+.thanks {
+    font-size: 42px;
+    line-height: 1;
+    font-weight: 500;
+    color: #AB77BB;
+}
+.thanks-msg {
+    font-size: 19px;
+    font-weight: 500;
+    color: #AB77BB;
+    margin-top: 4px;
+}
+.payment .my-container {
+    max-width: 1283px !important;
+}
+.payment-p {
+    padding-left: 100px;
+}
+.thanks-wrapper {
+    width: 50%;
+}
+.thanks-mn {
+    margin: 0 auto;
+}
+.index2 .my-container {
+        max-width: 1360px;
+}
+.login-sec{
+    /* max-width: 407px; */
+    padding-right: 119px;
+    box-sizing:content-box;
+    max-width: 407px;
+}
+
+.log-font{
+    font-size: 42px;
+}
+/* -----index--- */
+.blue-bg {
+    background: #75A6DA;
+}
+
+.pink-clr{
+    color: #ff6ba7;
+    background: transparent;
+    border: 2px solid #ff6ba7;
+    transition: all 0.3s;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.pink-clr:hover {
+    background: #ff6ba7;
+    color: #fff;
+}
+
+
+
+.font-13{
+    font-size: 13px;
+}
+
+.myinput{
+    min-height: 28px;
+    color: #494949;
+}
+.border-welcome{
+    /* border: 27px solid #ffff; */
+    border-radius:100px;
+    /* max-width: 250px; */
+    width: 100%;
+}
+
+
+.wel-font{
+    font-size: 25px;
+    margin-top: 4px
+}
+.u-name{
+    font-size: 16px;
+    margin-left: 6px !important;
+}
+.u-name1{
+    font-size: 14px;
+}
+.u-name2{
+    font-size: 16px;
+    margin-left: 6px !important;
+}
+.u-btn{
+    font-size: 14px;
+    margin-top: 25px;
+    padding: 8px 15px !important;
+    width: 60%;
+}
+.form-check-input[type=radio]{
+    width: 10px;
+    height: 10px;
+}
+.min-w{
+    min-width: 90px;
+}
+.pink-t{
+    padding: 73px 23px;
+}
+.ptt{
+    padding-top: 10px;
+}
+.pbb{
+    padding-bottom: 26px;
+}
+.mr-1{
+    margin-top: -5px
+}
+.ubtm {
+    margin-bottom: 15px
+}
+.cr-btn {
+    font-size: 14px;
+    margin-top: 21px
+}
+.pbtm {
+    margin-bottom: 6px
+}
+
+.l-m  {
+    padding-left: 10%;
+}
+
+/* --------------create-account----- */
+.check-field .container,
+.who .container {
+    display: block;
+    position: relative;
+    padding-left: 17px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: max-content;
+    max-width: 100%;
+  }
+  .who .container {
+    padding-left: 23px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .check-field .container input,
+  .who .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .check-field .checkmark{
+    position: absolute;
+    top: 0;
+    left: -8px;
+    height: 20px;
+    width: 20px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+  }
+  
+  .who .checkmark{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .check-field .container:hover input ~ .checkmark,
+  .who .container:hover input ~ .checkmark {
+    background-color: #D9D9D9;
+  }
+  
+  .check-field .container input:checked ~ .checkmark,
+  .who .container input:checked ~ .checkmark {
+    background-color: #D9D9D9;
+  }
+  
+  .check-field .checkmark:after,
+  .who .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .check-field .container input:checked ~ .checkmark:after,
+  .who .container input:checked ~ .checkmark:after  {
+    display: block;
+  }
+  
+  .check-field .container .checkmark:after {
+       top: 50%;
+      left:50%;
+      transform: translate(-50%,-50%);
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #000;
+  }
+  .who .container .checkmark:after {
+    top: 50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+   width: 8px;
+   height: 8px;
+   border-radius: 50%;
+   background: #000;
+}
+  .create-btn {
+    margin-top: 47px;
+  }
+  
+.signup {
+    border-radius: 87px 0 0 87px;
+}
+.check-field a {
+    color: #5C7EAD;
+    text-decoration: none;
+}
+.signup-ov::-webkit-scrollbar {
+    width: 0;
+  }
+  .l-sbtn {
+    background: transparent;
+  color: rgb(215, 234, 183); 
+  border: 2px solid rgb(215, 234, 183);
+  }
+  .l-sbtn:hover {
+    background: #fff;
+    color: #494949;
+  border: 2px solid #fff;
+  }
+  .scolor-box {
+    width: calc(25% - 29px);
+  }
+  .school-bx {
+    background-color: #8FCFB2;
+    border: 0.8vw solid #fff;
+}
+.culture-bx {
+    background: #FFC165;
+    border: 0.8vw solid #fff;
+}
+
+.school-bx h3,
+.culture-bx h3{
+    font-size: 0.83vw;
+}
+.school-hero {
+    max-width: 8vw;
+}
+.school-hero img {
+    width: 100%;
+}
+.at-school .my-container {
+    max-width: 2458px;
+}
+.at-school .my-container .main-r{
+    padding: 0 3vw;
+}
+.container-content {
+    padding: 0 3.9vw;
+    margin-top: 4vh;
+}
+.file2 {
+    display: none;
+}
+.school-bx .check-icon i {
+    font-size: 1.8vw;
+    padding: 15px 15px !important;
+}
+.school-bx .check-icon {
+    bottom: -12%;
+}
+/* ---------goodbye------- */
+.gb-logo img{
+    width: 5rem;
+}
+
+.d-img {
+    display: none;
+}
+.mbl-img {
+    border: 10px solid #fff;
+    border-radius: 30px;
+}
+/* ------ritual-------- */
+.ritual-logo-con {
+    max-width: 889px;
+}
+.gellery-imgm .btn-radius {
+   cursor: default;
+}
+.bt {
+    border-top: 12px solid white;
+}
+.carousel-indicators button.active {
+    padding: 3px !important;
+  }
+  .carousel-item1 {
+    position: relative;
+    background: 
+  url("../img/ritual1.png") 65% 0% no-repeat, 
+  url("../img/ritual2.png") 94% 27% no-repeat, 
+  url("../img/ritual3.png") 11% 51% no-repeat,
+ url("../img/ritual4.png") 70% 92% no-repeat;
+background-size:150px, 155px, 330px, 225px;
+}
+.l-bx .dropdown-menu {
+    border: 2px solid #B0D46F !important;
+    border-radius: 8%;
+}
+.l-bx .dropdown-menu li {
+    margin: 8px 18px;
+}
+.opacity-hover {
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+.opacity-hover:hover {
+    opacity: 1;
+}
+/* ----------adventure--------- */
+.dot {
+    position: absolute;
+    width: 30px;
+    opacity: 0.4;
+}
+.dot1,
+.dot2,
+.dot3,
+.dot4,
+.dot5 {
+    opacity: 1;
+}
+.dot1 {
+    bottom: 195px;
+    left: 376px;
+}
+.dot2 {
+    bottom: 210px;
+    left: 439px;
+}
+.dot3 {
+    bottom: 236px;
+    left: 499px;
+}
+.dot4 {
+    bottom: 276px;
+    left: 544px;
+}
+.dot5 {
+    bottom: 330px;
+    left: 576px;
+}
+.dot6 {
+    bottom:618px;
+    left: 670px;
+}
+.dot7 {
+    bottom:665px;
+    left: 630px;
+}
+.dot8 {
+    bottom:722px;
+    left: 622px;
+}
+.dot9 {
+    bottom: 782px;
+    left: 619px;
+}
+.dot10 {
+    bottom: 849px;
+    left: 624px;
+}
+.dot11 {
+    top: 455px;
+    left: 765px;
+}
+.dot12 {
+    top: 510px;
+    left: 809px;
+}
+.dot13 {
+    top: 560px;
+    left: 850px;
+}
+.dot14 {
+    top: 591px;
+    left: 902px;
+}
+.dot15 {
+    top: 605px;
+    left: 961px;
+}
+.dot16 {
+    top: 635px;
+    left: 1289px;
+}
+.dot17 {
+    top: 630px;
+    left: 1349px;
+}
+.dot18 {
+    top: 630px;
+    left: 1409px;
+}
+.dot19 {
+    top: 657px;
+    left: 1467px;
+}
+.dot20 {
+    top: 695px;
+    left: 1527px;
+}
+.a1,
+.a2,
+.a3,
+.a4,
+.a5 {
+    width: 314px;
+}
+
+.a1 {
+    bottom: 99px;
+    left: 96px;
+}
+.a2 {
+    bottom: 322px;
+    left: 553px;
+}
+.a3 {
+    top: 227px;
+    left: 482px;
+}
+.a4 {
+    bottom: 653px;
+    left: 995px;
+}
+.a5 {
+    bottom: 559px;
+    left: 1557px;
+}
+.img-hover {
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.a1:hover .img-hover {
+    transform: scale(1.1); /* Increase the size by 10% when hovering */
+}
+.a2:hover .img-hover {
+    transform: scale(1.1); /* Increase the size by 10% when hovering */
+}
+.a3:hover .img-hover {
+    transform: scale(1.1); /* Increase the size by 10% when hovering */
+}
+.a4:hover .img-hover {
+    transform: scale(1.1); /* Increase the size by 10% when hovering */
+}
+.a5:hover .img-hover {
+    transform: scale(1.1); /* Increase the size by 10% when hovering */
+}
+.h-minus3 {
+    height: 60vh;
+    min-height: 490px;
+    position: absolute;
+    top: 54%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+
+ .y-video video {
+     height: 100% !important;
+     border-top: 0;
+     vertical-align: bottom;
+     border-bottom: none !important;
+     width: 100%;
+     border-radius: 58px;
+ }
+ /* .y-video {
+     border: 16px solid white;
+     border-radius: 40px;
+     max-width: 105vh;
+ } */
+ .h-minus {
+     height: 93vh;
+     
+ }
+ .videoWrapper{
+     height: 100% !important;
+     border: none
+ }
+ .y-video {
+    border: 37px solid white;
+    border-radius: 40px;
+    max-width: 97vh;
+        border-radius: 105px;
+}
+.y-video video {
+    /* border-bottom: 32px solid #fff !important; */
+    border-bottom: none;
+    background: #000;
+}
+.carousel-item3 .timeBar {
+    min-height: 26px;
+}
+.carousel-item3 .main_time_bar {
+    height: 28px;
+}
+.playedTimeLabel, .totalTimeLabel {
+    font-size: 30px;
+}
+.yel-video {
+    height: 22% !important;
+    border-bottom-right-radius: 65px;
+    border-bottom-left-radius: 65px;
+    /* padding: 30px 0; */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .volume-slider3 input[type="range"] {
+    height: 5px;
+ }
+ .vol-3-main {
+    margin: 44px auto 0;
+}
+ .vol-3-main #volumeIcon2{
+    font-size: 40px !important;
+ }
+ .playPauseButton {
+    width: 180px;
+    height: 180px;
+ }
+ .playPauseButton i {
+    font-size: 80px !important;
+ }
+ .fun-btn {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+@media screen and (max-height:1600px){
+    .carousel-item3 .timeBar {
+        min-height: 18px;
+    }
+    .carousel-item3 .main_time_bar {
+        height: 20px;
+    }
+    .playedTimeLabel, .totalTimeLabel {
+        font-size: 24px;
+    }
+    .y-video {
+        border: 34px solid #fff
+    }
+    /* .y-video video {
+        border-bottom: 26px solid #fff !important;
+    } */
+}
+@media screen and (max-height:1400px){
+    .carousel-item3 .timeBar {
+        min-height: 14px;
+    }
+    .carousel-item3 .main_time_bar {
+        height: 16px;
+    }
+    .playedTimeLabel, .totalTimeLabel {
+        font-size: 22px;
+    }
+    .y-video {
+        border: 26px solid #fff;
+        border-radius: 90px;
+        max-width: 106vh;
+    }
+    .playPauseButton {
+        width: 140px;
+        height: 140px;
+     }
+     .playPauseButton i {
+        font-size: 60px !important;
+     }
+     .y-video video {
+        border-bottom: none;
+    }
+}
+@media screen and (max-height:1200px){
+    .y-video {
+        border-radius: 75px;
+    }
+    .vol-3-main #volumeIcon2 {
+        font-size: 32px !important;
+    }
+    .volume-slider3 input[type="range"] {
+        height: 3px;
+    }
+    .playPauseButton {
+        width: 100px;
+        height: 100px;
+     }
+     .playPauseButton i {
+        font-size: 55px !important;
+     }
+     
+}
+@media screen and (max-height:1024px){
+
+.h-minus3 {
+    height: 68vh;
+}
+.y-video {
+    border: 22px solid #fff;
+    border-radius: 70px;
+}
+/* .y-video video {
+    border-bottom: 18px solid #fff !important;
+} */
+.yel-video {
+    border-radius: 0 0 50px 50px;
+}
+.carousel-item3 .timeBar {
+    min-height: 10px;
+}
+.carousel-item3 .main_time_bar {
+    height: 12px;
+}
+
+}
+@media screen and (max-height:880px){
+    .y-video {
+        border: 17px solid #fff;
+        border-radius: 50px;
+    }
+    /* .y-video video {
+        border-bottom: 17px solid #fff !important;
+    } */
+    .yel-video {
+        border-radius: 0 0 37px 37px;
+    }
+    .carousel-item3 .timeBar {
+        min-height: 8px;
+    }
+    .carousel-item3 .main_time_bar {
+        height: 10px;
+    }
+    .playedTimeLabel, .totalTimeLabel {
+        font-size: 16px;
+    }
+    .vol-3-main #volumeIcon2 {
+        font-size: 20px !important;
+    }
+    .volume-slider3 input[type="range"] {
+        height: 2px;
+    }
+    .vol-3-main {
+        margin: 37px auto 0;
+    }
+    .playPauseButton {
+        width: 80px;
+        height: 80px;
+     }
+     .playPauseButton i {
+        font-size: 35px !important;
+     }
+     .y-video video {
+        border-bottom: none;
+        border-radius: 33px;
+    }
+    }
+        @media screen and (max-height:650px) {
+            .h-minus3 {
+                height: 56vh;
+            }
+    
+            .y-video {
+                border: 14px solid #fff;
+                border-radius: 40px;
+            }
+    
+            /* .y-video video {
+                border-bottom: 14px solid #fff !important;
+            } */
+            .playedTimeLabel,
+            .totalTimeLabel {
+                font-size: 12px;
+            }
+    
+            .vol-3-main #volumeIcon2 {
+                font-size: 16px !important;
+            }
+    
+            .playPauseButton {
+                width: 65px;
+                height: 65px;
+            }
+    
+            .playPauseButton i {
+                font-size: 28px !important;
+            }
+    
+            .yel-video {
+                border-radius: 0 0 19px 19px;
+            }
+    
+            .y-video {
+                border: 14px solid #fff;
+                border-radius: 34px;
+            }
+            
+            .y-video video {
+                border-radius: 20px;
+            }
+        }
+@media screen and (min-width:478px){
+        /* ---------goodbye------- */
+    .d-img {
+        display: block;
+    }
+    .mbl-img {
+        display: none;
+    }
+    .goodbye .my-container {
+        max-width: 2244px;
+    }
+    .gb-logo img{
+        width: 100%
+    }
+    .gb-logo {
+        max-width: 218px;
+        margin-top: 3%;
+    }
+    .gallery-rel {
+        max-width: 1922px;
+        height: calc(100vh - 303px);
+    }
+    .gellery-imgm {
+        max-width: 23.5%;
+        width: 100%;
+    }
+    .gellery-imgm .btn-radius {
+        width: 100%;
+    }
+    .gallery-rel .img-1 {
+        left: 21%;
+    }
+    .gallery-rel .img-2 {
+        right: 23%;
+    }
+    .gallery-rel .img-3 {
+        left: -2%;
+        top: 31%;
+    }
+    .gellery-imgm.img-4 {
+        max-width: 36%;
+        transform: translate(-50%,-50%);
+        top: 48%;
+        margin-top: 0 !important;
+    }
+    .gallery-rel .img-5 {
+        right: -2%;
+        top: 24%;
+    }
+    .gallery-rel .img-6 {
+        left: 9%;
+        top: 63%;
+    }
+    .gallery-rel .img-7 {
+        left: 52%;
+        transform: translatex(-50%);
+        top: 75%;
+    }
+    .gallery-rel .img-8 {
+        right: 6%;
+        top: 57%;
+    }
+    .gallery-rel .img-4 img {
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+    }
+   
+
+    .gallery-sec {
+        position: absolute;
+        top: 10%;
+        width: 100%;
+        height: 60%;
+    }
+    .gallery-sec .my-container {
+        height: 100%;
+        max-width: 97%;
+    }
+    .gallery-rel {
+        max-width: 93%;
+        height: 100%;
+
+    }
+    .gallery-rel .img-1,
+    .gallery-rel .img-2 {
+        top: 0;
+    }
+ 
+    .gb-logo {
+        max-width: 70px;
+        margin-top: 0%;
+    }
+  
+    
+}
+@media screen and (min-width:560px){
+    .gallery-sec {
+        position: absolute;
+        top: 15%;
+        width: 100%;
+        height: 70%;
+    }
+    
+}
+@media screen and (min-width:670px){
+    .gallery-sec {
+        position: absolute;
+        top: 8%;
+        width: 100%;
+        height: 92%;
+    }
+.gallery-sec .my-container {
+    height: 100%;
+    max-width: 97%;
+}
+.gallery-rel {
+    max-width: 95%;
+    height: 100%;
+}
+
+}
+@media screen and (min-width:768px){
+    .gallery-rel {
+        max-width: 85%;
+    }
+    .goodbye:before {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: url(../img/gb-1.png) -4% 0% no-repeat, url(../img/gb-2.png) 57% 24% no-repeat, url(../img/gb-3.png) 70% 86% no-repeat, url(../img/gb-4.png) 16% 100% no-repeat, url(../img/gb-5.png) 112% 100% no-repeat;
+        background-size: 34%, 15%, 12%, 11%, 38%;
+    }
+}
+@media screen and (min-width:900px){
+    .gallery-rel {
+        max-width: 80%;
+    }
+    .goodbye .my-container {
+        max-width: 90%;
+    }
+    
+    .gb-logo {
+        max-width: 90px;
+        margin-top: 1%;
+    }
+}
+@media screen and (min-width:1024px){
+    .gallery-rel {
+        max-width: 70%;
+    }
+}
+@media screen and (min-width:1200px){
+    .gallery-rel {
+        max-width: 60%;
+    }
+    .goodbye .my-container {
+        max-width: 85%;
+    }
+    
+    .gb-logo {
+        max-width: 90px;
+        margin-top: 1%;
+    }
+
+    .gallery-sec {
+        top: 12%;
+    }
+}
+@media screen and (min-width:1400px){
+    .gallery-rel {
+        max-width: 75%;
+    }
+    .goodbye .my-container {
+        max-width: 85%;
+    }
+    .gallery-sec {
+        top: 8%;
+    }
+    .gb-logo {
+        max-width: 110px;
+    }
+}
+@media screen and (min-width:1600px){
+    .gallery-rel {
+        max-width: 1110px;
+    }
+    .goodbye .my-container {
+        max-width: 1400px;
+    }
+}
+@media screen and (min-width:1921px){
+    .u-btn {
+        width: auto;
+    }
+    .index2 .my-container {
+        max-width: 1600px;
+    }
+    .login-sec {
+        padding-left: 0;
+    padding-right: 0;
+        max-width: 540px;
+    }
+    .index2:before {
+        width: 85%;
+        height: calc(100vh + 30%);
+    }
+    .mn-logo {
+        max-width: 257px;
+    }
+    
+    .log-font {
+        font-size: 59px;
+    }
+    .wel-font {
+        font-size: 26px;
+        margin-top: 3px;
+    }
+    .border-welcome {
+        border: 24px solid #fff;
+    }
+    .border-welcome {
+        border-radius: 135px;
+    }
+    .pink-t {
+        padding: 70px 38px 40px;
+    }
+    .u-name,
+    .u-name2 {
+        font-size: 22px;
+        margin-left: 8px !important;
+    }
+    .myinput {
+        font-size: 27px;
+        padding: 0 15px !important;
+    }
+    .ubtm {
+        margin-bottom: 26px;
+    }
+    .u-name1 {
+        font-size: 23px;
+    }
+    .pbtm {
+        margin-bottom: 14px;
+    }
+    .pink-clr {
+        font-size: 24px;
+        margin-top: 41px;
+        padding: 10px 20px !important;
+        width: 60%;
+
+    }
+    .cr-btn.u-name2 {
+        font-size: 23px;
+    }
+    .index2:after {
+        background: url(../img/login-cir.png) 64% 100% no-repeat, url(../img/log-top.png) 98% 0 no-repeat;
+        background-size: 440px,433px;
+    }
+    .payment .my-container {
+        max-width: 1400px !important;
+    }
+    .thanks {
+        font-size: 44px;
+    }
+    .thanks-msg {
+        font-size: 22px;
+    }
+    .thanks-mn {
+        max-width: 933px;
+    }
+          
+    .lang-bg {
+        max-width: 1027px;
+        height: 1040px;
+    }
+    .l-bx {
+        max-width: 520px;
+    }
+
+    .lang-sec h2 {
+        font-size: 50px;
+    }
+    .lang-border {
+        border: 30px solid #fff;
+    }
+    .l-bx .green-bg {
+        padding: 64px 39px 36px;
+        border-radius: 130px;
+    }
+    .p-lang .my-container {
+        max-width: 1738px;
+    }
+
+    .lang-hero {
+        max-width: 150px;
+    }
+    .l-bx label {
+        font-size: 22px;
+    }
+    .l-bx .dropdown button {
+        font-size: 22px;
+    }
+    .l-bx .drop-main .dropdown-item,
+    .l-bx .drop-m .dropdown-item {
+        font-size: 22px;
+    }
+    .dropdown-toggle {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .drop-main {
+        margin-top: 25px;
+    }
+    .start-btn button {
+        padding: 15px 54px;
+        font-size: 22px;
+    }
+    .start-btn {
+        margin-top: 40px;
+    }
+    .lang-purple:before {
+        position: absolute;
+        content: '';
+        top: 0;
+        right: 0;
+        background: url(../img/lang-top-bg.png) no-repeat;
+        background-size: 524px;
+        background-position: 96% 0%;
+        width: 100%;
+        height: 100%;
+    }
+    .lang-purple:after {
+        position: absolute;
+        content: '';
+        bottom: 0;
+        right: 0;
+        background: url(../img/lang-bottom-bg.png) no-repeat;
+        background-size: 320px;
+        background-position: 13% 100%;
+        width: 100%;
+        height: 100%;
+    }
+    .l-bx .dropdown-menu {
+        min-width: 54%;
+    }
+
+    .adven-img .my-container {
+        max-width: 2200px;
+    }
+    .advn-map {
+        width: 1440px;
+    }
+    .adven-img:before {
+        background: url(../img/mp1.png) 46% 0% no-repeat, url(../img/mp2.png) 4% 81% no-repeat, url(../img/mp3.png) 100% 100% no-repeat, url(../img/mp4.png) 13% 100% no-repeat;
+        background-size: 438px, 250px, 1000px, 400px;
+    }
+    .links-m img {
+        width: 65px;
+    }
+    .links-m a {
+        padding-left: 15px;
+    }
+    .m-3r {
+        margin-top: 3rem;
+    }
+    .gallery-rel {
+        max-width: 75%;
+    }
+    .goodbye .my-container {
+        max-width: 85%;
+    }
+    .gb-logo {
+        max-width: 140px;
+    }
+}
+@media screen and (min-width:2001px){
+    .index2 .my-container {
+        max-width: 1500px;
+    }
+    .login-sec {
+        padding-left: 0;
+    padding-right: 0;
+        max-width: 570px;
+    }
+    .index2:before {
+        width: 85%;
+        height: calc(100vh + 30%);
+    }
+    .mn-logo {
+        max-width: 340px;
+    }
+    
+    .log-font {
+        font-size: 55px;
+    }
+    .wel-font {
+        font-size: 34px;
+    }
+    .border-welcome {
+        border: 27px solid #fff;
+    }
+    .border-welcome {
+        border-radius: 159px;
+    }
+    .pink-t {
+        padding: 90px 38px 50px;
+    }
+    .u-name,
+    .u-name2 {
+        font-size: 24px;
+        margin-left: 12px !important;
+    }
+    .myinput {
+        font-size: 24px;
+        padding: 0 15px !important;
+    }
+    .ubtm {
+        margin-bottom: 26px;
+    }
+    .u-name1 {
+        font-size: 23px;
+    }
+    .pbtm {
+        margin-bottom: 14px;
+    }
+    .pink-clr {
+        font-size: 24px;
+        margin-top: 41px;
+        padding: 12px 123px !important
+
+    }
+    .cr-btn.u-name2 {
+        font-size: 23px;
+    }
+    .index2:after {
+        background: url(../img/login-cir.png) 64% 100% no-repeat, url(../img/log-top.png) 98% 0 no-repeat;
+        background-size: 640px,633px;
+    }
+    .payment .my-container {
+        max-width: 1600px !important;
+    }
+    .thanks {
+        font-size: 58px;
+    }
+    .thanks-msg {
+        font-size: 28px;
+    }
+    .thanks-mn {
+        max-width: 933px;
+    }
+}
+@media screen and (min-width:2401px){
+    .index2 .my-container {
+        max-width: 2002px;
+    }
+    .login-sec {
+        padding-left: 0;
+    padding-right: 0;
+        max-width: 657px;
+    }
+    .index2:before {
+        width: 85%;
+        height: calc(100vh + 30%);
+    }
+    .mn-logo {
+        max-width: 457px;
+    }
+    
+    .log-font {
+        font-size: 69px;
+    }
+    .wel-font {
+        font-size: 43px;
+        margin-top: 3px;
+    }
+    .border-welcome {
+        border: 35px solid #fff;
+    }
+    .border-welcome {
+        border-radius: 159px;
+    }
+    .pink-t {
+        padding: 123px 38px 50px;
+    }
+    .u-name,
+    .u-name2 {
+        font-size: 27px;
+        margin-left: 12px !important;
+    }
+    .myinput {
+        font-size: 27px;
+        padding: 0 15px !important;
+    }
+    .ubtm {
+        margin-bottom: 26px;
+    }
+    .u-name1 {
+        font-size: 23px;
+    }
+    .pbtm {
+        margin-bottom: 14px;
+    }
+    .pink-clr {
+        font-size: 24px;
+        margin-top: 41px;
+        padding: 14px 123px !important
+
+    }
+    .cr-btn.u-name2 {
+        font-size: 23px;
+    }
+    .index2:after {
+        background: url(../img/login-cir.png) 64% 100% no-repeat, url(../img/log-top.png) 98% 0 no-repeat;
+        background-size: 740px,733px;
+    }
+    .payment .my-container {
+        max-width: 2082px !important;
+    }
+    .thanks {
+        font-size: 70px;
+    }
+    .thanks-msg {
+        font-size: 36px;
+    }
+    .thanks-mn {
+        max-width: 933px;
+    }
+  
+    .lang-bg {
+        max-width: 1227px;
+        height: 1240px;
+    }
+    .l-bx {
+        max-width: 620px;
+    }
+
+    .lang-sec h2 {
+        font-size: 65px;
+    }
+    .lang-border {
+        border: 36px solid #fff;
+    }
+    .l-bx .green-bg {
+        padding: 84px 39px 46px;
+        border-radius: 160px;
+    }
+    .p-lang .my-container {
+        max-width: 2138px;
+    }
+
+    .lang-hero {
+        max-width: 200px;
+    }
+    .l-bx label {
+        font-size: 25px;
+    }
+    .l-bx .dropdown button {
+        font-size: 27px;
+    }
+    .l-bx .drop-main .dropdown-item,
+    .l-bx .drop-m .dropdown-item {
+        font-size: 27px;
+    }
+    .dropdown-toggle {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 36px;
+        padding-right: 36px;
+    }
+    .drop-main {
+        margin-top: 45px;
+    }
+    .start-btn button {
+        padding: 15px 94px;
+        font-size: 30px;
+    }
+    .start-btn {
+        margin-top: 40px;
+    }
+    .lang-purple:before {
+        position: absolute;
+        content: '';
+        top: 0;
+        right: 0;
+        background: url(../img/lang-top-bg.png) no-repeat;
+        background-size: 624px;
+        background-position: 96% 0%;
+        width: 100%;
+        height: 100%;
+    }
+    .lang-purple:after {
+        position: absolute;
+        content: '';
+        bottom: 0;
+        right: 0;
+        background: url(../img/lang-bottom-bg.png) no-repeat;
+        background-size: 350px;
+        background-position: 13% 100%;
+        width: 100%;
+        height: 100%;
+    }
+    .adven-img .my-container {
+        max-width: 2200px;
+    }
+    .advn-map {
+        width: 1440px;
+    }
+    .adven-img:before {
+        background: url(../img/mp1.png) 46% 0% no-repeat, url(../img/mp2.png) 4% 81% no-repeat, url(../img/mp3.png) 100% 100% no-repeat, url(../img/mp4.png) 13% 100% no-repeat;
+        background-size: 438px, 250px, 1000px, 400px;
+    }
+    .links-m img {
+        width: 65px;
+    }
+    .links-m a {
+        padding-left: 15px;
+    }
+     /* -----------signup-------- */
+     .form-cr {
+        max-width: 63.5%;
+        width: 100%;
+    }
+    .form-row {
+        max-width: 82%;
+    }
+    .signup-bg .logo {
+        width: calc(100% - 63.5%);
+    }
+    .check-mn {
+        padding: 0px 0px 0 112px;
+    }
+    .cr-form {
+        padding: 0 45px 0 112px;
+    }
+    .form-cr > .row h2 {
+        font-size: 50px;
+    }
+    .form-cr .sub-h {
+        font-size: 32px;
+    }
+    .who .container {
+        padding-left: 38px;
+        font-size: 24px;
+        margin-right: 28px;
+    }
+    .who .checkmark{
+        height: 30px;
+        width: 30px;
+      }
+      .who .container .checkmark:after {
+       width: 14px;
+       height: 14px;
+    }
+    .check-field .container .checkmark:after {
+        width: 14px;
+        height: 14px;
+    }
+    .who {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        padding-left: 0;
+    }
+    .form-cr label {
+        font-size: 24px;
+        margin-left: 12px;
+    }
+    .form-cr .fields {
+        margin: 10px 0;
+    }
+    .check-field label {
+        font-size: 20px;
+    }
+    .check-field .checkmark {
+        position: absolute;
+        top: 3px;
+        left: -16px;
+        height: 30px;
+        width: 30px;
+    }
+    .check-field .container{
+        display: block;
+        position: relative;
+        padding-left: 28px;
+    }
+    .form-cr input, .form-cr select {
+        font-size: 20px;
+        padding: 10px 18px;
+    }
+    .form-cr select {
+        padding: 14px 18px;
+    }
+    .pink-cr {
+        padding: 9px 46px;
+        font-size: 26px;
+    }
+    .signup-bg .logo img {
+        max-width: 276px;
+    }
+    .pink-cr {
+        padding: 9px 40px;
+        font-size: 22px;
+    }
+    .create-btn {
+        margin-top: 40px;
+    }
+    .gb-logo {
+        max-width: 180px;
+    }
+}
+@media screen and (min-width:2560px){
+
+    .lang-bg {
+        max-width: 1327px;
+        height: 1340px;
+    }
+    .l-bx {
+        max-width: 670px;
+    }
+
+    .lang-sec h2 {
+        font-size: 65px;
+    }
+    .lang-border {
+        border: 38px solid #fff;
+    }
+    .l-bx .green-bg {
+        padding: 84px 39px 46px;
+        border-radius: 160px;
+    }
+    .p-lang .my-container {
+        max-width: 2138px;
+    }
+
+    .lang-hero {
+        max-width: 200px;
+    }
+    .l-bx label {
+        font-size: 25px;
+    }
+    .l-bx .dropdown button {
+        font-size: 27px;
+    }
+    .l-bx .drop-main .dropdown-item,
+    .l-bx .drop-m .dropdown-item {
+        font-size: 27px;
+    }
+    .dropdown-toggle {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 36px;
+        padding-right: 36px;
+    }
+    .drop-main {
+        margin-top: 45px;
+    }
+    .start-btn button {
+        padding: 15px 94px;
+        font-size: 30px;
+    }
+    .start-btn {
+        margin-top: 40px;
+    }
+    .lang-purple:before {
+        position: absolute;
+        content: '';
+        top: 0;
+        right: 0;
+        background: url(../img/lang-top-bg.png) no-repeat;
+        background-size: 624px;
+        background-position: 96% 0%;
+        width: 100%;
+        height: 100%;
+    }
+    .lang-purple:after {
+        position: absolute;
+        content: '';
+        bottom: 0;
+        right: 0;
+        background: url(../img/lang-bottom-bg.png) no-repeat;
+        background-size: 350px;
+        background-position: 13% 100%;
+        width: 100%;
+        height: 100%;
+    }
+    .adven-img .my-container {
+        max-width: 2200px;
+    }
+    .advn-map {
+        width: 1540px;
+    }
+   
+    .adven-img:before {
+        background: url(../img/mp1.png) 46% 0% no-repeat, url(../img/mp2.png) 4% 81% no-repeat, url(../img/mp3.png) 100% 100% no-repeat, url(../img/mp4.png) 13% 100% no-repeat;
+        background-size: 478px, 320px, 1000px, 387px;
+    }
+
+    .links-m img {
+        width: 65px;
+    }
+    .links-m a {
+        padding-left: 15px;
+    }
+
+     /* -----------signup-------- */
+     .form-cr {
+        max-width: 63.5%;
+        width: 100%;
+    }
+    .form-row {
+        max-width: 82%;
+    }
+    .signup-bg .logo {
+        width: calc(100% - 63.5%);
+    }
+    .check-mn {
+        padding: 0px 0px 0 188px;
+    }
+    .cr-form {
+        padding: 0 45px 0 182px;
+    }
+    .form-cr > .row h2 {
+        font-size: 70px;
+    }
+    .form-cr .sub-h {
+        font-size: 42px;
+    }
+    .who .container {
+        padding-left: 38px;
+        font-size: 27px;
+        margin-right: 28px;
+    }
+    .who .checkmark{
+        height: 30px;
+        width: 30px;
+      }
+      .who .container .checkmark:after {
+       width: 14px;
+       height: 14px;
+    }
+    .check-field .container .checkmark:after {
+        width: 14px;
+        height: 14px;
+    }
+    
+    .who {
+        margin-top: 71px;
+        margin-bottom: 20px;
+        padding-left: 11px;
+    }
+    .form-cr label {
+        font-size: 27px;
+        margin-left: 12px;
+    }
+    .form-cr .fields {
+        margin: 10px 0;
+    }
+    .check-field label {
+        font-size: 23px;
+    }
+    .check-field .checkmark {
+        position: absolute;
+        top: 3px;
+        left: -16px;
+        height: 30px;
+        width: 30px;
+    }
+    .check-field .container{
+        display: block;
+        position: relative;
+        padding-left: 28px;
+    }
+    .form-cr input, .form-cr select {
+        font-size: 27px;
+        padding: 13px 18px;
+    }
+    .form-cr select {
+        padding: 17px 18px;
+    }
+    .pink-cr {
+        padding: 9px 46px;
+        font-size: 26px;
+    }
+    .signup-bg .logo img {
+        max-width: 276px;
+    }
+    .signup-bg:before {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: url(../img/sign-1.png) 36% 16% no-repeat, url(../img/sign-3.png) -4% 100% no-repeat;
+        background-size: 690px, 400px;
+    }
+    .gallery-rel {
+        /* max-width: 1922px; */
+            max-width: 87%;
+    }
+    .goodbye .my-container {
+        max-width: 2244px;
+    }
+    .gb-logo {
+        max-width: 218px;
+        margin-top: 3%;
+    }
+}
+@media screen and (min-width:2700px){
+
+    .lang-bg {
+        max-width: 1527px;
+        height: 1540px;
+    }
+    .l-bx {
+        max-width: 692px;
+    }
+    
+    .lang-sec h2 {
+        font-size: 70px;
+    }
+    .lang-border {
+        border: 40px solid #fff;
+    }
+    .l-bx .green-bg {
+        padding: 84px 39px 46px;
+        border-radius: 160px;
+    }
+    .p-lang .my-container {
+        max-width: 2438px;
+    }
+    .lang-hero {
+        max-width: 232px;
+    }
+    .l-bx label {
+        font-size: 27px;
+    }
+    .l-bx .dropdown button {
+        font-size: 27px;
+    }
+    .l-bx .drop-main .dropdown-item,
+    .l-bx .drop-m .dropdown-item {
+        font-size: 27px;
+    }
+    .dropdown-toggle {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 36px;
+        padding-right: 36px;
+    }
+    .drop-main {
+        margin-top: 45px;
+    }
+    .start-btn button {
+        padding: 15px 94px;
+        font-size: 30px;
+    }
+    .start-btn {
+        margin-top: 40px;
+    }
+    .lang-purple:before {
+        position: absolute;
+        content: '';
+        top: 0;
+        right: 0;
+        background: url(../img/lang-top-bg.png) no-repeat;
+        background-size: 724px;
+        background-position: 96% 0%;
+        width: 100%;
+        height: 100%;
+    }
+    .lang-purple:after {
+        position: absolute;
+        content: '';
+        bottom: 0;
+        right: 0;
+        background: url(../img/lang-bottom-bg.png) no-repeat;
+        background-size: 409px;
+        background-position: 13% 100%;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .adven-img .my-container {
+        max-width: 2433px;
+    }
+    .advn-map {
+        width: 1940px;
+    }
+   
+    .adven-img:before {
+        background: url(../img/mp1.png) 46% 0% no-repeat, url(../img/mp2.png) 4% 81% no-repeat, url(../img/mp3.png) 100% 100% no-repeat, url(../img/mp4.png) 13% 100% no-repeat;
+        background-size: 478px, 320px, 1199px, 387px;
+    }
+
+    .links-m img {
+        width: 65px;
+    }
+    .links-m a {
+        padding-left: 15px;
+    }
+}
+/* ------------------
+Ritual page
+------------------ */
+.ritual-head {
+    width: calc(100% - 206px);
+}
+.h-minus-inn {
+    max-width: 25%;
+    width: 100%;
+}
+.ritual-logo-con {
+    max-width: 85%;
+}
+.music_icon i{
+    font-size: 6vw;
+}
+.music_icon {
+    width: 50%;
+    height: 119%;
+}
+.white-icon {
+    width: 52px;
+    height: 52px;
+    margin-top: 30px !important;
+}
+.music_icon_center {
+    margin-top: 5.2vh;
+}
+.music_icon_center img{
+    /* max-width: 49%; */
+    max-width: 11vw;
+}
+.music-txt {
+    font-size: 40px !important;
+    margin-top: 4.2vh;
+    margin-bottom: 4.2vh;
+}
+#progressBar {
+    height: 18px !important;
+}
+#currentTime, #totalTime {
+    font-size: 22px;
+}
+.song-border {
+    border: 3px solid #fff !important;
+}
+#songPlayer {
+    margin: 0 14px;
+}
+#volumeIcon {
+    font-size: 40px !important;
+}
+.vol-m-icon {
+    margin: 11px 20px 0;
+}
+.carousel .ritual-logo-con {
+    padding-top: 5vh;
+}
+.ritual-logo-con .links-m a {
+    margin-left: 12px;
+}
+.carousel .links-m {
+    margin-top: 0;
+    padding-top: 0;
+}
+.h-minus {
+        margin-bottom: 16px;
+    margin-bottom: 0;
+    height: 70vh;
+    min-height: 490px;
+    position: absolute;
+    top: 54%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+.h-minus-inn {
+    margin-bottom: 16px;
+    /* height: calc(100vh - 603px); */
+    height: 100%;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 6vh;
+    left: 0;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 0;
+    margin-left: 15%;
+}
+
+#playPauseButton i {
+    font-size: 68px !important;
+}
+#playPauseButton {
+    width: 114px;
+    height: 114px;
+}
+#playerControls {
+    height: 100%;
+}
+.carousel-indicators [data-bs-target] {
+    padding:8px;
+    margin-right: 1.4% !important;
+    margin-left: 1.4% !important;
+}
+.carousel-indicators button.active {
+    padding: 22px !important;
+}
+.play-mn {
+    height: 25%;
+}
+.play-area {
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    height: 100%;
+    border-bottom: 1.2vw solid white;
+    border-radius: 0 0 125px 125px;
+}
+.bt {
+    border-top: 1.2vw solid #fff;
+}
+.mobile_h-w {
+    height: 100%;
+    width: 100%;
+    border:1.2vw solid white;
+    border-radius: 125px;
+}
+.carousel-item1 {
+    position: relative;
+    background: url(../img/ritual1.png) 64% 0% no-repeat, url(../img/ritual2.png) 99% 27% no-repeat, url(../img/ritual3.png) 7% 45% no-repeat, url(../img/ritual4.png) 76% 89% no-repeat;
+    background-size: 15%, 16%, 31%, 21%;
+}
+.carousel .hero-img {
+    /* width: 230px; */
+    width: 8vw;
+    padding-top: 0;
+}
+.ritual-nav {
+    margin-left: 2vw;
+    margin-bottom: 2vh;
+    padding: 0 28px;
+    overflow: auto;
+    overflow-y: hidden;
+}
+.ritual-nav a{
+    font-size: 1vw;
+    line-height: 1;
+    text-decoration: none;
+    color: #000;
+    background: #FFFFFF;
+    border-radius: 50px;
+    padding: 4px 16px;
+    width: 7.5vw;
+    border: 4px solid #B0D46F;
+    margin-left: -26px;
+}
+.ritual-nav a.first{
+    width: 9.5vw;
+}
+.ritual-nav a.disable {
+    color: #49494980;
+}
+.z-1 {
+    z-index: 1;
+}
+.z-2 {
+    z-index: 2;
+}
+.z-3 {
+    z-index: 3;
+}
+.z-4 {
+    z-index: 4;
+}
+.z-5 {
+    z-index: 5;
+}
+.z-6 {
+    z-index: 6;
+}
+.z-7 {
+    z-index: 7;
+}
+.z-8 {
+    z-index: 8;
+}
+.z-9 {
+    z-index: 9;
+}
+.h-other {
+    height: 75%;
+}
+.carousel-indicators button {
+    height: 12px !important;
+    width: 12px !important;
+  }
+  /* --------slide-frog---- */
+  .h-minus-other {
+    height: 100vh;
+  }
+  .h-abs {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .ritual-nav {
+    margin-left: 1vw;
+    margin-bottom: 2vh;
+}
+  .ritual-nav a {
+    padding: 4px 38px;
+    width: max-content !important;
+  }
+  /* --------slide-6------- */
+  .learn-td {
+    max-width: 100%;
+  }
+  .h-abs6 {
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 59%;
+}
+.learn-td img {
+    border-radius: 3.4vw;
+    border: 1.3vw solid #fff;
+}
+/* ----------slide -2--------- */
+.vac-bx {
+    max-width: 100%;
+}
+.video_h-w {
+    max-width:1728px;
+    width: 100%;
+}
+.col-w {
+    width: 33.33%;
+    margin: 2.5vh 0 !important;
+    display: flex;
+    justify-content: center;
+}
+.vac-bx {
+    border: 0.7vw solid #fff;
+    border-radius: 2.5vw !important;
+    padding: 1vh 0 0;
+    width: 58%;
+}
+.second_slider_img {
+    height: 100%;
+    max-width: 100%;
+    height: 14vh;
+}
+.row-bw {
+    justify-content: space-between;
+}
+.playPauseButtontwo {
+    padding: 1.2vh 1vw;
+    bottom: -3vh;
+    transform: translateX(-50%);
+}
+.playPauseButtontwo i {
+    font-size: 1.5vw !important;
+}
+.h-abs2 {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.in-preview-popup.vac-bx {
+    width: 90%;
+    /* height: 14vh; */
+}
+.preview-popup {
+    display: none !important;
+}
+/* slide 4-------- */
+.crd-main {
+    max-width: 90%;
+    margin: 0 auto 0;
+}
+.cardfix {
+    width: 15vh;
+}
+.cardfix3,
+.cardfix4 {
+    left: 2.2vh;
+}
+.cardfix5,
+.cardfix6 {
+    left: 4.7vh;
+}
+
+.cardfix7,
+.cardfix8,
+.cardfix9 {
+    left: 7.1vh;
+}
+
+.cards-fix {
+    max-width: 15%;
+    margin-left: 0;
+}
+.cardfix {
+    width: 70%;
+}
+.cards-show {
+    width: 62%;
+}
+.cards-det {
+    max-width: 23%;
+    height: 21vh;
+    border-radius: 3vw;
+    border: 0.8vw solid #fff;
+    padding: 1.4vh 0;
+}
+.cards-det p {
+    font-size: 1.4vw;
+}
+.card-icn {
+    bottom: -19%;
+    width: 4vw;
+    height: auto;
+}
+.cardd {
+    margin: 0 auto;
+    max-width: 53%;
+    height: 20.5vh;
+    display: flex;
+    border-radius: 2vw;
+}
+.cardd img {
+    background: #A5D0E3;
+    object-fit: contain;
+    border-radius: 2vw;
+    border: 0.6vw solid #fff;
+    display: block;
+    visibility: hidden;
+    height: 100%;
+}
+.cardd-main {
+    margin: 1.3vh 0;
+}
+.h-abs4 {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.h-minus-other4 {
+    height: 100vh;
+}
+.carousel-item.carousel-item2,
+.carousel-item.carousel-item3,
+.carousel-item.carousel-item4,
+.carousel-item.carousel-item5,
+.carousel-item.carousel-item6,
+.carousel-item.carousel-item7 {
+    position: relative;
+    background: url(../img/ritual1.png) 32% 0% no-repeat, 
+                url(../img/ritual4.png) -7% 48% no-repeat,
+                url(../img/ritual3.png) 95% 120% no-repeat,
+                        url(../img/slide2.png) 10% 100% no-repeat;
+    background-size: 15%, 22%, 33%, 14%;
+}
+/* .carousel-item.carousel-item6{
+    position: relative;
+    background: url(../img/ritual1.png) 35% 0% no-repeat, 
+                url(../img/ritual4.png) 14% 48% no-repeat,
+                url(../img/ritual3.png) 82% 100% no-repeat,
+                        url(../img/slide2.png) 18% 100% no-repeat;
+    background-size: 120px, 200px, 280px, 150px;
+} */
+.frog-new {
+    max-width: 79%;
+}
+@media screen and (max-width:2700px){
+    .h-minus {
+        margin-bottom: 16px;
+        margin-top: 3vh;
+        height: 75vh;
+        top: 50%;
+    }
+    .carousel-indicators {
+        position: absolute;
+        right: 0;
+        bottom: 7vh;
+    }
+    .music_icon_center img {
+        max-width: 9vw;
+    }
+    /* .h-83 {
+        height: 83%;
+    }
+    .h-17 {
+        height: 17%;
+    } */
+    #playPauseButton i {
+        font-size: 50px !important;
+    }
+    #playPauseButton {
+        width: 100px;
+        height: 100px;
+    }
+    /* ----------adventure--------- */
+    .dot {
+        position: absolute;
+        width: 24px;
+    }
+    .dot1 {
+        bottom: 156px;
+        left: 299px;
+    }
+    .dot2 {
+        bottom: 170px;
+        left: 347px;
+    }
+    .dot3 {
+        bottom: 188px;
+        left: 397px;
+    }
+    .dot4 {
+        bottom: 217px;
+        left: 435px;
+    }
+    .dot5 {
+        bottom: 255px;
+        left: 464px;
+    }
+    .dot6 {
+        bottom: 486px;
+        left: 530px;
+    }
+    .dot7 {
+        bottom: 526px;
+        left: 506px;
+    }
+    .dot8 {
+        bottom: 574px;
+        left: 495px;
+    }
+    .dot9 {
+        bottom: 623px;
+        left: 491px;
+    }
+    .dot10 {
+        bottom: 676px;
+        left: 502px;
+    }
+    .dot11 {
+        top: 354px;
+        left: 613px;
+    }
+    .dot12 {
+        top: 399px;
+        left: 641px;
+    }
+    .dot13 {
+        top: 434px;
+        left: 677px;
+    }
+    .dot14 {
+        top: 464px;
+        left: 715px;
+    }
+    .dot15 {
+        top: 482px;
+        left: 762px;
+    }
+    .dot16 {
+        top: 503px;
+        left: 1028px;
+    }
+    .dot17 {
+        top: 500px;
+        left: 1075px;
+    }
+    .dot18 {
+        top: 502px;
+        left: 1118px;
+    }
+    .dot19 {
+        top: 526px;
+        left: 1163px;
+    }
+    .dot20 {
+        top: 553px;
+        left: 1213px;
+    }
+    .a1, .a2, .a3, .a4, .a5 {
+        width: 239px;
+    }
+    .a1 {
+        bottom: 79px;
+        left: 80px;
+    }
+    .a2 {
+        bottom: 261px;
+        left: 447px;
+    }
+    .a3 {
+        top: 183px;
+        left: 388px;
+    }
+    .a4 {
+        bottom: 526px;
+        left: 798px;
+    }
+    .a5 {
+        bottom: 450px;
+        left: 1242px;
+    }
+}
+@media screen and (max-width:2600px){
+    .at-school .my-container {
+        max-width: 2200px;
+    }
+    .school-bx .check-icon i {
+        font-size: 1.4vw;
+        padding: 15px 15px !important;
+    }
+    .school-bx .check-icon {
+        bottom: -12%;
+    }
+    .carousel-indicators [data-bs-target] {
+        padding:4px;
+        margin-right: 1% !important;
+        margin-left: 1% !important;
+    }
+    .carousel-indicators button.active {
+        padding: 16px !important;
+    }
+    .carousel-indicators {
+        bottom: 4vh;
+    }
+    .carousel .ritual-logo-con {
+        padding-top: 30px;
+    }
+    .carousel .hero-img {
+        width: 6vw;
+    }
+    .l-bx .dropdown-menu {
+        border: 2px solid #B0D46F !important;
+        border-radius: 20px;
+    }
+    .l-bx .dropdown-menu li {
+        margin: 6px 12px;
+    }
+    .frog-new {
+        max-width: 70%;
+    }
+}
+@media screen and (max-width:2559px){
+    /* ----------adventure--------- */
+    .dot {
+        position: absolute;
+        width: 21px;
+    }
+    .dot1 {
+        bottom: 143px;
+        left: 279px;
+    }  
+    .dot2 {
+        bottom: 159px;
+        left: 331px;
+    }
+    .dot3 {
+        bottom: 177px;
+        left: 371px;
+    }
+    .dot4 {
+        bottom: 207px;
+        left: 409px;
+    }
+    .dot5 {
+        bottom: 238px;
+        left: 432px;
+    }
+    .dot6 {
+        bottom: 453px;
+        left: 493px;
+    }
+    .dot7 {
+        bottom: 493px;
+        left: 472px;
+    }
+    .dot8 {
+        bottom: 538px;
+        left: 461px;
+    }
+    .dot9 {
+        bottom: 584px;
+        left: 462px;
+    }
+    .dot10 {
+        bottom: 634px;
+        left: 470px;
+    }
+    .dot11 {
+        top: 330px;
+        left: 570px;
+    }
+    .dot12 {
+        top: 376px;
+        left: 600px;
+    }
+    .dot13 {
+        top: 407px;
+        left: 631px;
+    }
+    .dot14 {
+        top: 434px;
+        left: 672px;
+    }
+    .dot15 {
+        top: 446px;
+        left: 713px;
+    }
+    .dot16 {
+        top: 469px;
+        left: 963px;
+    }
+    .dot17 {
+        top: 465px;
+        left: 1005px;
+    }
+    .dot18 {
+        top: 471px;
+        left: 1049px;
+    }
+    .dot19 {
+        top: 489px;
+        left: 1090px;
+    }
+    .dot20 {
+        top: 516px;
+        left: 1134px;
+    }
+    .a1 {
+        bottom: 77px;
+        left: 75px;
+    }
+    .a2 {
+        bottom: 230px;
+        left: 404px;
+    }
+    .a3 {
+        top: 166px;
+        left: 350px;
+    }
+    .a4 {
+        bottom: 483px;
+        left: 739px;
+    }
+    .a5 {
+        bottom: 409px;
+        left: 1150px;
+    }
+}
+@media screen and (max-width:2400px){
+    .at-school .my-container {
+        max-width: 2000px;
+    }
+    .scolor-box {
+        width: calc(25% - 14px);
+    }
+    .h-minus {
+        height: 80vh;
+    }
+    .music_icon_center img {
+        max-width: 8vw;
+    }
+    .ritual-nav a {
+        font-size: 0.8vw;
+    }
+    .ritual-nav a {
+        width: 7vw;
+    }
+    .ritual-nav a.first {
+        width: 9vw;
+    }
+    .white-icon {
+        width: 32px;
+        height: 32px;
+    }
+    .links-m img {
+        width: 50px;
+    }
+}
+@media screen and (max-width:2200px){
+    .at-school .my-container {
+        max-width: 1800px;
+    }
+    .vol-m-icon {
+        margin: 0px 20px 0;
+    }
+    #progressBar {
+        height: 13px !important;
+    }
+    #currentTime, #totalTime {
+        font-size: 18px;
+    }
+    #volumeIcon {
+        line-height: 1;
+    }
+    #playPauseButton {
+        width: 80px;
+        height: 80px;
+    }
+    #playPauseButton i {
+        font-size: 40px !important;
+    }
+    .carousel-indicators [data-bs-target] {
+        padding:2px;
+        margin-right: 0.7% !important;
+        margin-left: 0.7% !important;
+    }
+    .carousel-indicators button.active {
+        padding: 12px !important;
+    }
+    .carousel-indicators {
+        bottom: 3vh;
+    }
+    .video_h-w {
+        max-width:70%;
+    }
+    .l-bx .dropdown-menu {
+        border-radius: 18px;
+    }
+    .l-bx .dropdown-menu li {
+        margin: 6px 6px;
+    }
+}
+@media screen and (max-width:2000px){
+    .at-school .my-container {
+        max-width: 1700px;
+    }
+    .play-area {
+        border-bottom: 1.1vw solid white;
+        border-radius: 0 0 85px 85px;
+    }
+    .bt {
+        border-top: 1.2vw solid #fff;
+    }
+    .mobile_h-w {
+        height: 100%;
+        width: 100%;
+        border:1.1vw solid white;
+        border-radius: 85px;
+    }
+    .white-icon {
+        width: 32px;
+        height: 32px;
+        margin-top: 20px !important;
+    }
+    .music_icon_center img {
+        max-width: 10vw;
+    }
+    .music-txt {
+        font-size: 30px !important;
+    }
+    .h-abs6 {
+        width: 55%;
+    }
+    .video_h-w {
+        max-width:58%;
+    }
+    .cardd {
+        max-width: 46%;
+    }
+    .cardfix {
+        width: 60%;
+    }
+    .l-bx .dropdown-menu {
+        border-radius: 12px;
+    }
+    .l-bx .dropdown-menu li {
+        margin: 4px 2px;
+    }
+}
+@media screen and (max-width:1920px){
+    .at-school .my-container {
+        max-width: 1471px;
+    }
+    .links-m a {
+        padding-left: 10px;
+    }
+    .container-content {
+        padding: 0px 2.9vw;
+        margin-top: 4vh;
+    }
+    .school-box {
+        margin-top: 6px;
+        max-width: 27vw;
+        padding-top: 5vh;
+        padding-bottom: 7px;
+    }
+    .school-box h2 {
+        font-size: 3.4vw !important;
+    }
+    .scolor-box {
+        width: calc(25% - 0px);
+    }
+    .at-school .my-container .main-r {
+        padding: 0 2vw;
+    }
+    .main-r .school-bx p, .main-r .culture-bx p {
+        font-size: 1.38vw !important;
+    }
+    .school-p {
+        margin-left: 0px;
+        margin-bottom: 17px;
+    }
+    .main-r {
+        margin-top: 3.59vh;
+    }
+    .school-hero {
+        max-width: 7vw;
+    }
+    .sheet-icon {
+        margin-right: 0;
+        padding: 1.4vh;
+        margin-top: 0.4vw;
+        width: 6%;
+        height: 75%;
+    }
+    .school-abs {
+        top: -8.5vh;
+        width: 27%;
+        display: flex;
+        height: 47%;
+        padding: 20px 15px !important;
+        align-items: center;
+        justify-content: center;
+        top: -29%;
+    }
+    .school-abs img {
+        width: 100%;
+    }
+    .ritual-logo-con {
+        max-width: 87%;
+    }
+    .ritual-nav {
+        margin-left: 0;
+    }
+    .carousel .hero-img {
+        width: 7vw;
+    }
+    .dot {
+        position: absolute;
+        width: 18px;
+    }
+    .dot1 {
+        bottom: 115px;
+        left: 228px;
+    }
+    .dot2 {
+        bottom: 129px;
+        left: 267px;
+    }
+    .dot3 {
+        bottom: 143px;
+        left: 302px;
+    }
+    .dot4 {
+        bottom: 162px;
+        left: 328px;
+    }
+    .dot5 {
+        bottom: 195px;
+        left: 351px;
+    }
+    .dot6 {
+        bottom: 368px;
+        left: 401px;
+    }
+    .dot7 {
+        bottom: 398px;
+        left: 387px;
+    }
+    .dot8 {
+        bottom: 434px;
+        left: 377px;
+    }
+    .dot9 {
+        bottom: 471px;
+        left: 378px;
+    }
+    .dot10 {
+        bottom: 513px;
+        left: 379px;
+    }
+    .dot11 {
+        top: 267px;
+        left: 467px;
+    }
+    .dot12 {
+        top: 300px;
+        left: 490px;
+    }
+    .dot13 {
+        top: 331px;
+        left: 513px;
+    }
+    .dot14 {
+        top: 352px;
+        left: 546px;
+    }
+    .dot15 {
+        top: 361px;
+        left: 577px;
+    }
+    .dot16 {
+        top: 381px;
+        left: 781px;
+    }
+    .dot17 {
+        top: 372px;
+        left: 816px;
+    }
+    .dot18 {
+        top: 382px;
+        left: 853px;
+    }
+    .dot19 {
+        top: 394px;
+        left: 886px;
+    }
+    .dot20 {
+        top: 419px;
+        left: 922px;
+    }
+    .a1, .a2, .a3, .a4, .a5 {
+        width: 183px;
+    }
+    .a1 {
+        bottom: 60px;
+        left: 59px;
+    }
+    .a2 {
+        bottom: 198px;
+        left: 339px;
+    }
+    .a3 {
+        top: 141px;
+        left: 295px;
+    }
+    .a4 {
+        bottom: 399px;
+        left: 605px;
+    }
+    .a5 {
+        bottom: 340px;
+        left: 945px;
+    }
+    .ritual-nav a {
+        font-size: 0.7vw;
+    }
+}
+@media screen and (max-width:1800px){
+    .lang-bg {
+        max-width: 840px;
+        height: 840px;
+    }
+    .lang-purple:before {
+        background-size: 429px;
+        background-position: 93% 0%;
+    }
+    .advn-map {
+        width: 1050px;
+    }
+    #playPauseButton {
+        width: 70px;
+        height: 70px;
+    }
+    #playPauseButton i {
+        font-size: 35px !important;
+    }
+    .carousel .ritual-logo-con {
+        padding-top: 20px;
+    }
+    .ritual-logo-con {
+        max-width: 95%;
+    }
+    .dot {
+        position: absolute;
+        width: 17px;
+    }
+    .dot1 {
+        bottom: 105px;
+        left: 204px;
+    }
+    .dot2 {
+        bottom: 113px;
+        left: 238px;
+    }
+    .dot3 {
+        bottom: 128px;
+        left: 271px;
+    }
+    .dot4 {
+        bottom: 147px;
+        left: 299px;
+    }
+    .dot5 {
+        bottom: 172px;
+        left: 316px;
+    }
+    .dot6 {
+        bottom: 331px;
+        left: 363px;
+    }
+    .dot7 {
+        bottom: 354px;
+        left: 345px;
+    }
+    .dot8 {
+        bottom: 390px;
+        left: 335px;
+    }
+    .dot9 {
+        bottom: 422px;
+        left: 337px;
+    }
+    .dot10 {
+        bottom: 461px;
+        left: 343px;
+    }
+    .dot11 {
+        top: 237px;
+        left: 414px;
+    }
+    .dot12 {
+        top: 269px;
+        left: 439px;
+    }
+    .dot13 {
+        top: 292px;
+        left: 462px;
+    }
+    .dot14 {
+        top: 312px;
+        left: 491px;
+    }
+    .dot15 {
+        top: 322px;
+        left: 518px;
+    }
+    .dot16 {
+        top: 338px;
+        left: 701px;
+    }
+    .dot17 {
+        top: 335px;
+        left: 732px;
+    }
+    .dot18 {
+        top: 340px;
+        left: 765px;
+    }
+    .dot19 {
+        top: 349px;
+        left: 796px;
+    }
+    .dot20 {
+        top: 371px;
+        left: 827px;
+    }
+    .a1, .a2, .a3, .a4, .a5 {
+        width: 167px;
+    }
+    .a1 {
+        bottom: 56px;
+        left: 52px;
+    }
+    .a2 {
+        bottom: 177px;
+        left: 300px;
+    }
+    .a3 {
+        top: 126px;
+        left: 261px;
+    }
+    .a4 {
+        bottom: 357px;
+        left: 543px;
+    }
+    .a5 {
+        bottom: 305px;
+        left: 844px;
+    }
+}
+@media screen and (max-width:1700px){
+    .lang-purple:before {
+        background-size: 429px;
+        background-position: 97% 0%;
+    }
+    .advn-map {
+       width: 950px;
+    }
+    .adven-img:before {
+        background: url(../img/mp1.png) 46% 0% no-repeat, url(../img/mp2.png) 10% 81% no-repeat, url(../img/mp3.png) 94% 100% no-repeat, url(../img/mp4.png) 17% 100% no-repeat;
+        background-size: 290px, 169px, 630px, 280px;
+    }
+    .form-cr > .row h2 {
+        font-size: 34px;
+    }
+    .form-cr .sub-h {
+        font-size: 20px;
+        margin-top: 8px;
+    }
+    .who {
+        margin-top: 28px;
+        padding-left: 4px;
+    }
+    .form-cr input, .form-cr select {
+        font-size: 16px;
+        padding: 3px 12px;
+    }
+    .form-cr input, .form-cr select {
+        padding: 5px 12px;
+    }
+    .create-btn {
+        margin-top: 28px;
+    }
+    .carousel .ritual-logo-con {
+        padding-top: 10px;
+    }
+    .ritual-logo-con .links-m a {
+        margin-left: 0;
+    }
+    .links-m img {
+        width: 35px;
+    }
+    .dot {
+        width: 15px;
+    }
+    .dot1 {
+        bottom: 93px;
+        left: 183px;
+    }
+    .dot2 {
+        bottom: 102px;
+        left: 219px;
+    }
+    .dot3 {
+        bottom: 112px;
+        left: 246px;
+    }
+    .dot4 {
+        bottom: 131px;
+        left: 268px;
+    }
+    .dot5 {
+        bottom: 155px;
+        left: 287px;
+    }
+    .dot6 {
+        bottom: 295px;
+        left: 331px;
+    }
+    .dot7 {
+        bottom: 321px;
+        left: 315px;
+    }
+    .dot8 {
+        bottom: 351px;
+        left: 306px;
+    }
+    .dot9 {
+        bottom: 380px;
+        left: 303px;
+    }
+    .dot10 {
+        bottom: 412px;
+        left: 306px;
+    }
+    .dot11 {
+        top: 215px;
+        left: 378px;
+    }
+    .dot12 {
+        top: 245px;
+        left: 397px;
+    }
+    .dot13 {
+        top: 267px;
+        left: 417px;
+    }
+    .dot14 {
+        top: 282px;
+        left: 444px;
+    }
+    .dot15 {
+        top: 291px;
+        left: 470px;
+    }
+    .dot16 {
+        top: 306px;
+        left: 634px;
+    }
+    .dot17 {
+        top: 301px;
+        left: 663px;
+    }
+    .dot18 {
+        top: 306px;
+        left: 690px;
+    }
+    .dot19 {
+        top: 318px;
+        left: 719px;
+    }    
+    .dot20 {
+        top: 335px;
+        left: 750px;
+    }
+    .a1, .a2, .a3, .a4, .a5 {
+        width: 149px;
+    }
+    .a1 {
+        bottom: 49px;
+        left: 48px;
+    }
+    .a2 {
+        bottom: 158px;
+        left: 273px;
+    }
+    .a3 {
+        top: 114px;
+        left: 237px;
+    }
+    .a4 {
+        bottom: 323px;
+        left: 490px;
+    }
+    .a5 {
+        bottom: 277px;
+        left: 765px;
+    }
+}
+@media screen and (max-width:1600px){
+    .at-school .my-container {
+        max-width: 1471px;
+    }
+    .lang-bg {
+        max-width: 740px;
+        height: 740px;
+    }
+    .lang-purple:before {
+        background-size: 409px;
+        /* background-position: 100% 0%; */
+    }
+    .p-lang .my-container,
+    .at-school .my-container,
+.adven-img .my-container {
+        padding: 0 70px;
+    }
+    .lang-purple:after {
+        background-size: 223px;
+    }
+    .l-bx {
+        max-width: 360px;
+    }
+    .lang-sec h2 {
+        font-size: 34px;
+    }
+    .lang-border {
+        border: 18px solid #fff;
+    }
+    .drop-main {
+        margin-top: 10px;
+    }
+    .drop-m {
+        margin-bottom: 24px;
+        margin-top: 7px;
+    }
+    .advn-map {
+        width: 800px;
+    }
+    .adven-img:before {
+        background: url(../img/mp1.png) 46% 0% no-repeat, url(../img/mp2.png) 14% 81% no-repeat, url(../img/mp3.png) 94% 100% no-repeat, url(../img/mp4.png) 20% 100% no-repeat;
+        background-size: 290px, 140px, 540px, 220px;
+    }
+    .thanks {
+        font-size: 34px;
+    }
+    .thanks-msg {
+        font-size: 19px;
+    }
+    .payment.index2:after {
+        background: url(../img/login-cir.png) 62% 100% no-repeat, url(../img/log-top.png) 99% 0% no-repeat;
+        background-size: 340px,400px;
+    }
+    .login-sec {
+        max-width: 385px;
+    }
+    .signup-bg:before {
+        background: url(../img/sign-1.png) 43% 21% no-repeat, url(../img/sign-3.png) -4% 100% no-repeat;
+        background-size: 395px, 200px;
+    }
+    .school-abs {
+        top: -8.5vh;
+        width: 24%;
+        height: 44%;
+        padding: 10px 10px !important;
+        top: -27%;
+    }
+    .school-bx .check-icon i {
+        font-size: 1.2vw;
+        padding: 10px 10px !important;
+    }
+    .school-bx .check-icon {
+        bottom: -12%;
+    }
+    .music_icon_center img {
+        max-width: 9.4vw;
+    }
+    #progressBar {
+        height: 10px !important;
+    }
+    #currentTime, #totalTime {
+        font-size: 14px;
+    }
+    #volumeIcon {
+        font-size: 30px !important;
+    }
+    #playPauseButton {
+        width: 60px;
+        height: 60px;
+    }
+    #playPauseButton i {
+        font-size: 30px !important;
+    }
+    .white-icon {
+        width: 26px;
+        height: 26px;
+        margin-top: 15px !important;
+    }
+    .music-txt {
+        font-size: 26px !important;
+    }
+    .ritual-logo-con .links-m a {
+        margin-left: 5px;
+    }
+    .ritual-logo-con .links-m img {
+        width: 27px;
+    }
+    .carousel-indicators button.active {
+        padding: 6px !important;
+    }
+    .carousel-indicators [data-bs-target] {
+        padding: 1px;
+        margin-right: 0.7% !important;
+        margin-left: 0.7% !important;
+    }
+    #songPlayer {
+        margin: 0 8px;
+    }
+    .vol-m-icon {
+        margin: 0px 10px 0;
+    }
+    .song-border {
+        border: 2px solid #fff !important;
+    }
+    .ritual-head {
+        width: calc(100% - 105px);
+    }
+    .carousel .hero-img {
+        width: 105px;
+    }
+    .school-abs {
+        width: 54px;
+        top: -35px;
+        height: 52px;
+    }
+    .dot1 {
+        bottom: 78px;
+        left: 153px;
+    }
+    .dot2 {
+        bottom: 84px;
+        left: 184px;
+    }
+    .dot3 {
+        bottom: 93px;
+        left: 208px;
+    }
+    .dot4 {
+        bottom: 108px;
+        left: 227px;
+    }
+    .dot5 {
+        bottom: 128px;
+        left: 240px;
+    }
+    .dot6 {
+        bottom: 248px;
+        left: 275px;
+    }
+    .dot7 {
+        bottom: 268px;
+        left: 263px;
+    }
+    .dot8 {
+        bottom: 293px;
+        left: 258px;
+    }
+    .dot9 {
+        bottom: 320px;
+        left: 254px;
+    }
+    .dot10 {
+        bottom: 346px;
+        left: 258px;
+    }
+    .dot11 {
+        top: 182px;
+        left: 318px;
+    }
+    .dot12 {
+        top: 202px;
+        left: 334px;
+    }
+    .dot13 {
+        top: 223px;
+        left: 350px;
+    }
+    .dot14 {
+        top: 235px;
+        left: 372px;
+    }
+    .dot15 {
+        top: 242px;
+        left: 397px;
+    }
+    .dot16 {
+        top: 256px;
+        left: 534px;
+    }
+    .dot17 {
+        top: 251px;
+        left: 560px;
+    }
+    .dot18 {
+        top: 255px;
+        left: 581px;
+    }
+    .dot19 {
+        top: 266px;
+        left: 605px;
+    }
+    .dot20 {
+        top: 281px;
+        left: 628px;
+    }            
+    .dot {
+        width: 12px;
+    }
+    .a1 {
+        bottom: 42px;
+        left: 41px;
+    }
+    .a2 {
+        bottom: 135px;
+        left: 230px;
+    }
+    .a3 {
+        top: 96px;
+        left: 200px;
+    }
+    .a4 {
+        bottom: 272px;
+        left: 412px;
+    }
+    .a5 {
+        bottom: 231px;
+        left: 642px;
+    }
+    .a1, .a2, .a3, .a4, .a5 {
+        width: 126px;
+    }    
+}
+@media screen and (max-width:1440px){
+    .lang-bg {
+        max-width: 580px;
+        height: 580px;
+    }
+    .lang-purple:before {
+        background-size: 329px;
+    }
+    .p-lang .my-container {
+        padding: 0 90px;
+    }
+    .lang-purple:after {
+        background-size: 200px;
+    }
+    
+    .lang-hero {
+        max-width: 88px;
+    }
+    .hero-img {
+        padding-top: 40px;
+    }
+    .links-m {
+        margin-top: 37px !important;
+    }
+    .links-m img {
+        width: 30px;
+    }
+    .l-bx {
+        max-width: 310px;
+    }
+    
+    .l-bx .green-bg {
+        padding: 35px 16px 22px;
+        border-radius: 70px;
+    }
+    .lang-border {
+        border: 17px solid #fff;
+    }
+    .lang-sec h2 {
+        font-size: 27px;
+    }
+    .drop-main {
+        margin-top: 0;
+    }
+    .drop-m {
+        margin-bottom: 24px;
+        margin-top: 7px;
+    }
+    .l-bx .dropdown button {
+        font-size: 12px;
+    }
+    .l-bx label {
+        font-size: 14px;
+    }
+    .start-btn button {
+        font-size: 14px;
+        padding: 5px 39px;
+    }
+    .advn-map {
+       width: 700px;
+    }
+    .adven-img:before {
+        background: url(../img/mp1.png) 46% 0% no-repeat, url(../img/mp2.png) 14% 81% no-repeat, url(../img/mp3.png) 94% 100% no-repeat, url(../img/mp4.png) 20% 100% no-repeat;
+        background-size: 200px, 110px, 420px, 150px;
+    }
+    .adven-img .hero-img {
+        padding-top: 25px;
+    }
+    .links-m {
+        padding-top: 12px;
+    }
+    .payment.index2:after {
+        background: url(../img/login-cir.png) 62% 100% no-repeat, url(../img/log-top.png) 99% 0% no-repeat;
+        background-size: 300px,360px;
+    }
+    .login-sec {
+        max-width: 385px;
+    }
+    .mn-logo {
+        max-width: 150px;
+    }
+    .form-row {
+        width: 68%;
+    }
+    .cr-form {
+        padding: 0;
+    }
+    .check-mn {
+        padding: 0;
+    }
+    .check-field label {
+        font-size: 12px;
+    }
+    .check-field .checkmark {
+        width: 14px;
+        height: 14px;
+        top: 2px;
+    }
+    .create-btn {
+        margin-top: 10px;
+    }
+    .form-cr input {
+        padding: 3px 12px;
+    }
+    .form-cr select {
+        padding: 5px 12px;
+    }
+    .form-cr > .row h2 {
+        font-size: 28px;
+    }
+    .form-cr .sub-h {
+        font-size: 16px;
+    }
+    .form-cr {
+        /* max-width: 1140px; */
+        max-width: 64%;
+    }
+    .signup-bg .logo {
+        width: calc(100% - 64%);
+    }
+    .signup {
+        border-radius: 72px 0 0 72px;
+    }
+  
+    .signup-bg:before {
+        background: url(../img/sign-1.png) 36% 21% no-repeat, url(../img/sign-3.png) -4% 100% no-repeat;
+        background-size: 335px, 160px;
+    }
+    .check-field .container .checkmark:after {
+        width: 8px;
+    height: 8px;
+    }
+    .form-cr label {
+        font-size: 14px;
+    }
+    .who .container {
+        font-size: 14px;
+    }
+    .school-box .progress {
+        margin: 12px 15% 0;
+        height: 1.5vh;
+    }
+    .school-box h2 {
+        font-size: 2.4vw !important;
+    }
+    .school-box h6 {
+        font-size: 1vw !important;
+    }
+    .culture-bx {
+        margin-top: 0;
+    }
+    .school-box {
+        padding-top: 3vh;
+    }
+    .school-box .progress {
+        margin: 4px 17% 0;
+    }
+    .at-school .my-container {
+        max-width: 1224px;
+    }
+    .sheet-icon {
+        width: 5%;
+        height: 82%;
+        margin-top: 0;
+    }
+    .school-box {
+        max-width: 24vw;
+        border: 1vw solid #fff;
+        border-radius: 3.4vw;
+    }
+    .main-r .school-bx, .main-r .culture-bx {
+        border-radius: 1.6vw;
+        border: 0.7vw solid #fff;
+    }
+    .hero-img {
+        padding-top: 17px;
+    }
+    .school-hero {
+        max-width: 6vw;
+    }
+
+    .school-bx .check-icon i {
+        font-size:14px;
+        padding: 6px 6px !important;
+    }
+    .school-bx .check-icon {
+        bottom: -12%;
+    }
+    /* --------ritual-------- */
+    .play-area {
+        border-radius: 0 0 65px 65px;
+    }
+    .mobile_h-w {
+        border-radius: 65px;
+    }
+    .music_icon_center {
+        margin-top: 4.5vh;
+    }
+    .music-txt {
+        font-size: 22px !important;
+    }
+    #progressBar {
+        height: 7px !important;
+    }
+    #volumeIcon {
+        font-size: 22px !important;
+        margin-right: 4px !important;
+    }
+    #playPauseButton {
+        width: 45px;
+        height: 45px;
+    }
+    #playPauseButton i {
+        font-size: 22px !important;
+    }
+    .ritual-logo-con .links-m img {
+        width: 32px;
+    }
+    .ritual-logo-con .links-m a {
+        margin-left: 0px;
+    }
+    .h-minus {
+        height: 90vh;
+    }
+    .music_icon_center img {
+        max-width: 8.4vw;
+    }
+    .mobile_h-w {
+        border-radius: 48px;
+    }
+    .play-area {
+        border-radius: 0 0 48px 48px;
+    }
+    .carousel-indicators {
+        bottom: 1vh;
+    }
+    .carousel-indicators button.active {
+        padding: 4px !important;
+    }
+    .carousel-indicators [data-bs-target] {
+        padding: 0px
+    }
+    .white-icon {
+        width: 20px;
+        height: 20px;
+        margin-top: 15px !important;
+    }
+    .h-minus-inn {
+        margin-top: 30px;
+    }
+    .h-minus-inn {
+        max-width: 291px;
+    }
+    .carousel-item1 {
+        background: 
+        url(../img/ritual1.png) 64% 0% no-repeat, 
+        url(../img/ritual2.png) 99% 27% no-repeat, 
+        url(../img/ritual3.png) 7% 50% no-repeat, 
+        url(../img/ritual4.png) 71% 89% no-repeat;
+        background-size: 10%, 12%, 24%, 16%;
+    }
+    #songPlayer {
+        margin: 0px 0px;
+    }
+    .vol-m-icon {
+        margin: 0 0 0;
+    }
+    .h-abs6 {
+        width: 45%;
+    }
+    .video_h-w {
+        max-width: 52%;
+    }
+    .playPauseButtontwo i {
+        font-size: 14px !important;
+    }
+    .playPauseButtontwo {
+        padding: 7px 8px;
+        transform: translateX(-50%);
+    }
+    .card-icn {
+        bottom: -24%;
+    }
+    .carousel .hero-img {
+        width: 90px;
+    }
+    .ritual-nav a {
+        font-size: 10px;
+    }
+    .ritual-nav a {
+        padding: 4px 30px;
+    }
+    .l-bx .dropdown-menu {
+        border: 1px solid #B0D46F !important;
+    }
+    .dot {
+        width: 10px;
+    }
+    .dot1 {
+        bottom: 66px;
+        left: 136px;
+    }
+    .dot2 {
+        bottom: 72px;
+        left: 160px;
+    }
+    .dot3 {
+        bottom: 81px;
+        left: 182px;
+    }
+    .dot4 {
+        bottom: 94px;
+        left: 199px;
+    }
+    .dot5 {
+        bottom: 113px;
+        left: 212px;
+    }
+    .dot6 {
+        bottom: 214px;
+        left: 241px;
+    }
+    .dot7 {
+        bottom: 233px;
+        left: 230px;
+    }
+    .dot8 {
+        bottom: 256px;
+        left: 226px;
+    }
+    .dot9 {
+        bottom: 277px;
+        left: 225px;
+    }
+    .dot10 {
+        bottom: 300px;
+        left: 226px;
+    }
+    .dot11 {
+        top: 154px;
+        left: 279px;
+    }
+    .dot12 {
+        top: 174px;
+        left: 292px;
+    }
+    .dot13 {
+        top: 190px;
+        left: 307px;
+    }
+    .dot14 {
+        top: 204px;
+        left: 326px;
+    }
+    .dot15 {
+        top: 211px;
+        left: 347px;
+    }    
+    .dot16 {
+        top: 221px;
+        left: 466px;
+    }
+    .dot17 {
+        top: 218px;
+        left: 489px;
+    }
+    .dot18 {
+        top: 222px;
+        left: 510px;
+    }
+    .dot19 {
+        top: 231px;
+        left: 531px;
+    }
+    .dot20 {
+        top: 243px;
+        left: 552px;
+    }
+    .a1 {
+        bottom: 33px;
+        left: 32px;
+    }
+    .a2 {
+        bottom: 117px;
+        left: 201px;
+    }
+    .a3 {
+        top: 82px;
+        left: 173px;
+    }
+    .a4 {
+        bottom: 238px;
+        left: 359px;
+    }
+    .a5 {
+        bottom: 202px;
+        left: 563px;
+    }
+    .a1, .a2, .a3, .a4, .a5 {
+        width: 112px;
+    }
+}
+@media screen and (max-width:1300px){
+    /* .lang-bg {
+        max-width: 540px;
+        height: 540px;
+    } */
+    .login-sec {
+        max-width: 345px;
+    }
+    
+    .lang-purple:before {
+        background-size: 329px;
+    }
+    .advn-map {
+        width: 720px;
+    }
+    .adven-img:before {
+        background: url(../img/mp1.png) 46% 0% no-repeat, 
+        url(../img/mp2.png) 10% 76% no-repeat, 
+        url(../img/mp3.png) 94% 100% no-repeat, 
+        url(../img/mp4.png) 20% 100% no-repeat;
+        background-size: 230px, 140px, 501px, 220px;
+    }
+    .thanks {
+        font-size: 26px;
+    }
+    .thanks-msg {
+        font-size: 14px;
+    }
+    .thanks-mn {
+        max-width: 339px;
+    }
+    .payment.index2:after {
+        background: url(../img/login-cir.png) 62% 100% no-repeat, url(../img/log-top.png) 99% 0% no-repeat;
+        background-size: 270px,330px;
+    }
+    .border-welcome {
+        border: 16px solid #fff;
+    }
+    .pink-t {
+        padding: 53px 23px 20px;
+    }
+    .log-font {
+        font-size: 35px;
+    }
+    .wel-font {
+        font-size: 20px;
+        margin-top: 4px;
+    }
+    .mn-logo {
+        max-width: 150px;
+    }
+    .index2 .my-container {
+        max-width: 1260px;
+    }
+    .myinput {
+        min-height: 24px;
+        color: #494949;
+    }
+    .u-name,
+    .u-name2 {
+        font-size: 14px;
+        margin-left: 6px !important;
+    }
+    .form-cr label {
+        font-size: 14px;
+    }
+    .file1 {
+        display: none;
+    }
+    .file2 {
+        display: block;
+        position: absolute;
+        bottom: 2%;
+        right: 3%;
+        width: 100%;
+    }
+    .song-border {
+        border: 1px solid #fff !important;
+    }
+    .dot1 {
+        bottom: 68px;
+        left: 140px;
+    }
+    .dot2 {
+        bottom: 74px;
+        left: 164px;
+    }
+    .dot3 {
+        bottom: 83px;
+        left: 186px;
+    }
+    .dot4 {
+        bottom: 97px;
+        left: 203px;
+    }
+    .dot5 {
+        bottom: 115px;
+        left: 217px;
+    }
+    .dot6 {
+        bottom: 221px;
+        left: 249px;
+    }
+    .dot7 {
+        bottom: 239px;
+        left: 237px;
+    }
+    .dot8 {
+        bottom: 263px;
+        left: 232px;
+    }
+    .dot9 {
+        bottom: 286px;
+        left: 231px;
+    }
+    .dot10 {
+        bottom: 311px;
+        left: 233px;
+    }
+    .dot11 {
+        top: 160px;
+        left: 284px;
+    }
+    .dot12 {
+        top: 180px;
+        left: 300px;
+    }
+    .dot13 {
+        top: 199px;
+        left: 316px;
+    }
+    .dot14 {
+        top: 212px;
+        left: 333px;
+    }
+    .dot15 {
+        top: 216px;
+        left: 355px;
+    }
+    .dot16 {
+        top: 228px;
+        left: 480px;
+    }
+    .dot17 {
+        top: 225px;
+        left: 502px;
+    }
+    .dot18 {
+        top: 228px;
+        left: 524px;
+    }
+    .dot19 {
+        top: 238px;
+        left: 546px;
+    }
+    .dot20 {
+        top: 252px;
+        left: 567px;
+    }
+    .a1 {
+        bottom: 38px;
+        left: 37px;
+    }
+    .a2 {
+        bottom: 123px;
+        left: 209px;
+    }
+    .a3 {
+        top: 86px;
+        left: 181px;
+    }
+    .a4 {
+        bottom: 246px;
+        left: 373px;
+    }
+    .a5 {
+        bottom: 210px;
+        left: 581px;
+    }
+}
+@media screen and (max-width:1200px){
+    .lang-bg {
+        max-width: 540px;
+        height: 540px;
+    }
+    .lang-bg {
+        max-width: 500px;
+        height: 500px;
+    }
+    .lang-purple:before {
+        background-size: 280px;
+    }
+    .lang-purple:after {
+        background-size: 193px;
+    }
+    .adven-img:before {
+        background: url(../img/mp1.png) 46% 0% no-repeat, url(../img/mp2.png) 7% 81% no-repeat, url(../img/mp3.png) 94% 100% no-repeat, url(../img/mp4.png) 15% 100% no-repeat;
+        background-size: 240px, 119px, 450px, 180px;
+    }
+    .advn-map {
+        width: 670px;
+    }
+    .thanks {
+        font-size: 24px;
+    }
+    .thanks-msg {
+        font-size: 13px;
+    }
+    .thanks-mn {
+        max-width: 330px;
+    }
+    .payment.index2:after {
+        background: url(../img/login-cir.png) 62% 100% no-repeat, url(../img/log-top.png) 99% 0% no-repeat;
+        background-size: 250px,310px;
+    }
+     
+    .login-sec {
+        max-width: 340px;
+    }
+
+
+    .check-field label {
+        font-size: 12px;
+    }
+    .check-field .checkmark {
+        width: 14px;
+        height: 14px;
+        top: 2px;
+    }
+    .create-btn {
+        margin-top: 10px;
+    }
+    .form-cr input {
+        padding: 3px 12px;
+    }
+    .form-cr select {
+        padding: 5px 12px;
+    }
+    .form-cr input, .form-cr select {
+        font-size: 10px;
+    }
+    .form-cr > .row h2 {
+        font-size: 22px;
+    }
+    .form-cr .sub-h {
+        font-size: 14px;
+    }
+    .form-cr {
+        /* max-width: 1140px; */
+        max-width: 64%;
+    }
+    .signup-bg .logo {
+        width: calc(100% - 64%);
+    }
+    .signup {
+        border-radius: 72px 0 0 72px;
+    }
+    
+    .form-cr label {
+        font-size: 12px;
+    }
+    .form-cr .fields {
+        margin: 3px 0;
+    }
+    .who {
+        margin-top: 20px;
+    }
+    .who .container {
+        font-size: 12px;
+        padding-left: 18px;
+    }
+    .who .container .checkmark:after {
+        width: 6px;
+    height: 6px;
+    }
+    .who .checkmark {
+        height: 12px;
+        width: 12px;
+    }
+    .check-field .container .checkmark:after {
+        width: 6px;
+        height: 6px;
+    }
+    .check-field .checkmark {
+        height: 12px;
+        width: 12px;
+    }
+    .signup-bg .logo img {
+        max-width: 120px;
+    }
+    .signup-bg:before {
+        background: url(../img/sign-1.png) 37% 21% no-repeat, url(../img/sign-3.png) -3% 100% no-repeat;
+        background-size: 280px, 120px;
+    }
+    .form-cr label {
+        font-size: 10px;
+    }
+    .pink-cr {
+        padding: 5px 22px;
+        font-size: 12px;
+    }
+    .check-field .container {
+        padding-left: 10px;
+    }
+    .signup {
+        border-radius: 60px 0 0 60px;
+    }
+    .cardd {
+        max-width: 53%;
+    }
+    .carousel-item.carousel-item2,
+.carousel-item.carousel-item3,
+.carousel-item.carousel-item4,
+.carousel-item.carousel-item5,
+.carousel-item.carousel-item6,
+.carousel-item.carousel-item7 {
+    position: relative;
+    background: url(../img/ritual1.png) 35% 0% no-repeat, 
+                url(../img/ritual4.png) -3% 48% no-repeat,
+                url(../img/ritual3.png) 90% 100% no-repeat,
+                        url(../img/slide2.png) 15% 100% no-repeat;
+    background-size: 120px, 180px, 220px, 120px;
+}
+.ritual-logo-con {
+    max-width: 98%;
+}
+.carousel .hero-img {
+    margin-right: 5px !important;
+}
+.ritual-logo-con .links-m img {
+    width: 25px;
+}
+.carousel .hero-img {
+    width: 80px;
+}
+.ritual-nav a {
+    padding: 4px 20px 4px 30px;
+}
+
+.dot1 {
+    bottom: 62px;
+    left: 129px;
+}
+.dot2 {
+    bottom: 69px;
+    left: 154px;
+}
+.dot3 {
+    bottom: 77px;
+    left: 174px;
+}
+.dot4 {
+    bottom: 90px;
+    left: 191px;
+}
+.dot5 {
+    bottom: 108px;
+    left: 201px;
+}
+.dot6 {
+    bottom: 206px;
+    left: 230px;
+}
+.dot7 {
+    bottom: 223px;
+    left: 221px;
+}
+.dot8 {
+    bottom: 243px;
+    left: 216px;
+}
+.dot9 {
+    bottom: 264px;
+    left: 216px;
+}
+.dot10 {
+    bottom: 288px;
+    left: 218px;
+}
+.dot11 {
+    top: 147px;
+    left: 266px;
+}
+.dot12 {
+    top: 167px;
+    left: 281px;
+}
+
+.dot13 {
+    top: 184px;
+    left: 295px;
+}
+.dot14 {
+    top: 195px;
+    left: 312px;
+}
+.dot15 {
+    top: 201px;
+    left: 333px;
+}
+.dot16 {
+    top: 211px;
+    left: 447px;
+}
+.dot17 {
+    top: 209px;
+    left: 467px;
+}
+.dot18 {
+    top: 212px;
+    left: 489px;
+}
+.dot19 {
+    top: 221px;
+    left: 508px;
+}
+.dot20 {
+    top: 233px;
+    left: 526px;
+}
+.a1, .a2, .a3, .a4, .a5 {
+    width: 106px;
+}
+.a1 {
+    bottom: 33px;
+    left: 33px;
+}
+.a2 {
+    bottom: 113px;
+    left: 193px;
+}
+.a3 {
+    top: 80px;
+    left: 167px;
+}
+.a4 {
+    bottom: 227px;
+    left: 346px;
+}
+.a5 {
+    bottom: 194px;
+    left: 540px;
+}
+}
+@media screen and (max-width:1024px){
+    .p-lang .my-container {
+        padding: 0 70px;
+    }
+    .lang-purple:before {
+        background-size: 258px;
+    }
+    .lang-purple:after {
+        background-size: 150px;
+    }
+    .l-bx {
+        max-width: 262px;
+    }
+    .lang-sec h2 {
+        font-size: 22px;
+    }
+    .l-bx .green-bg {
+        padding: 24px 16px 17px;
+    }
+    .lang-border {
+        border: 14px solid #fff;
+    }
+    .l-bx .green-bg {
+        border-radius: 60px;
+    }
+    .l-bx .dropdown button {
+        font-size: 10px;
+    }
+    .l-bx label {
+        font-size: 12px;
+    }
+    .l-bx label {
+        margin-top: 0;
+    }
+    .start-btn button {
+        padding: 3px 27px;
+        font-size: 12px;
+    }
+    .lang-hero {
+        max-width: 70px;
+    }
+    .links-m img {
+        width: 24px;
+    }
+    .links-m a {
+        padding-left: 6px;
+    }
+    .links-m {
+        margin-top: 7px !important;
+    }
+    .hero-img {
+        padding-top: 20px;
+    }
+    .adven-img:before {
+        background: url(../img/mp1.png) 46% 0% no-repeat, url(../img/mp2.png) 7% 81% no-repeat, url(../img/mp3.png) 94% 100% no-repeat, url(../img/mp4.png) 19% 100% no-repeat;
+        background-size: 170px, 100px, 380px, 160px;
+    }
+    .advn-map {
+        width: 600px;
+    }
+    .payment.index2:after {
+        background: url(../img/login-cir.png) 62% 100% no-repeat, url(../img/log-top.png) 99% 0% no-repeat;
+        background-size: 180px,240px;
+    }
+    .login-sec {
+        padding-right: 4%;
+    }
+    .h-minus {
+        max-height: 650px;
+    }
+    .video_h-w {
+        max-width: 522px;
+    }
+    .vac-bx {
+        border: 7px solid #fff;
+        border-radius: 25px !important;
+        padding: 1vh 0 0;
+        width: 58%;
+    }
+    .vac-bx {
+        padding: 1vh 0 0;
+        width: 70%;
+    }
+    .carousel .hero-img {
+        width: 66px;
+    }
+    .ritual-nav a {
+        padding: 3px 13px 4px 29px;
+    }
+   
+    .ritual-nav a:nth-of-type(1) {
+        padding: 3px 14px 3px 14px;
+    }
+    .ritual-nav {
+        /* margin-left: 2vw; */
+        margin-bottom: 2vh;
+        padding: 0 0 0 25px;
+    }
+    .dot {
+        width: 9px;
+    }
+    .dot1 {
+        bottom: 54px;
+        left: 116px;
+    }
+    .dot2 {
+        bottom: 59px;
+        left: 137px;
+    }
+    .dot3 {
+        bottom: 68px;
+        left: 156px;
+    }
+    .dot4 {
+        bottom: 78px;
+        left: 170px;
+    }
+    .dot5 {
+        bottom: 94px;
+        left: 181px;
+    }
+    .dot6 {
+        bottom: 183px;
+        left: 208px;
+    }
+    .dot7 {
+        bottom: 199px;
+        left: 197px;
+    }
+    .dot8 {
+        bottom: 217px;
+        left: 193px;
+    }
+    .dot9 {
+        bottom: 237px;
+        left: 193px;
+    }
+    .dot10 {
+        bottom: 258px;
+        left: 196px;
+    }
+    .dot11 {
+        top: 130px;
+        left: 238px;
+    }
+    .dot12 {
+        top: 148px;
+        left: 250px;
+    }
+    .dot13 {
+        top: 163px;
+        left: 263px;
+    }
+    .dot14 {
+        top: 173px;
+        left: 279px;
+    }
+    .dot15 {
+        top: 179px;
+        left: 297px;
+    }
+    .dot16 {
+        top: 188px;
+        left: 401px;
+    }
+    .dot17 {
+        top: 185px;
+        left: 419px;
+    }
+    .dot18 {
+        top: 188px;
+        left: 437px;
+    }
+    .dot19 {
+        top: 196px;
+        left: 456px;
+    }
+    .dot20 {
+        top: 206px;
+        left: 473px;
+    }
+    .a1 {
+        bottom: 28px;
+        left: 28px;
+    }
+    .a1, .a2, .a3, .a4, .a5 {
+        width: 96px;
+    }
+    
+    .a2 {
+        bottom: 100px;
+        left: 172px;
+    }
+    .a3 {
+        top: 71px;
+        left: 149px;
+    }
+    .a4 {
+        bottom: 204px;
+        left: 309px;
+    }
+    .a5 {
+        bottom: 173px;
+        left: 482px;
+    }
+}
+@media screen and (max-width:992px){
+.carousel .hero-img {
+    width: 140px;
+}
+
+.form-cr > .row {
+    padding: 0;
+}
+.form-cr form {
+    max-width: 100%;
+}
+.lang-purple:before {
+    background-size: 220px;
+}
+.signup {
+    border-radius: 50px 0 0 50px;
+}
+.form-row {
+    width: 74%;
+}
+.school-abs {
+    top: -8.5vh;
+    width: 54px;
+    height: 52px;
+    padding: 4px 8px !important;
+    top: -33px;
+    }
+    .school-box {
+        max-width: 238px;
+        border: 10px solid #fff;
+        border-radius: 3.4vw;
+        padding-top: 12px;
+        padding-bottom: 4px;
+        border-radius: 29px;
+    }
+    .school-box h6 {
+        font-size: 12px!important;
+        margin-bottom: 3px !important;
+    }
+    .school-box h2 {
+        font-size: 28px !important;
+    }
+    .school-box .progress {
+        margin: 4px 13% 0;
+    }
+    .progress-size.small {
+        font-size: 11px;
+    }
+    .school-bx h3, .culture-bx h3 {
+        font-size: 10px;
+    }
+    .main-r .school-bx p, .main-r .culture-bx p {
+        font-size: 15px !important;
+    }
+    .row>* {
+        padding-right: calc(var(--bs-gutter-x) * .3);
+        padding-left: calc(var(--bs-gutter-x) * .3);
+    }
+    .main-r .school-bx, .main-r .culture-bx {
+        border-radius: 17px;
+        border: 8px solid #fff;
+    }
+    .at-school .my-container {
+        padding: 0 30px;
+    }
+    .at-school .my-container .main-r {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 762px;
+    }
+  
+    .at-school:before {
+        background: url(../img/school-bg-1.png) 5% 55% no-repeat, url(../img/school-bg-2.png) 91% 62% no-repeat, url(../img/school-bg-3.png) 15% 100% no-repeat;
+        background-size: 30%, 20%, 14%;
+    }
+    .carousel .hero-img {
+        width: 64px;
+    }
+    .h-minus-inn {
+        max-width: 250px;
+        width: 100%;
+    }
+    #songPlayer {
+        margin: 0;
+    }
+    .vol-m-icon {
+        margin: 0 3px;
+    }
+    #currentTime, #totalTime {
+        font-size: 10px;
+    }
+    #playPauseButton {
+        width: 40px;
+        height: 40px;
+    }
+    #playPauseButton i {
+        font-size: 18px !important;
+    }
+    #volumeIcon {
+        font-size: 18px !important;
+        margin-right: 3px !important;
+    } 
+    #progressBar {
+        height: 6px !important;
+    }
+    .mobile_h-w {
+        border: 10px solid white;
+    }
+    .bt {
+        border: 5px solid white;
+    }
+    .play-area {
+        border-bottom: 10px solid white;
+    }
+    .music_icon_center img {
+        max-width: 100px;
+    }
+    .music-txt {
+        font-size: 18px !important;
+        margin-top: 3.5vh;
+        margin-bottom: 3.5vh;
+    }
+    .white-icon {
+        width: 18px;
+        height: 18px;
+        margin-top: 10px !important;
+    }
+    .cards-show {
+        width: 57%;
+    }
+    .cards-fix {
+        max-width: 20%;
+    }
+    .cardd {
+        max-width: 64%;
+    }
+    .cards-det {
+        height: 18vh;
+    }
+    .cards-det p {
+        font-size: 16px;
+    }
+}   
+@media screen and (max-width:900px){
+
+    .at-school .my-container .main-r {
+        padding: 0;
+    }
+    .container-content {
+        padding: 0;
+    }
+    .school-hero {
+        max-width: 60px;
+    }
+    .school-p {
+        font-size: 9px;
+        padding: 3px 22px;
+    }
+    /* .carousel-indicators button.active {
+        padding: 2px !important;
+    } */
+    .carousel-indicators button {
+        height: 8px !important;
+        width: 8px !important;
+    }
+    .carousel-indicators [data-bs-target] {
+        padding: 1px;
+        margin-right: 5px !important;
+        margin-left: 5px !important;
+    }
+    .carousel-indicators button {
+        height:8px !important;
+        width:8px !important;
+    }
+    /* .frog-lg {
+        display: none;
+    } */
+    .frog-sm {
+        max-width: 400px;
+        display: none;
+    }
+    .cardd {
+        max-width: 70%;
+    }
+    .card-icn {
+        bottom: -21px;
+    }
+    .ritual-nav a {
+        font-size: 8px;
+    }
+    .ritual-nav a {
+        padding: 3px 14px 3px 30px;
+    }
+}
+@media screen and (max-width:800px){
+.ritual-nav a {
+    font-size: 10px;
+}
+.ritual-logo-con .links-m img {
+    width: 22px;
+}
+.ritual-logo-con .links-m a {
+    padding-left: 5px !important;
+}
+.ritual-head {
+    width: calc(100% - 80px);
+}
+.ritual-nav a {
+    white-space: nowrap;
+}
+.ritual-nav{
+    width: calc(100% - 65px);
+}
+ /* width */
+ .ritual-nav::-webkit-scrollbar {
+    height: 6px;
+  }
+  
+  /* Track */
+  .ritual-nav::-webkit-scrollbar-track {
+    background: #fff;
+    border-radius: 50px;
+  }
+  
+  /* Handle */
+  .ritual-nav::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 50px;
+    background: #b1d570;
+    border: 2px solid #fff;
+
+  }
+  
+  /* Handle on hover */
+  .ritual-nav::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(177 213 112);
+  }
+  .y-video {
+    max-width: 90vh;
+}
+}
+@media screen and (max-width:768px){
+    .p-lang .my-container {
+        padding: 0 38px;
+    }
+    .at-school .my-container,
+    .adven-img .my-container {
+        padding: 0 20px;
+    }
+    .adven-img:before {
+        background: url(../img/mp1.png) 46% 0% no-repeat, 
+        url(../img/mp2.png) 2% 50% no-repeat, 
+        url(../img/mp3.png) 94% 100% no-repeat, 
+        url(../img/mp4.png) 7% 100% no-repeat;
+        background-size: 130px, 80px, 220px, 120px;
+    }
+    .advn-map {
+        width: 500px;
+        /* width: 100%; */
+    }
+    .payment-p {
+        padding-left: 0;
+    }
+    .login-sec {
+        padding-right: 0;
+    }
+    .border-welcome {
+        /* border: 27px solid #ffff; */
+        border-radius: 79px;
+    }
+    .login-sec {
+        max-width: 300px;
+    }
+    .pink-t {
+        padding: 40px 14px 20px;
+    }
+    .border-welcome {
+        border: 14px solid #fff;
+    }
+    
+    .log-font {
+        font-size: 30px;
+    }
+    .wel-font {
+        font-size: 18px;
+    }
+    .ubtm {
+        margin-bottom: 8px;
+    }
+    .u-name2 {
+        font-size: 14px;
+    }
+    .u-name1 {
+        font-size: 12px;
+    }
+    .u-btn {
+        font-size: 14px;
+        margin-top: 18px;
+        padding: 6px 15px !important;
+    }
+    .cr-btn {
+        font-size: 12px;
+        margin-top: 12px;
+    }
+    .l-m {
+        padding-left: 0%;
+    }
+    .mn-logo {
+        max-width: 120px;
+    }
+ 
+    .form-row {
+        max-width: 100%;
+        width: 80%;
+        padding: 0 !important;
+    }
+    .signup-bg .logo {
+        width: calc(100% - 75%);
+    }
+    .form-cr {
+        max-width: 74%;
+        width: 100%;
+    }
+    .main-r .school-bx p, .main-r .culture-bx p {
+        font-size: 13px !important;
+    }
+    .row>* {
+        padding-right: calc(var(--bs-gutter-x) * .2);
+        padding-left: calc(var(--bs-gutter-x) * .2);
+    }
+    .sheet-icon {
+        width: 40px;
+        height: 40px;
+        margin-top: 0;
+    }
+    .main-r .school-bx, .main-r .culture-bx {
+        border: 7px solid #fff;
+    }
+    .carousel-item1 {
+        background: url(../img/ritual1.png) 64% 0% no-repeat, url(../img/ritual2.png) 99% 27% no-repeat, url(../img/ritual3.png) 7% 45% no-repeat, url(../img/ritual4.png) 76% 89% no-repeat;
+        background-size: 119px, 145px, 228px, 183px;
+    }
+    .h-minus {
+        max-height: 547px;
+    }
+    .h-minus-other {
+        max-width: 500px;
+        width: 100%;
+    }
+    .learn-td {
+        margin: 0 15px;
+    }
+    .learn-td img {
+        border-radius: 36px;
+        border: 10px solid #fff;
+    }
+    .cards-fix {
+        max-width: 30%;
+    }
+    .cards-show {
+        width: 70%;
+    }
+    .cards-det {
+    position: absolute !important;
+        bottom: -24px;
+        border-radius: 20px;
+    border: 7px solid rgb(255, 255, 255);
+    }
+    
+    .card-icn {
+        bottom: -16px;
+    }
+    .frog-new {
+       margin: 0 20px;
+    }
+
+    .dot {
+        width: 8px;
+    }
+    .dot1 {
+        bottom: 44px;
+        left: 98px;
+    }
+    .dot2 {
+        bottom: 49px;
+        left: 114px;
+    }
+    .dot3 {
+        bottom: 54px;
+        left: 128px;
+    }
+    .dot4 {
+        bottom: 64px;
+        left: 142px;
+    }
+    .dot5 {
+        bottom: 77px;
+        left: 151px;
+    }
+    .dot6 {
+        bottom: 151px;
+        left: 173px;
+    }
+    .dot7 {
+        bottom: 165px;
+        left: 164px;
+    }
+    .dot8 {
+        bottom: 179px;
+        left: 161px;
+    }
+    .dot9 {
+        bottom: 195px;
+        left: 160px;
+    }
+    .dot10 {
+        bottom: 212px;
+        left: 162px;
+    }
+    .dot11 {
+        top: 107px;
+        left: 199px;
+    }
+    .dot12 {
+        top: 121px;
+        left: 208px;
+    }
+    .dot13 {
+        top: 134px;
+        left: 220px;
+    }
+    .dot14 {
+        top: 143px;
+        left: 233px;
+    }
+    .dot15 {
+        top: 147px;
+        left: 247px;
+    }
+    .dot16 {
+        top: 156px;
+        left: 334px;
+    }
+    .dot17 {
+        top: 152px;
+        left: 348px;
+    }
+    .dot18 {
+        top: 155px;
+        left: 364px;
+    }
+    .dot19 {
+        top: 162px;
+        left: 379px;
+    }
+    .dot20 {
+        top: 170px;
+        left: 393px;
+    }
+    .a1, .a2, .a3, .a4, .a5 {
+        width: 79px;
+    }
+    .a1 {
+        bottom: 26px;
+        left: 25px;
+    }
+    .a2 {
+        bottom: 83px;
+        left: 144px;
+    }
+    .a3 {
+        top: 60px;
+        left: 124px;
+    }
+    .a4 {
+        bottom: 169px;
+        left: 258px;
+    }
+    .a5 {
+        bottom: 144px;
+        left: 402px;
+    }
+}
+@media screen and (max-width:700px){
+
+.ritual-nav a {
+    border: 2px solid #B0D46F;
+}
+.carousel .hero-img {
+    width: 57px;
+}
+.ritual-logo-con .links-m a {
+    padding-left: 3px !important;
+}
+.ritual-head {
+    width: calc(100% - 74px);
+}
+.vol-3-main {
+    width: 90%;
+    margin: 20px auto 0;
+}
+}
+@media screen and (max-width:650px){
+    .scolor-box {
+        width: calc(50% - 0px);
+    }
+  
+/* ----video-slide---- */
+.h-minus3 {
+    height: 56vh;
+}
+.y-video {
+    border: 12px solid #fff;
+    border-radius: 30px;
+    max-width: 80vw;
+}
+/* .y-video video {
+    border-bottom: 10px solid #fff !important;
+} */
+.playPauseButton {
+    width: 60px;
+    height: 60px;
+ }
+ .playPauseButton i {
+    font-size: 26px !important;
+ }
+ .vol-3-main {
+    margin: 22px auto 0;
+}
+.vol-3-main #volumeIcon2 {
+    font-size: 14px !important;
+}
+.playedTimeLabel, .totalTimeLabel {
+    font-size: 10px;
+}
+.main_time_bar {
+    bottom: -16px;
+}
+.carousel-item3 .timeBar {
+    min-height: 6px;
+} 
+.carousel-item3 .main_time_bar {
+    height: 8px;
+}
+}
+@media screen and (max-width:600px){
+    .form-row {
+        width:80%;
+    }
+    .signup-bg .logo {
+        width: calc(100% - 0%);
+    }
+    .form-cr {
+        max-width: calc(100% - 40px);
+        width: calc(100% - 40px);
+        margin: 0 20px;
+    }
+    .signup {
+        border-radius: 50px;
+    }
+     .sign-box {
+        position: static !important;
+    }
+    .form-cr {
+        height: calc(100vh - 137px) !important;
+    }
+    .school-box {
+        max-width: 218px;
+        border: 9px solid #fff;
+    }
+    .h-minus {
+        min-height: 460px;
+        height: 80vh;
+    }
+    .carousel-item1 {
+        background: url(../img/ritual1.png) 64% 0% no-repeat, 
+        url(../img/ritual2.png) 99% 27% no-repeat,
+         url(../img/ritual3.png) 7% 45% no-repeat, 
+         url(../img/ritual4.png) 89% 89% no-repeat;
+        background-size: 100px, 110px, 190px, 153px;
+    }
+    
+    .vac-bx {
+        padding: 1vh 0 0;
+        width: 70%;
+    }
+    .video_h-w {
+        max-width: 450px;
+    }
+    .cardd {
+        max-width: 90%;
+    }
+}
+@media screen and (max-width:556px){
+    .music_icon img {
+        width: 38px;
+    }
+    .music_icon {
+        padding: 21px 21px;
+    }
+
+    .form-cr > .row h2 {
+        font-size: 20px;
+    }
+    .lang-bg {
+        max-width: 430px;
+        height: 430px;
+    }
+    .advn-map {
+        width: 420px;
+    }
+    .payment.index2:after {
+        background: url(../img/login-cir.png) 62% 100% no-repeat, url(../img/log-top.png) 99% 0% no-repeat;
+        background-size: 140px,180px;
+    }
+    .index2 .my-container {
+        padding: 0 20px;
+    }
+    .signup {
+        border-radius: 40px;
+    }
+    .dot {
+        width: 7px;
+    }
+    .dot1 {
+        bottom: 35px;
+        left: 82px;
+    }
+    .dot2 {
+        bottom: 38px;
+        left: 96px;
+    }
+    .dot3 {
+        bottom: 44px;
+        left: 109px;
+    }
+    .dot4 {
+        bottom: 52px;
+        left: 118px;
+    }
+    .dot5 {
+        bottom: 62px;
+        left: 127px;
+    }
+    .dot6 {
+        bottom: 124px;
+        left: 145px;
+    }
+    .dot7 {
+        bottom: 136px;
+        left: 137px;
+    }
+    .dot8 {
+        bottom: 148px;
+        left: 134px;
+    }
+    .dot9 {
+        bottom: 162px;
+        left: 135px;
+    }
+    .dot10 {
+        bottom: 177px;
+        left: 137px;
+    }
+    .dot11 {
+        top: 86px;
+        left: 167px;
+    }
+    .dot12 {
+        top: 99px;
+        left: 176px;
+    }
+    .dot13 {
+        top: 110px;
+        left: 184px;
+    }
+    .dot14 {
+        top: 117px;
+        left: 195px;
+    }
+    .dot15 {
+        top: 122px;
+        left: 208px;
+    }
+    .dot16 {
+        top: 128px;
+        left: 280px;
+    }
+    .dot17 {
+        top: 125px;
+        left: 292px;
+    }
+    .dot18 {
+        top: 129px;
+        left: 305px;
+    }
+    .dot19 {
+        top: 134px;
+        left: 318px;
+    }
+    .dot20 {
+        top: 142px;
+        left: 331px;
+    }
+    .a1, .a2, .a3, .a4, .a5 {
+        width: 68px;
+    }
+    .a1 {
+        bottom: 19px;
+        left: 19px;
+    }
+    .a2 {
+        bottom: 70px;
+        left: 120px;
+    }
+    .a3 {
+        top: 49px;
+        left: 104px;
+    }
+    .a4 {
+        bottom: 141px;
+        left: 215px;
+    }
+    .a5 {
+        bottom: 121px;
+        left: 337px;
+    }
+    
+    
+}
+@media screen and (max-width:440px){
+.dot {
+    width: 6px;
+}
+.dot1 {
+    bottom: 28px;
+    left: 69px;
+}
+.dot2 {
+    bottom: 33px;
+    left: 82px;
+}
+.dot3 {
+    bottom: 36px;
+    left: 93px;
+}
+.dot4 {
+    bottom: 43px;
+    left: 102px;
+}
+.dot5 {
+    bottom: 52px;
+    left: 108px;
+}
+.dot6 {
+    bottom: 106px;
+    left: 124px;
+}
+.dot7 {
+    bottom: 115px;
+    left: 119px;
+}
+.dot8 {
+    bottom: 126px;
+    left: 115px;
+}
+.dot9 {
+    bottom: 138px;
+    left: 114px;
+}
+.dot10 {
+    bottom: 149px;
+    left: 116px;
+}
+.dot11 {
+    top: 75px;
+    left: 143px;
+}
+.dot12 {
+    top: 85px;
+    left: 150px;
+}
+.dot13 {
+    top: 93px;
+    left: 158px;
+}
+.dot14 {
+    top: 100px;
+    left: 167px;
+}
+.dot15 {
+    top: 102px;
+    left: 178px;
+}
+.dot16 {
+    top: 108px;
+    left: 240px;
+}
+.dot17 {
+    top: 107px;
+    left: 250px;
+}
+.dot18 {
+    top: 108px;
+    left: 262px;
+}
+.dot19 {
+    top: 113px;
+    left: 272px;
+}
+.dot20 {
+    top: 120px;
+    left: 284px;
+}
+.a1, .a2, .a3, .a4, .a5 {
+    width: 56px;
+}
+.a2 {
+    bottom: 61px;
+    left: 104px;
+}
+.a3 {
+    top: 43px;
+    left: 90px;
+}
+.a4 {
+    bottom: 122px;
+    left: 187px;
+}
+.a5 {
+    bottom: 105px;
+    left: 290px;
+}
+.y-video {
+    max-width: 98vw;
+}
+}
+@media screen and (max-width:375px){
+.dot {
+    width: 4px;
+}
+.dot1 {
+    bottom: 22px;
+    left: 60px;
+}
+.dot2 {
+    bottom: 25px;
+    left: 70px;
+}
+.dot3 {
+    bottom: 30px;
+    left: 79px;
+}
+.dot4 {
+    bottom: 36px;
+    left: 87px;
+}
+.dot5 {
+    bottom: 43px;
+    left: 94px;
+}
+.dot6 {
+    bottom: 90px;
+    left: 108px;
+}
+.dot7 {
+    bottom: 98px;
+    left: 102px;
+}
+.dot8 {
+    bottom: 107px;
+    left: 100px;
+}
+.dot9 {
+    bottom: 117px;
+    left: 99px;
+}
+.dot10 {
+    bottom: 128px;
+    left: 101px;
+}
+.dot11 {
+    top: 63px;
+    left: 123px;
+}
+.dot12 {
+    top: 71px;
+    left: 130px;
+}
+.dot13 {
+    top: 78px;
+    left: 137px;
+}
+.dot14 {
+    top: 83px;
+    left: 144px;
+}
+.dot15 {
+    top: 87px;
+    left: 154px;
+}
+.dot16 {
+    top: 91px;
+    left: 207px;
+}
+.dot17 {
+    top: 90px;
+    left: 216px;
+}
+.dot18 {
+    top: 91px;
+    left: 226px;
+}
+.dot19 {
+    top: 95px;
+    left: 235px;
+}
+.dot20 {
+    top: 101px;
+    left: 244px;
+}
+}
+@media screen and (max-height:750px){
+    .cardd {
+        height: 22.5vh;
+    }
+    }
+@media screen and (max-width:440px){
+    .lang-bg {
+       background: none;
+    }
+    .advn-map {
+        width: 360px;
+    }
+    .adven-img:before {
+        background: url(../img/mp1.png) 46% 0% no-repeat, 
+        url(../img/mp2.png) 2% 44% no-repeat, 
+        url(../img/mp3.png) 94% 100% no-repeat, 
+        url(../img/mp4.png) 7% 100% no-repeat;
+        background-size: 130px, 80px, 160px, 90px;
+    }
+    .w-420-full {
+        max-width: 100%;
+        width: 100%;
+    }
+    .thanks-wrapper {
+        margin-top: 30px;
+    }
+    .school-box h2 {
+        font-size: 26px !important;
+    }
+    .school-box {
+        max-width: 194px;
+        border: 9px solid #fff;
+    }
+    .school-abs {
+        top: -8.5vh;
+        width: 46px;
+        height: 45px;
+        padding: 4px 8px !important;
+        top: -29px;
+    }
+    .carousel-item1 {
+        background: url(../img/ritual1.png) 58% 0% no-repeat, 
+        url(../img/ritual2.png) 99% 27% no-repeat,
+         url(../img/ritual3.png) 7% 45% no-repeat, 
+         url(../img/ritual4.png) 89% 89% no-repeat;
+        background-size: 80px, 80px, 140px, 100px;
+    }
+    .vac-bx {
+        padding: 1vh 0 0;
+        width: 75%;
+    }
+    .video_h-w {
+        max-width: 380px;
+    }
+    
+    .cards-show {
+        width: 69%;
+    }
+    .cards-det {
+        padding: 1.4vh 10px;
+    }
+    .cardd {
+        max-width: 100%;
+        height: 14vh;
+    }
+    .cards-show {
+        width: 100%;
+    }
+    /* .h-minus-other4 {
+        justify-content: center !important;
+    } */
+    .cards-det {
+        bottom: auto;
+        right: 0;
+        top: 77px;
+        max-width: 42% !important;
+        height: 15vh;
+    }
+    .cards-fix {
+        margin-top: 40px;
+    }
+    .cardfix {
+        width: 72%;
+    }
+    .card-icn {
+        width: 28px;
+    }
+}
+@media screen and (max-width:375px){
+    .advn-map {
+        width: 310px;
+    }
+    .at-school .my-container {
+        padding: 0 15px;
+    }
+    .main-r .school-bx p, .main-r .culture-bx p {
+        font-size: 12px !important;
+    }
+    .vac-bx {
+        padding: 1vh 0 0;
+        width: 85%;
+    }
+}
+@media screen and (max-height:1200px) {
+    .frog-new {
+        max-width: 60%;
+    }
+}
+
+@media screen and (max-height:1000px) {
+    .frog-new {
+        max-width: 50%;
+    }
+}
+@media screen and (max-height:900px) {
+    .frog-new {
+        max-width: 40%;
+    }
+}
+@media screen and (max-height:700px) {
+    .frog-new {
+        max-width: 350px;
+    }
+}
