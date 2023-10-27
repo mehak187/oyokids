@@ -2442,9 +2442,9 @@ Ritual page
     width: 90%;
     /* height: 14vh; */
 }
-.preview-popup {
+/* .preview-popup {
     display: none !important;
-}
+} */
 /* slide 4-------- */
 .crd-main {
     max-width: 90%;
@@ -5749,4 +5749,25 @@ Ritual page
     .frog-new {
         max-width: 350px;
     }
+}
+.preview-popup {
+    width: 100%;
+    top: -8px;
+    left: 100%;
+    scale: 2;
+    height: 100%;
+}
+.preview-popup .position-relative {
+    height: 100%;
+}
+.in-preview-popup {
+    height: 100%;
+}
+.preview-popup .playPauseButtontwo i {
+    font-size: 1.2vw !important;
+}
+.preview-popup .playPauseButtontwo {
+    bottom: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
