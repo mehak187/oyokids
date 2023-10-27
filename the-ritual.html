@@ -681,14 +681,14 @@
                                             <div class="d-flex align-items-center vol-3-main">
                                                 <!-- <img src="img/volume.png" alt="" class="me-2 mt-1"> -->
                                                 <i id="volumeIcon2" class="bi bi-volume-up text-white fs-5 me-2 mt-1"></i>
-                                                <div class="volume-slider3 w-100">
+                                                <div class="volume-slider3 w-100" style="max-width: 150px;">
                                                     <input
                                                         type="range"
                                                         id="volumeRangethree"
                                                         min="0"
                                                         max="1"
                                                         step="0.01"
-                                                        value="0.1"
+                                                        value="1"
                                                         class="w-100"
                                                     >
                                                 </div>
@@ -1234,7 +1234,8 @@ function formatTime(time) {
     var volumeRange = document.getElementById('volumeRange');
     var volumeIcon = document.getElementById('volumeIcon');
     var isMuted = false;
-    
+    var preMuteVolume = 0;
+
     audio.volume = volumeRange.value;
     updateVolumeStyles(volumeRange.value);
 
@@ -1243,100 +1244,93 @@ function formatTime(time) {
             audio.volume = volumeRange.value;
         }
         updateVolumeStyles(volumeRange.value);
+        // Check if the volume range is greater than 0 to determine the icon.
+        if (volumeRange.value > 0) {
+            volumeIcon.classList.replace('bi-volume-mute', 'bi-volume-up');
+        } else {
+            volumeIcon.classList.replace('bi-volume-up', 'bi-volume-mute');
+        }
     });
 
     volumeIcon.addEventListener('click', function () {
         if (isMuted) {
             // Unmute
-            audio.volume = volumeRange.value;
+            audio.volume = preMuteVolume;
             isMuted = false;
             volumeIcon.classList.replace('bi-volume-mute', 'bi-volume-up');
+            volumeRange.value = preMuteVolume; // Set the volume range input back to the pre-mute volume
         } else {
             // Mute
+            // Store the current volume before muting
+            preMuteVolume = audio.volume;
             audio.volume = 0;
             isMuted = true;
             volumeIcon.classList.replace('bi-volume-up', 'bi-volume-mute');
+            volumeRange.value = 0; // Set the volume range input to 0 when muted
         }
         updateVolumeStyles(audio.volume);
     });
 
     function updateVolumeStyles(volume) {
-        var gradient = 'linear-gradient(to right, white ' + (volume * 100) + '%, transparent ' + (volume * 100) + '%)';
+        var gradient;
+        if (volume === 0) {
+            gradient = 'linear-gradient(to right, lightgrey 0%, lightgrey 0%)';
+        } else {
+            // When volume is not muted, set the gradient to represent the volume level.
+            gradient = 'linear-gradient(to right, white ' + (volume * 100) + '%, transparent ' + (volume * 100) + '%)';
+        }
         volumeRange.style.background = gradient;
     }
 });
 
     // ---------Video------
     document.addEventListener('DOMContentLoaded', function () {
-    var audio = document.getElementById('myAudio');
-    var volumeRange = document.getElementById('volumeRange');
-    var volumeIcon = document.getElementById('volumeIcon');
-    var isMuted = false;
-    var previousVolume = 1;
+    var video = document.getElementById('videothree');
+    var volumeRangethree = document.getElementById('volumeRangethree');
+    var volumeIcon = document.getElementById('volumeIcon2'); // Added this line
 
-    // Set initial volume
-    audio.volume = volumeRange.value;
-    previousVolume = audio.volume;
+    // Initialize volume icon based on initial volume
+    updateVolumeIcon(video.volume); // Uncomment this line
 
-    // Function to update volume styles and icon
-    function updateVolumeStyles(volume) {
-    if (volume === 0) {
-        // If volume is 0, change the bar color to light grey
-        volumeRange.style.background = 'lightgrey';
-        isMuted = true;
-        volumeIcon.classList.replace('bi-volume-up', 'bi-volume-mute');
+    video.volume = volumeRangethree.value;
+    updateVolumeStyles(volumeRangethree.value);
+    volumeRangethree.addEventListener('input', function () {
+    video.volume = volumeRangethree.value;
+    updateVolumeIcon(video.volume);
+    updateVolumeStyles(volumeRangethree.value);
+});
+    // Add click event listener to volume icon
+    volumeIcon.addEventListener('click', function () {
+        if (video.muted) {
+        video.muted = false;
+        video.volume = 1; // Set the volume to maximum when unmuting
+        updateVolumeIcon(video.volume);
+        document.getElementById('volumeRangethree').value = 100; // Set the input range to 100 for maximum volume
+        updateVolumeStyles(1); // Set the gradient to fully filled
     } else {
-        // If not muted, use the gradient background
-        var gradient = 'linear-gradient(to right, white ' + (volume * 100) + '%, transparent ' + (volume * 100) + '%)';
-        volumeRange.style.background = gradient;
-        isMuted = false;
-        volumeIcon.classList.replace('bi-volume-mute', 'bi-volume-up');
+        video.muted = true;
+        updateVolumeIcon(0);
+        document.getElementById('volumeRangethree').value = 0;
+        updateVolumeStyles(0);
+    }
+    });
+
+    // Update volume icon based on volume/mute state
+    function updateVolumeIcon(volume) {
+    if (video.muted || volume === 0) {
+        volumeIcon.classList.remove('bi-volume-up');
+        volumeIcon.classList.add('bi-volume-mute');
+    } else {
+        volumeIcon.classList.remove('bi-volume-mute');
+        volumeIcon.classList.add('bi-volume-up');
     }
 }
 
-    // Update volume styles when the page loads
-    updateVolumeStyles(audio.volume);
-
-    // Event listener for volume range input
-    volumeRange.addEventListener('input', function () {
-        audio.volume = volumeRange.value;
-        if (!isMuted) {
-            previousVolume = audio.volume;
-        }
-        updateVolumeStyles(audio.volume);
-    });
-
-    // Event listener for volume icon click
-    volumeIcon.addEventListener('click', function () {
-        if (isMuted) {
-            // Unmute
-            audio.volume = previousVolume;
-        } else {
-            // Mute
-            audio.volume = 0;
-        }
-        updateVolumeStyles(audio.volume);
-    });
+    function updateVolumeStyles(volume) {
+        var gradient = 'linear-gradient(to right, white ' + (volume * 100) + '%, transparent ' + (volume * 100) + '%)';
+        volumeRangethree.style.background = gradient;
+    }
 });
-
-
-
-
-
-    document.addEventListener('DOMContentLoaded', function () {
-        var video = document.getElementById('videothree');
-        var volumeRangethree = document.getElementById('volumeRangethree');
-        video.volume = volumeRangethree.value;
-        updateVolumeStyles(volumeRangethree.value);
-        volumeRangethree.addEventListener('input', function () {
-          video.volume = volumeRangethree.value;
-          updateVolumeStyles(volumeRangethree.value);
-        });
-        function updateVolumeStyles(volume) {
-            var gradient = 'linear-gradient(to right, white ' + (volume * 100) + '%, transparent ' + (volume * 100) + '%)';
-            volumeRangethree.style.background = gradient;
-        }
-    });
         </script>
         <!-- <script>
     function toggleFlip() {
