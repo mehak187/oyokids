@@ -989,6 +989,15 @@ background-size:150px, 155px, 330px, 225px;
     height: 100%;
     width: 100%;
 }
+.go {
+    display: none;
+}
+.card-icn img {
+    cursor: pointer;
+}
+.light-black {
+    color: #494949;
+}
 @media screen and (max-height:1600px){
     .carousel-item3 .timeBar {
         min-height: 18px;
@@ -2442,9 +2451,9 @@ Ritual page
     width: 90%;
     /* height: 14vh; */
 }
-.preview-popup {
+/* .preview-popup {
     display: none !important;
-}
+} */
 /* slide 4-------- */
 .crd-main {
     max-width: 90%;
@@ -2544,6 +2553,70 @@ Ritual page
 } */
 .frog-new {
     max-width: 79%;
+}
+.in-preview-popup img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: bottom;
+}
+
+/* -------slide hover--------- */
+.preview-popup {
+    width: 100%;
+    top: 100px;
+    left: auto;
+    right: 0;
+    transform: translateX(0%);
+    scale: 2.5;
+    height: 100%;
+}
+.preview-popup .position-relative {
+    height: 100%;
+}
+.in-preview-popup {
+    height: 100%;
+}
+.preview-popup .playPauseButtontwo i {
+    font-size: 1.2vw !important;
+}
+.preview-popup .playPauseButtontwo {
+    bottom: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.preview-popup .preview-txt {
+    transform: translateX(-50%);
+    width: 90% !important;
+    bottom: -18px;
+}
+.py-c {
+    padding: 18px 20px;
+}
+.vac-bx {
+    border: 0.5vw solid #fff;
+    border-radius: 1.3vw !important;
+}
+.vac-bx .small {
+    font-size: 1.1em;
+}
+.in-preview-popup.vac-bx {
+    width: 100%;
+}
+.player{
+    display: none;
+}
+.go {
+    display: none;
+}
+.defaultp {
+    display: none;
+}
+.defaultp1 {
+    display: block;
+}
+.cardd.b-none {
+    border: none;
 }
 @media screen and (max-width:2700px){
     .h-minus {
@@ -2827,6 +2900,51 @@ Ritual page
         bottom: 409px;
         left: 1150px;
     }
+    /* -------slide hover--------- */
+.preview-popup {
+    width: 100%;
+    top: 100px;
+    left: auto;
+    right: 0;
+    transform: translateX(0%);
+    scale: 2;
+    height: 100%;
+}
+.preview-popup .position-relative {
+    height: 100%;
+}
+.in-preview-popup {
+    height: 100%;
+}
+.preview-popup .playPauseButtontwo i {
+    font-size: 1.2vw !important;
+}
+.preview-popup .playPauseButtontwo {
+    bottom: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.preview-popup .preview-txt {
+    transform: translateX(-50%);
+    width: 90% !important;
+    bottom: -18px;
+}
+.py-c {
+    padding: 18px 20px;
+}
+.vac-bx {
+    border: 0.5vw solid #fff;
+    border-radius: 1.3vw !important;
+}
+.vac-bx .small {
+    font-size: 1.1em;
+}
+.in-preview-popup.vac-bx {
+    width: 100%;
+}
+.in-preview-popup img {
+    width: 100%;
+}
 }
 @media screen and (max-width:2400px){
     .at-school .my-container {
@@ -2900,6 +3018,9 @@ Ritual page
     }
     .l-bx .dropdown-menu li {
         margin: 6px 6px;
+    }
+    .vac-bx .small {
+        font-size: 0.91em;
     }
 }
 @media screen and (max-width:2000px){
@@ -3126,6 +3247,12 @@ Ritual page
     }
     .ritual-nav a {
         font-size: 0.7vw;
+    }
+    .vac-bx .small {
+        font-size: 0.7em;
+    }
+    .playPauseButtontwo {
+        margin: 0 4px 0 0 !important;
     }
 }
 @media screen and (max-width:1800px){
@@ -4053,6 +4180,9 @@ Ritual page
     .a1, .a2, .a3, .a4, .a5 {
         width: 112px;
     }
+    .video_h-w {
+        max-width: 60%;
+    }
 }
 @media screen and (max-width:1300px){
     /* .lang-bg {
@@ -4497,6 +4627,9 @@ Ritual page
     bottom: 194px;
     left: 540px;
 }
+.new-abs {
+    left: 8px;
+}
 }
 @media screen and (max-width:1024px){
     .p-lang .my-container {
@@ -4702,6 +4835,9 @@ Ritual page
     .a5 {
         bottom: 173px;
         left: 482px;
+    }
+    .py-c {
+        padding: 10px 20px;
     }
 }
 @media screen and (max-width:992px){
@@ -5431,8 +5567,16 @@ Ritual page
         bottom: 121px;
         left: 337px;
     }
-    
-    
+    .preview-popup {
+        top: 25px;
+        right: 36px;
+    }
+    .preview-popup .playPauseButtontwo i {
+        font-size: 10px !important;
+    }
+    .py-c {
+        padding: 7px 7px;
+    }
 }
 @media screen and (max-width:440px){
 .dot {
@@ -5733,11 +5877,27 @@ Ritual page
     .frog-new {
         max-width: 60%;
     }
+    .preview-popup {
+        top:66px;
+    }
 }
 
 @media screen and (max-height:1000px) {
     .frog-new {
         max-width: 50%;
+    }
+   
+    .preview-popup .preview-txt {
+        bottom: -13px;
+    }
+    .preview-popup {
+        top:46px;
+    }
+    .vac-bx .small {
+        font-size: 0.6em;
+    }
+       .py-c {
+        padding: 10px 20px;
     }
 }
 @media screen and (max-height:900px) {
@@ -5748,5 +5908,35 @@ Ritual page
 @media screen and (max-height:700px) {
     .frog-new {
         max-width: 350px;
+    }
+    .vac-bx .small {
+        font-size: 6px;
+    }
+    .preview-popup {
+        top: 35px;
+    }
+}
+@media screen and (max-height:570px) {
+    .preview-popup {
+        top: 25px;
+    }
+}
+@media screen and (max-width:1024px) {
+
+    .vac-bx .small {
+        font-size: 5px;
+    }
+    .vac-bx {
+        border: 5px solid #fff;
+        border-radius: 15px !important;
+    }
+    .py-c {
+        padding: 7px 20px;
+    }
+    .preview-popup .preview-txt {
+        bottom: -7px;
+    }
+    .preview-popup .playPauseButtontwo {
+        left: 8px;
     }
 }
