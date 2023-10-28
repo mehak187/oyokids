@@ -655,9 +655,9 @@ ritual
     display: none;
 }
 
-.vac-bx:hover .preview-popup {
+/* .vac-bx:hover .preview-popup {
     display: block;
-}
+} */
 /* ---------tab-3------- */
 .carousel-item3 .timeBar {
     background: #fff;

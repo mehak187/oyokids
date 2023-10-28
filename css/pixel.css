@@ -2571,6 +2571,11 @@ Ritual page
     scale: 2.5;
     height: 100%;
 }
+.preview-popup7,
+.preview-popup8,
+.preview-popup9 {
+    top: -100px;
+}
 .preview-popup .position-relative {
     height: 100%;
 }
@@ -2909,6 +2914,11 @@ Ritual page
     transform: translateX(0%);
     scale: 2;
     height: 100%;
+}
+.preview-popup7,
+.preview-popup8,
+.preview-popup9 {
+    top: -100px;
 }
 .preview-popup .position-relative {
     height: 100%;
@@ -4182,6 +4192,9 @@ Ritual page
     }
     .video_h-w {
         max-width: 60%;
+    }
+    .cards-det {
+        height: 140px;
     }
 }
 @media screen and (max-width:1300px){
@@ -5571,6 +5584,17 @@ Ritual page
         top: 25px;
         right: 36px;
     }
+    .preview-popup7,
+    .preview-popup8,
+    .preview-popup9 {
+        top: -25px;
+    }
+    .preview-popup1,
+    .preview-popup4,
+    .preview-popup7 {
+        right:auto;
+        left: 36px;
+    }
     .preview-popup .playPauseButtontwo i {
         font-size: 10px !important;
     }
@@ -5880,6 +5904,11 @@ Ritual page
     .preview-popup {
         top:66px;
     }
+    .preview-popup7,
+.preview-popup8,
+.preview-popup9 {
+    top: -66px;
+}
 }
 
 @media screen and (max-height:1000px) {
@@ -5893,6 +5922,11 @@ Ritual page
     .preview-popup {
         top:46px;
     }
+    .preview-popup7,
+.preview-popup8,
+.preview-popup9 {
+    top: -46px;
+}
     .vac-bx .small {
         font-size: 0.6em;
     }
@@ -5915,10 +5949,20 @@ Ritual page
     .preview-popup {
         top: 35px;
     }
+    .preview-popup7,
+.preview-popup8,
+.preview-popup9 {
+    top: -35px;
+}
 }
 @media screen and (max-height:570px) {
     .preview-popup {
         top: 25px;
+    }
+    .preview-popup7,
+    .preview-popup8,
+    .preview-popup9 {
+        top: -25px;
     }
 }
 @media screen and (max-width:1024px) {
