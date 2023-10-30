@@ -6010,3 +6010,31 @@ Ritual page
         left: 8px;
     }
 }
+@media screen and (max-width:350px) {
+.preview-popup .playPauseButtontwo i {
+    font-size: 6px !important
+}
+.py-c {
+    padding: 6px 5px;
+}
+.preview-popup .preview-txt {
+    bottom: -3px;
+}
+.preview-popup {
+    height: 80%
+}
+.preview-popup .playPauseButtontwo {
+    left: 4px;
+}
+.preview-popup {
+    top: 28px;
+    right: 20px
+}
+.vac-bx .small {
+    font-size: 4px;
+}
+.preview-popup1, .preview-popup4, .preview-popup7 {
+    right: auto;
+    left: 20px;
+}
+}
