@@ -5708,6 +5708,9 @@ Ritual page
 .y-video {
     max-width: 98vw;
 }
+.cards-det {
+    max-width: 162px !important;
+}
 }
 @media screen and (max-width:375px){
 .dot {
@@ -5869,7 +5872,7 @@ Ritual page
         bottom: auto;
         right: 0;
         top: 77px;
-        max-width: 42% !important;
+        max-width: 160px !important;
         height: 15vh;
     }
     .cards-fix {
@@ -5895,6 +5898,29 @@ Ritual page
     .vac-bx {
         padding: 1vh 0 0;
         width: 85%;
+    }
+    .a1, .a2, .a3, .a4, .a5 {
+        width: 48px;
+    }
+    .a1 {
+        bottom: 16px;
+        left: 16px;
+    }
+    .a2 {
+        bottom: 53px;
+        left: 91px;
+    }
+    .a3 {
+        top: 37px;
+        left: 78px;
+    }
+    .a4 {
+        bottom: 106px;
+        left: 160px;
+    }
+    .a5 {
+        bottom: 90px;
+        left: 250px;
     }
 }
 @media screen and (max-height:1200px) {
