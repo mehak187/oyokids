@@ -1167,6 +1167,9 @@ background-size:150px, 155px, 330px, 225px;
             .y-video video {
                 border-radius: 20px;
             }
+            /* .second_slider_img {
+                height: 14vh;
+            } */
         }
 @media screen and (min-width:478px){
         /* ---------goodbye------- */
@@ -5334,6 +5337,9 @@ Ritual page
     .a5 {
         bottom: 144px;
         left: 402px;
+    }
+    .player-name {
+        font-size: 18px !important;
     }
 }
 @media screen and (max-width:700px){
