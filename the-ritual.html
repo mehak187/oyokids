@@ -970,13 +970,184 @@
                             </div>
                             <div class="h-minus-other h-abs6 d-flex align-items-center">
                                 <div class="learn-td pb-4 w-100">
-                                    <img src="img/act.png" alt="" class="w-100 ">
+                                    <img src="img/act.png" alt="" class="w-100 act-img">
+                                    <div class="timer">
+                                        <div class="timer-display-button">
+                                            <div class="circle-img">
+                                                <img src="./img/Timer Circle.png" alt="">
+                                            </div>
+                                            <div class="timer-display">
+                                                <div class="timer-space">
+                                                    <span id="increaseButton">+</span>
+                                                    <p class="number">0</p>
+                                                    <span id="decreaseButton">-</span>
+                                                </div>
+                                                <div class="timer-space">
+                                                    <span id="increaseButton1">+</span>
+                                                    <p class="number1">0</p>
+                                                    <span id="decreaseButton1">-</span>
+                                                </div>
+                                                <div class="timer-space">
+                                                    <p>:</p>
+                                                </div>
+                                                <div class="timer-space">
+                                                    <span id="increaseButton2">+</span>
+                                                    <p class="number2">0</p>
+                                                    <span id="decreaseButton2">-</span>
+                                                </div>
+                                                <div class="timer-space">
+                                                    <span id="increaseButton3">+</span>
+                                                    <p class="number3">0</p>
+                                                    <span id="decreaseButton3">-</span>
+                                                </div>
+                                            </div>
+                                            <div class="play-time">
+                                                <div class="play-clr">
+                                                    <i class="bi bi-play-circle-fill play-icon"></i>
+                                                </div>
+                                                <div class="stop-img">
+                                                    <img src="./img/btn-stop.png" alt="" class="stop-icon">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+            <script>
+                $(document).ready(function() {
+                    var timer;
+                    var isTimerRunning = false;
+                    var number = 0;
+                    $('#increaseButton').on('click', function() {
+                        if (number < 9) {
+                            number++;
+                            $('.number').text(number);
+                        }
+                    });
+
+                    $('#decreaseButton').on('click', function() {
+                        if (number > 0) {
+                            number--;
+                            $('.number').text(number);
+                        }
+                    });
+
+                    var number1 = 0;
+                    $('#increaseButton1').on('click', function() {
+                        if (number1 < 9) {
+                            number1++;
+                            $('.number1').text(number1);
+                        }
+                    });
+
+                    $('#decreaseButton1').on('click', function() {
+                        if (number1 > 0) {
+                            number1--;
+                            $('.number1').text(number1);
+                        }
+                    });
+
+                    var number2 = 0;
+                    $('#increaseButton2').on('click', function() {
+                        if (number2 < 9) {
+                            number2++;
+                            $('.number2').text(number2);
+                        }
+                    });
+
+                    $('#decreaseButton2').on('click', function() {
+                        if (number2 > 0) {
+                            number2--;
+                            $('.number2').text(number2);
+                        }
+                    });
+
+                    var number3 = 0;
+                    $('#increaseButton3').on('click', function() {
+                        if (number3 < 9) {
+                            number3++;
+                            $('.number3').text(number3);
+                        }
+                    });
+
+                    $('#decreaseButton3').on('click', function() {
+                        if (number3 > 0) {
+                            number3--;
+                            $('.number3').text(number3);
+                        }
+                    });
+
+                    var startTimer = function() {
+    var minutes = parseInt($('.number').text() + $('.number1').text());
+    var seconds = parseInt($('.number2').text() + $('.number3').text());
+
+    var totalTime = minutes * 60 + seconds;
+
+    timer = setInterval(function() {
+        if (totalTime <= 0) {
+            clearInterval(timer);
+            $('.number').text('0');
+            $('.number1').text('0');
+            $('.number2').text('0');
+            $('.number3').text('0');
+            isTimerRunning = false; // Reset timer status
+        } else {
+            var displayMinutes = Math.floor(totalTime / 60);
+            var displaySeconds = totalTime % 60;
+
+            var formattedMinutes = ('0' + displayMinutes).slice(-2);
+            var formattedSeconds = ('0' + displaySeconds).slice(-2);
+
+            $('.number').text(formattedMinutes[0]);
+            $('.number1').text(formattedMinutes[1]);
+            $('.number2').text(formattedSeconds[0]);
+            $('.number3').text(formattedSeconds[1]);
+
+            totalTime--;
+        }
+    }, 1000);
+
+    isTimerRunning = true;
+};
+
+
+    $('.play-icon').on('click', function() {
+        if (!isTimerRunning) {
+            startTimer();
+        }
+    });
+
+    $('.stop-icon').on('click', function() {
+        clearInterval(timer);
+        isTimerRunning = false;
+    });
+
+    // Re-enable increase/decrease buttons after the timer stops
+    $('.number, .number1, .number2, .number3').on('click', function() {
+        if (!isTimerRunning) {
+            var $this = $(this);
+            var currentValue = parseInt($this.text());
+
+            if ($this.hasClass('number') || $this.hasClass('number1')) {
+                currentValue = (currentValue + 1) % 10;
+            } else {
+                currentValue = (currentValue + 1) % 60;
+            }
+
+            $this.text(('0' + currentValue).slice(-2));
+        }
+    });
+});
+
+
+
+            </script>
             <!-- --------------------------------------------------------------------------- -->
             <!-- --------ITEM6------------------------------------------------------------- -->
             <div class="carousel-item carousel-item6" style="background-color:#b1d570;">
