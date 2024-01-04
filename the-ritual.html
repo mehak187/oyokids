@@ -702,6 +702,9 @@
                                 <div class="videoWrapper w-100 mb-0 position-relative">
                                     <video class="video w-100 h-100" src="./img/ritual-video.mp4" id="videothree"
                                         type="video/mp4"></video>
+                                        <div class="custom-control" id="customControl">
+                                            <i class="bi bi-arrows-angle-expand text-white pointer" id="expandIcon"></i>
+                                        </div>
                                     <div class="playPauseButton">
                                         <i class="fas fa-play fs-2 rounded-circle video-play-ic text-white"></i>
                                     </div>
@@ -729,6 +732,64 @@
                     </div>
                 </div>
             </div>
+            <script>
+               const video = document.getElementById('videothree');
+const expandIcon = document.getElementById('expandIcon');
+const videoContainer = document.querySelector('.yel-video');
+    const customControl = document.querySelector('.custom-control');
+
+function toggleFullscreen() {
+    if (!document.fullscreenElement) {
+        enterFullscreen();
+    } else {
+        exitFullscreen();
+    }
+}
+
+function enterFullscreen() {
+    if (video.requestFullscreen) {
+        video.requestFullscreen();
+    } else if (video.mozRequestFullScreen) {
+        video.mozRequestFullScreen();
+    } else if (video.webkitRequestFullscreen) {
+        video.webkitRequestFullscreen();
+    } else if (video.msRequestFullscreen) {
+        video.msRequestFullscreen();
+    }
+    customControl.style.bottom = '20px'; // Adjust the bottom position
+}
+
+function exitFullscreen() {
+    if (document.exitFullscreen) {
+        document.exitFullscreen();
+    } else if (document.mozCancelFullScreen) {
+        document.mozCancelFullScreen();
+    } else if (document.webkitExitFullscreen) {
+        document.webkitExitFullscreen();
+    } else if (document.msExitFullscreen) {
+        document.msExitFullscreen();
+    }
+    customControl.style.bottom = ' 95px'; // Revert back to the original bottom position
+}
+
+expandIcon.addEventListener('click', toggleFullscreen);
+
+function adjustCustomControlPosition() {
+        if (videoContainer.style.display === 'none') {
+            customControl.style.bottom = '20px'; // Adjust when video display is none
+        } else {
+            customControl.style.bottom = '95px'; // Revert to the original position
+        }
+    }
+
+    // Observe changes in the video display property
+    const videoObserver = new MutationObserver(() => {
+        adjustCustomControlPosition();
+    });
+
+    videoObserver.observe(videoContainer, { attributes: true, attributeFilter: ['style'] });
+
+            </script>
             <!-- --------------------------------------------------------------------------- -->
             <!-- ---------ITEM4----------------------------------------------------------- -->
             <div class="carousel-item carousel-item4" style="background-color: #b1d570;">
@@ -973,8 +1034,10 @@
                                     <img src="img/act.png" alt="" class="w-100 act-img">
                                     <div class="timer">
                                         <div class="timer-display-button">
-                                            <div class="circle-img">
-                                                <img src="./img/Timer Circle.png" alt="">
+                                            <div class="">
+                                                <div class="progress-bar">
+                                                    <progress value="75" min="0" max="100" style="width: 0;">75%</progress>
+                                                </div>
                                             </div>
                                             <div class="timer-display">
                                                 <div class="timer-space">
@@ -1008,6 +1071,10 @@
                                                 <div class="stop-img">
                                                     <img src="./img/btn-stop.png" alt="" class="stop-icon">
                                                 </div>
+                                                <audio id="audioPlayer" style="display: none;">
+                                                    <source src="./img/beep-07a.mp3" type="audio/mpeg">
+                                                    Your browser does not support the audio element.
+                                                  </audio>
                                             </div>
                                         </div>
                                     </div>
@@ -1019,132 +1086,140 @@
             </div>
             <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-            <script>
-                $(document).ready(function() {
-                    var timer;
-                    var isTimerRunning = false;
-                    var number = 0;
-                    $('#increaseButton').on('click', function() {
-                        if (number < 9) {
-                            number++;
-                            $('.number').text(number);
-                        }
-                    });
 
-                    $('#decreaseButton').on('click', function() {
-                        if (number > 0) {
-                            number--;
-                            $('.number').text(number);
-                        }
-                    });
+               <script>
+              $(document).ready(function() {
+  var timer;
+  var isTimerRunning = false;
+  var number = 0;
 
-                    var number1 = 0;
-                    $('#increaseButton1').on('click', function() {
-                        if (number1 < 9) {
-                            number1++;
-                            $('.number1').text(number1);
-                        }
-                    });
+  $('#increaseButton').on('click', function() {
+    if (number < 9) {
+      number++;
+      $('.number').text(number);
+    }
+  });
 
-                    $('#decreaseButton1').on('click', function() {
-                        if (number1 > 0) {
-                            number1--;
-                            $('.number1').text(number1);
-                        }
-                    });
+  $('#decreaseButton').on('click', function() {
+    if (number > 0) {
+      number--;
+      $('.number').text(number);
+    }
+  });
 
-                    var number2 = 0;
-                    $('#increaseButton2').on('click', function() {
-                        if (number2 < 9) {
-                            number2++;
-                            $('.number2').text(number2);
-                        }
-                    });
+  var number1 = 0;
+  $('#increaseButton1').on('click', function() {
+    if (number1 < 9) {
+      number1++;
+      $('.number1').text(number1);
+    }
+  });
 
-                    $('#decreaseButton2').on('click', function() {
-                        if (number2 > 0) {
-                            number2--;
-                            $('.number2').text(number2);
-                        }
-                    });
+  $('#decreaseButton1').on('click', function() {
+    if (number1 > 0) {
+      number1--;
+      $('.number1').text(number1);
+    }
+  });
 
-                    var number3 = 0;
-                    $('#increaseButton3').on('click', function() {
-                        if (number3 < 9) {
-                            number3++;
-                            $('.number3').text(number3);
-                        }
-                    });
+  var number2 = 0;
+  $('#increaseButton2').on('click', function() {
+    if (number2 < 9) {
+      number2++;
+      $('.number2').text(number2);
+    }
+  });
 
-                    $('#decreaseButton3').on('click', function() {
-                        if (number3 > 0) {
-                            number3--;
-                            $('.number3').text(number3);
-                        }
-                    });
+  $('#decreaseButton2').on('click', function() {
+    if (number2 > 0) {
+      number2--;
+      $('.number2').text(number2);
+    }
+  });
 
-                    var startTimer = function() {
+  var number3 = 0;
+  $('#increaseButton3').on('click', function() {
+    if (number3 < 9) {
+      number3++;
+      $('.number3').text(number3);
+    }
+  });
+
+  $('#decreaseButton3').on('click', function() {
+    if (number3 > 0) {
+      number3--;
+      $('.number3').text(number3);
+    }
+  });
+
+  var startTimer = function() {
     var minutes = parseInt($('.number').text() + $('.number1').text());
     var seconds = parseInt($('.number2').text() + $('.number3').text());
-
     var totalTime = minutes * 60 + seconds;
 
+    var updateProgressBar = function(percentage) {
+      $('.progress-bar').val(percentage);
+      $('.progress-bar').css('background',
+        'radial-gradient(closest-side, white 79%, transparent 80% 100%), ' +
+        'conic-gradient(rgb(255, 178, 105) ' + (100 - percentage) + '%, rgb(255, 246, 192) 0)'
+      );
+    };
+
     timer = setInterval(function() {
-        if (totalTime <= 0) {
-            clearInterval(timer);
-            $('.number').text('0');
-            $('.number1').text('0');
-            $('.number2').text('0');
-            $('.number3').text('0');
-            isTimerRunning = false; // Reset timer status
-        } else {
-            var displayMinutes = Math.floor(totalTime / 60);
-            var displaySeconds = totalTime % 60;
+      if (totalTime <= 0) {
+        clearInterval(timer);
+        $('.play-icon').removeClass('bi-pause-circle-fill').addClass('bi-play-circle-fill');
+        isTimerRunning = false;
+        $('.number, .number1, .number2, .number3').text('0');
+        $('#audioPlayer').get(0).play();
 
-            var formattedMinutes = ('0' + displayMinutes).slice(-2);
-            var formattedSeconds = ('0' + displaySeconds).slice(-2);
+        // Adjust the progress bar's style when timer ends
+        updateProgressBar(0);
+      } else {
+        var displayMinutes = Math.floor(totalTime / 60);
+        var displaySeconds = totalTime % 60;
 
-            $('.number').text(formattedMinutes[0]);
-            $('.number1').text(formattedMinutes[1]);
-            $('.number2').text(formattedSeconds[0]);
-            $('.number3').text(formattedSeconds[1]);
+        $('.number').text(('0' + displayMinutes).slice(-2)[0]);
+        $('.number1').text(('0' + displayMinutes).slice(-2)[1]);
+        $('.number2').text(('0' + displaySeconds).slice(-2)[0]);
+        $('.number3').text(('0' + displaySeconds).slice(-2)[1]);
 
-            totalTime--;
-        }
+        var totalSeconds = minutes * 60 + seconds;
+        var elapsedSeconds = totalTime;
+        var percentage = ((totalSeconds - elapsedSeconds) / totalSeconds) * 100;
+
+        updateProgressBar(percentage);
+
+        totalTime--;
+      }
     }, 1000);
 
     isTimerRunning = true;
-};
+    $('.play-icon').removeClass('bi-play-circle-fill').addClass('bi-pause-circle-fill');
+  };
 
+  var stopTimer = function() {
+    clearInterval(timer);
+    isTimerRunning = false;
+    $('.play-icon').removeClass('bi-pause-circle-fill').addClass('bi-play-circle-fill');
+    // Hide the audio element
+    $('#audioPlayer').hide();
+  };
 
-    $('.play-icon').on('click', function() {
-        if (!isTimerRunning) {
-            startTimer();
-        }
-    });
+  $('.play-icon').on('click', function() {
+    if (!isTimerRunning) {
+      // Show the audio element before starting the timer
+      $('#audioPlayer').show();
+      startTimer();
+    } else {
+      stopTimer();
+    }
+  });
 
-    $('.stop-icon').on('click', function() {
-        clearInterval(timer);
-        isTimerRunning = false;
-    });
-
-    // Re-enable increase/decrease buttons after the timer stops
-    $('.number, .number1, .number2, .number3').on('click', function() {
-        if (!isTimerRunning) {
-            var $this = $(this);
-            var currentValue = parseInt($this.text());
-
-            if ($this.hasClass('number') || $this.hasClass('number1')) {
-                currentValue = (currentValue + 1) % 10;
-            } else {
-                currentValue = (currentValue + 1) % 60;
-            }
-
-            $this.text(('0' + currentValue).slice(-2));
-        }
-    });
+  $('.stop-icon').on('click', function() {
+    stopTimer();
+  });
 });
-
 
 
             </script>
