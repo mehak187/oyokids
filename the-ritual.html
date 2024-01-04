@@ -702,6 +702,9 @@
                                 <div class="videoWrapper w-100 mb-0 position-relative">
                                     <video class="video w-100 h-100" src="./img/ritual-video.mp4" id="videothree"
                                         type="video/mp4"></video>
+                                        <div class="custom-control" id="customControl">
+                                            <i class="bi bi-arrows-angle-expand text-white pointer" id="expandIcon"></i>
+                                        </div>
                                     <div class="playPauseButton">
                                         <i class="fas fa-play fs-2 rounded-circle video-play-ic text-white"></i>
                                     </div>
@@ -729,6 +732,64 @@
                     </div>
                 </div>
             </div>
+            <script>
+               const video = document.getElementById('videothree');
+const expandIcon = document.getElementById('expandIcon');
+const videoContainer = document.querySelector('.yel-video');
+    const customControl = document.querySelector('.custom-control');
+
+function toggleFullscreen() {
+    if (!document.fullscreenElement) {
+        enterFullscreen();
+    } else {
+        exitFullscreen();
+    }
+}
+
+function enterFullscreen() {
+    if (video.requestFullscreen) {
+        video.requestFullscreen();
+    } else if (video.mozRequestFullScreen) {
+        video.mozRequestFullScreen();
+    } else if (video.webkitRequestFullscreen) {
+        video.webkitRequestFullscreen();
+    } else if (video.msRequestFullscreen) {
+        video.msRequestFullscreen();
+    }
+    customControl.style.bottom = '20px'; // Adjust the bottom position
+}
+
+function exitFullscreen() {
+    if (document.exitFullscreen) {
+        document.exitFullscreen();
+    } else if (document.mozCancelFullScreen) {
+        document.mozCancelFullScreen();
+    } else if (document.webkitExitFullscreen) {
+        document.webkitExitFullscreen();
+    } else if (document.msExitFullscreen) {
+        document.msExitFullscreen();
+    }
+    customControl.style.bottom = ' 95px'; // Revert back to the original bottom position
+}
+
+expandIcon.addEventListener('click', toggleFullscreen);
+
+function adjustCustomControlPosition() {
+        if (videoContainer.style.display === 'none') {
+            customControl.style.bottom = '20px'; // Adjust when video display is none
+        } else {
+            customControl.style.bottom = '95px'; // Revert to the original position
+        }
+    }
+
+    // Observe changes in the video display property
+    const videoObserver = new MutationObserver(() => {
+        adjustCustomControlPosition();
+    });
+
+    videoObserver.observe(videoContainer, { attributes: true, attributeFilter: ['style'] });
+
+            </script>
             <!-- --------------------------------------------------------------------------- -->
             <!-- ---------ITEM4----------------------------------------------------------- -->
             <div class="carousel-item carousel-item4" style="background-color: #b1d570;">
