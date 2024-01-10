@@ -734,60 +734,60 @@
             </div>
             <script>
                const video = document.getElementById('videothree');
-const expandIcon = document.getElementById('expandIcon');
-const videoContainer = document.querySelector('.yel-video');
-    const customControl = document.querySelector('.custom-control');
+               const expandIcon = document.getElementById('expandIcon');
+               const videoContainer = document.querySelector('.yel-video');
+               const customControl = document.querySelector('.custom-control');
 
-function toggleFullscreen() {
-    if (!document.fullscreenElement) {
-        enterFullscreen();
-    } else {
-        exitFullscreen();
-    }
-}
+                function toggleFullscreen() {
+                    if (!document.fullscreenElement) {
+                        enterFullscreen();
+                    } else {
+                        exitFullscreen();
+                    }
+                }
 
-function enterFullscreen() {
-    if (video.requestFullscreen) {
-        video.requestFullscreen();
-    } else if (video.mozRequestFullScreen) {
-        video.mozRequestFullScreen();
-    } else if (video.webkitRequestFullscreen) {
-        video.webkitRequestFullscreen();
-    } else if (video.msRequestFullscreen) {
-        video.msRequestFullscreen();
-    }
-    customControl.style.bottom = '20px'; // Adjust the bottom position
-}
+                function enterFullscreen() {
+                    if (video.requestFullscreen) {
+                        video.requestFullscreen();
+                    } else if (video.mozRequestFullScreen) {
+                        video.mozRequestFullScreen();
+                    } else if (video.webkitRequestFullscreen) {
+                        video.webkitRequestFullscreen();
+                    } else if (video.msRequestFullscreen) {
+                        video.msRequestFullscreen();
+                    }
+                    customControl.style.bottom = '20px'; // Adjust the bottom position
+                }
 
-function exitFullscreen() {
-    if (document.exitFullscreen) {
-        document.exitFullscreen();
-    } else if (document.mozCancelFullScreen) {
-        document.mozCancelFullScreen();
-    } else if (document.webkitExitFullscreen) {
-        document.webkitExitFullscreen();
-    } else if (document.msExitFullscreen) {
-        document.msExitFullscreen();
-    }
-    customControl.style.bottom = ' 95px'; // Revert back to the original bottom position
-}
+                function exitFullscreen() {
+                    if (document.exitFullscreen) {
+                        document.exitFullscreen();
+                    } else if (document.mozCancelFullScreen) {
+                        document.mozCancelFullScreen();
+                    } else if (document.webkitExitFullscreen) {
+                        document.webkitExitFullscreen();
+                    } else if (document.msExitFullscreen) {
+                        document.msExitFullscreen();
+                    }
+                    customControl.style.bottom = ' 95px'; // Revert back to the original bottom position
+                }
 
-expandIcon.addEventListener('click', toggleFullscreen);
+                expandIcon.addEventListener('click', toggleFullscreen);
 
-function adjustCustomControlPosition() {
-        if (videoContainer.style.display === 'none') {
-            customControl.style.bottom = '20px'; // Adjust when video display is none
-        } else {
-            customControl.style.bottom = '95px'; // Revert to the original position
-        }
-    }
+                function adjustCustomControlPosition() {
+                        if (videoContainer.style.display === 'none') {
+                            customControl.style.bottom = '20px'; // Adjust when video display is none
+                        } else {
+                            customControl.style.bottom = '95px'; // Revert to the original position
+                        }
+                    }
 
-    // Observe changes in the video display property
-    const videoObserver = new MutationObserver(() => {
-        adjustCustomControlPosition();
-    });
+                    // Observe changes in the video display property
+                    const videoObserver = new MutationObserver(() => {
+                        adjustCustomControlPosition();
+                    });
 
-    videoObserver.observe(videoContainer, { attributes: true, attributeFilter: ['style'] });
+                    videoObserver.observe(videoContainer, { attributes: true, attributeFilter: ['style'] });
 
             </script>
             <!-- --------------------------------------------------------------------------- -->
