@@ -700,7 +700,7 @@
                         <div class="d-flex justify-content-center  h-minus3 py-5 act-tab-3">
                             <div class="play-video_h-w pb-0 mb-0 w-100 mx-3 y-video">
                                 <div class="videoWrapper w-100 mb-0 position-relative">
-                                    <video class="video w-100 h-100" src="./img/ritual-video.mp4" id="videothree"
+                                    <video class="video" src="./img/ritual-video.mp4" id="videothree"
                                         type="video/mp4"></video>
                                         <div class="custom-control" id="customControl">
                                             <i class="bi bi-arrows-angle-expand text-white pointer" id="expandIcon"></i>
@@ -1031,7 +1031,10 @@
                             </div>
                             <div class="h-minus-other h-abs6 d-flex align-items-center">
                                 <div class="learn-td pb-4 w-100">
-                                    <img src="img/act.png" alt="" class="w-100 act-img">
+                                    <img src="img/act.png" alt="" class="w-100 act-img" id="fullscreen-image">
+                                    <div class="position-fullscreen" onclick="toggleFullscreen()">
+                                        <i class="bi bi-fullscreen text-white"></i>
+                                    </div>
                                     <div class="timer">
                                         <div class="timer-display-button">
                                             <div class="">
@@ -1085,7 +1088,21 @@
                 </div>
             </div>
             <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
+            <script>
+                function toggleFullscreen() {
+                    const image = document.getElementById('fullscreen-image');
+            
+                    if (!document.fullscreenElement) {
+                        image.requestFullscreen().catch(err => {
+                            console.error(`Error attempting to enable full-screen mode: ${err.message}`);
+                        });
+                    } else {
+                        if (document.exitFullscreen) {
+                            document.exitFullscreen();
+                        }
+                    }
+                }
+            </script>
 
                <script>
               $(document).ready(function() {
