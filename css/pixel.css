@@ -2716,6 +2716,11 @@ Ritual page
 .cardd.b-none {
     border: none;
 }
+.position-fullscreen{
+    position: absolute;
+    bottom: 47px;
+    right: 27px;
+}
 @media screen and (max-width:2700px){
     .h-minus {
         margin-bottom: 16px;
