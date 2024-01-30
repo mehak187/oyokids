@@ -1030,8 +1030,8 @@
                                 </div>
                             </div>
                             <div class="h-minus-other h-abs6 d-flex align-items-center">
-                                <div class="learn-td pb-4 w-100">
-                                    <img src="img/act.png" alt="" class="w-100 act-img" id="fullscreen-image">
+                                <div class="learn-td pb-4 w-100" id="fullscreen-image">
+                                    <img src="img/act.png" alt="" class="w-100 act-img">
                                     <div class="position-fullscreen" onclick="toggleFullscreen()">
                                         <i class="bi bi-fullscreen text-white"></i>
                                     </div>
@@ -1088,21 +1088,64 @@
                 </div>
             </div>
             <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-            <script>
-                function toggleFullscreen() {
-                    const image = document.getElementById('fullscreen-image');
-            
-                    if (!document.fullscreenElement) {
-                        image.requestFullscreen().catch(err => {
-                            console.error(`Error attempting to enable full-screen mode: ${err.message}`);
-                        });
-                    } else {
-                        if (document.exitFullscreen) {
-                            document.exitFullscreen();
-                        }
+            <style>
+                :fullscreen #fullscreen-image {
+                        height: 100vh;
+                    }
+
+                    :fullscreen .act-img {
+                        height: 100%;
+                        width: auto;
+                    }
+            </style>
+           <script>
+            function toggleFullscreen() {
+                const image = document.getElementById('fullscreen-image');
+        
+                if (!document.fullscreenElement) {
+                    image.requestFullscreen().catch(err => {
+                        console.error(`Error attempting to enable full-screen mode: ${err.message}`);
+                    });
+                } else {
+                    if (document.exitFullscreen) {
+                        document.exitFullscreen();
                     }
                 }
-            </script>
+            }
+        
+            // Function to handle changes in fullscreen state
+            function handleFullscreenChange() {
+                const icon = document.querySelector('.position-fullscreen i');
+                const timer = document.querySelector('.timer');
+                const isFullscreen = Boolean(document.fullscreenElement);
+        
+                if (isFullscreen) {
+                    // Apply new styles to the timer when in fullscreen
+                    timer.style.top = '37px';
+                    timer.style.bottom = 'auto';
+                    timer.style.left = '85%';
+                    timer.style.position = 'absolute';
+                    // Change the icon to "fullscreen-exit"
+                    icon.classList.remove('bi-fullscreen');
+                    icon.classList.add('bi-fullscreen-exit');
+                } else {
+                    // Revert styles for the timer when not in fullscreen
+                    timer.style.removeProperty('top');
+                    timer.style.removeProperty('bottom');
+                    timer.style.removeProperty('left');
+                    timer.style.removeProperty('position');
+                    // Change the icon back to "fullscreen"
+                    icon.classList.remove('bi-fullscreen-exit');
+                    icon.classList.add('bi-fullscreen');
+                }
+            }
+        
+            // Add event listener for fullscreen change
+            document.addEventListener('fullscreenchange', handleFullscreenChange);
+        </script>
+        
+
+            
 
                <script>
               $(document).ready(function() {
