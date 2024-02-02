@@ -1152,142 +1152,142 @@
 
             
 
-               <script>
-              $(document).ready(function() {
-  var timer;
-  var isTimerRunning = false;
-  var number = 0;
+        <script>
+            $(document).ready(function() {
+var timer;
+var isTimerRunning = false;
+var number = 0;
 
-  $('#increaseButton').on('click', function() {
-    if (number < 9) {
-      number++;
-      $('.number').text(number);
-    }
-  });
+$('#increaseButton').on('click', function() {
+  if (number < 9) {
+    number++;
+    $('.number').text(number);
+  }
+});
 
-  $('#decreaseButton').on('click', function() {
-    if (number > 0) {
-      number--;
-      $('.number').text(number);
-    }
-  });
+$('#decreaseButton').on('click', function() {
+  if (number > 0) {
+    number--;
+    $('.number').text(number);
+  }
+});
 
-  var number1 = 0;
-  $('#increaseButton1').on('click', function() {
-    if (number1 < 9) {
-      number1++;
-      $('.number1').text(number1);
-    }
-  });
+var number1 = 0;
+$('#increaseButton1').on('click', function() {
+  if (number1 < 9) {
+    number1++;
+    $('.number1').text(number1);
+  }
+});
 
-  $('#decreaseButton1').on('click', function() {
-    if (number1 > 0) {
-      number1--;
-      $('.number1').text(number1);
-    }
-  });
+$('#decreaseButton1').on('click', function() {
+  if (number1 > 0) {
+    number1--;
+    $('.number1').text(number1);
+  }
+});
 
-  var number2 = 0;
-  $('#increaseButton2').on('click', function() {
-    if (number2 < 9) {
-      number2++;
-      $('.number2').text(number2);
-    }
-  });
+var number2 = 0;
+$('#increaseButton2').on('click', function() {
+  if (number2 < 9) {
+    number2++;
+    $('.number2').text(number2);
+  }
+});
 
-  $('#decreaseButton2').on('click', function() {
-    if (number2 > 0) {
-      number2--;
-      $('.number2').text(number2);
-    }
-  });
+$('#decreaseButton2').on('click', function() {
+  if (number2 > 0) {
+    number2--;
+    $('.number2').text(number2);
+  }
+});
 
-  var number3 = 0;
-  $('#increaseButton3').on('click', function() {
-    if (number3 < 9) {
-      number3++;
-      $('.number3').text(number3);
-    }
-  });
+var number3 = 0;
+$('#increaseButton3').on('click', function() {
+  if (number3 < 9) {
+    number3++;
+    $('.number3').text(number3);
+  }
+});
 
-  $('#decreaseButton3').on('click', function() {
-    if (number3 > 0) {
-      number3--;
-      $('.number3').text(number3);
-    }
-  });
+$('#decreaseButton3').on('click', function() {
+  if (number3 > 0) {
+    number3--;
+    $('.number3').text(number3);
+  }
+});
 
-  var startTimer = function() {
-    var minutes = parseInt($('.number').text() + $('.number1').text());
-    var seconds = parseInt($('.number2').text() + $('.number3').text());
-    var totalTime = minutes * 60 + seconds;
+var startTimer = function() {
+  var minutes = parseInt($('.number').text() + $('.number1').text());
+  var seconds = parseInt($('.number2').text() + $('.number3').text());
+  var totalTime = minutes * 60 + seconds;
 
-    var updateProgressBar = function(percentage) {
-      $('.progress-bar').val(percentage);
-      $('.progress-bar').css('background',
-        'radial-gradient(closest-side, white 79%, transparent 80% 100%), ' +
-        'conic-gradient(rgb(255, 178, 105) ' + (100 - percentage) + '%, rgb(255, 246, 192) 0)'
-      );
-    };
-
-    timer = setInterval(function() {
-      if (totalTime <= 0) {
-        clearInterval(timer);
-        $('.play-icon').removeClass('bi-pause-circle-fill').addClass('bi-play-circle-fill');
-        isTimerRunning = false;
-        $('.number, .number1, .number2, .number3').text('0');
-        $('#audioPlayer').get(0).play();
-
-        // Adjust the progress bar's style when timer ends
-        updateProgressBar(0);
-      } else {
-        var displayMinutes = Math.floor(totalTime / 60);
-        var displaySeconds = totalTime % 60;
-
-        $('.number').text(('0' + displayMinutes).slice(-2)[0]);
-        $('.number1').text(('0' + displayMinutes).slice(-2)[1]);
-        $('.number2').text(('0' + displaySeconds).slice(-2)[0]);
-        $('.number3').text(('0' + displaySeconds).slice(-2)[1]);
-
-        var totalSeconds = minutes * 60 + seconds;
-        var elapsedSeconds = totalTime;
-        var percentage = ((totalSeconds - elapsedSeconds) / totalSeconds) * 100;
-
-        updateProgressBar(percentage);
-
-        totalTime--;
-      }
-    }, 1000);
-
-    isTimerRunning = true;
-    $('.play-icon').removeClass('bi-play-circle-fill').addClass('bi-pause-circle-fill');
+  var updateProgressBar = function(percentage) {
+    $('.progress-bar').val(percentage);
+    $('.progress-bar').css('background',
+      'radial-gradient(closest-side, white 79%, transparent 80% 100%), ' +
+      'conic-gradient(rgb(255, 178, 105) ' + (100 - percentage) + '%, rgb(255, 246, 192) 0)'
+    );
   };
 
-  var stopTimer = function() {
-    clearInterval(timer);
-    isTimerRunning = false;
-    $('.play-icon').removeClass('bi-pause-circle-fill').addClass('bi-play-circle-fill');
-    // Hide the audio element
-    $('#audioPlayer').hide();
-  };
+  timer = setInterval(function() {
+    if (totalTime <= 0) {
+      clearInterval(timer);
+      $('.play-icon').removeClass('bi-pause-circle-fill').addClass('bi-play-circle-fill');
+      isTimerRunning = false;
+      $('.number, .number1, .number2, .number3').text('0');
+      $('#audioPlayer').get(0).play();
 
-  $('.play-icon').on('click', function() {
-    if (!isTimerRunning) {
-      // Show the audio element before starting the timer
-      $('#audioPlayer').show();
-      startTimer();
+      // Adjust the progress bar's style when timer ends
+      updateProgressBar(0);
     } else {
-      stopTimer();
-    }
-  });
+      var displayMinutes = Math.floor(totalTime / 60);
+      var displaySeconds = totalTime % 60;
 
-  $('.stop-icon').on('click', function() {
+      $('.number').text(('0' + displayMinutes).slice(-2)[0]);
+      $('.number1').text(('0' + displayMinutes).slice(-2)[1]);
+      $('.number2').text(('0' + displaySeconds).slice(-2)[0]);
+      $('.number3').text(('0' + displaySeconds).slice(-2)[1]);
+
+      var totalSeconds = minutes * 60 + seconds;
+      var elapsedSeconds = totalTime;
+      var percentage = ((totalSeconds - elapsedSeconds) / totalSeconds) * 100;
+
+      updateProgressBar(percentage);
+
+      totalTime--;
+    }
+  }, 1000);
+
+  isTimerRunning = true;
+  $('.play-icon').removeClass('bi-play-circle-fill').addClass('bi-pause-circle-fill');
+};
+
+var stopTimer = function() {
+  clearInterval(timer);
+  isTimerRunning = false;
+  $('.play-icon').removeClass('bi-pause-circle-fill').addClass('bi-play-circle-fill');
+  // Hide the audio element
+  $('#audioPlayer').hide();
+};
+
+$('.play-icon').on('click', function() {
+  if (!isTimerRunning) {
+    // Show the audio element before starting the timer
+    $('#audioPlayer').show();
+    startTimer();
+  } else {
     stopTimer();
-  });
+  }
+});
+
+$('.stop-icon').on('click', function() {
+  stopTimer();
+});
 });
 
 
-            </script>
+          </script>
             <!-- --------------------------------------------------------------------------- -->
             <!-- --------ITEM6------------------------------------------------------------- -->
             <div class="carousel-item carousel-item6" style="background-color:#b1d570;">
