@@ -339,8 +339,8 @@
             <div class="carousel-item carousel-item2" style="background-color: #b1d570;">
                 <div>
                     <div class="min-100 container-fluid ritual-logo-con mx-auto">
-                        <div class="d-flex justify-content-between pb-4 pb-md-0 position-relative z-9">
-                            <div class="d-flex align-items-end position-relative ritual-head">
+                        <div class="d-flex justify-content-between pb-4 pb-md-0 position-relative z-9" id="rtual-head">
+                            <div class="d-flex align-items-end ritual-head position-relative " id="ritual-head-inn">
                                 <a href="adventure-map.html" class="hero-img me-3 d-block opacity-6 opacity-hover">
                                     <img src="./img/Logo_OyoKids.png" alt="" class="img-fluid">
                                 </a>
@@ -364,7 +364,7 @@
                                     <img src="img/Search Botton.png" alt="Search">
                                 </a>
                                 <a href="#" class="ps-2">
-                                    <img src="img/Ideia Botton.png" alt="Ideia">
+                                    <img src="img/Ideia Botton.png" alt="Idea">
                                 </a>
                                 <a href="#" class="ps-2">
                                     <img src="img/Profile Botton.png" alt="Profile">
@@ -383,12 +383,12 @@
                                                         <img src="./img/vac-1.png" class="second_slider_img img-fluid "
                                                             alt="">
                                                     </div>
-                                                    <button class="playPauseButtontwo mx-0 click-preview" class="position-absolute">
+                                                    <button id="openModalBtn" class="playPauseButtontwo mx-0 click-preview" class="position-absolute">
                                                         <i class="fas fa-play fs-6 bg-white rounded-circle video-play-ic"
                                                             style="color: #f9c575"></i>
                                                     </button>
                                                 </div>
-                                                <div class="position-absolute preview-popup preview-popup1">
+                                                <!-- <div class="position-absolute preview-popup preview-popup1">
                                                     <div class="position-relative">
                                                         <div class="in-preview-popup rounded-5 vac-bx">
                                                             <img src="./img/vac-1.png" alt="">
@@ -402,9 +402,116 @@
                                                             <p class="mb-0 small text-center poppin-font">Stand up</p>
                                                         </div>
                                                     </div>
+                                                </div> -->
+                                                <div id="customModal" class="modal">
+                                                    <div class="modal-content">
+                                                        <div class="position-relative relative-modal">
+                                                            <img src="img/acc1.png" alt="" class="w-100 h-100 acc-img">
+                                                        <div class="position-absolute-button">
+                                                                <i class="bi bi-play-fill"></i>
+                                                                <p class="mb-0">Stand up</p>
+                                                        </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
+                                        <style>
+                                            #ritual-head {
+                                                position: relative;
+                                            }
+                                            .modal {
+                                                display: none;
+                                                position: fixed;
+                                                top: -10px;
+                                                left: 0;
+                                                width: 100%;
+                                                height: 100vh;
+                                                background-color: rgba(0, 0, 0, 0.5);
+                                                }
+
+                                                .modal-content {
+                                                   background-color: transparent !important;
+                                                    margin: auto;
+                                                    padding: 20px;
+                                                    /* width: 50%; */
+                                                    display: flex;
+                                                    align-items: center;
+                                                    justify-content: center;
+                                                    border: none;
+                                                    height: 100%;
+                                                }
+                                                .relative-modal{
+                                                    display: flex;
+                                                    align-items: center;
+                                                    justify-content: center;
+                                                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                                                    max-width: 300px !important;
+                                                    border: 17px solid #fff;
+                                                    border-radius: 50px;
+                                                    background-color: #E9EB8C;
+                                                }
+
+                                                .close {
+                                                    float: right;
+                                                    cursor: pointer;
+                                                    font-size: 20px;
+                                                }
+
+                                                .close:hover {
+                                                    color: red;
+                                                }
+                                                .position-absolute-button{
+                                                    position: absolute;
+                                                    bottom: -30px;
+                                                    width: 100%;
+                                                    background-color: #fff;
+                                                    border-radius: 50px;
+                                                    padding: 5px 10px;
+                                                    display: flex;
+                                                    text-align: center;
+                                                    
+                                                }
+                                                .position-absolute-button i{
+    color: #f9c575;
+    font-size: 30px;
+    padding: 0;
+}
+.position-absolute-button p{
+    font-size: 30px;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+
+.acc-img{
+    max-width: 270px;
+    object-fit: cover;
+}
+                                        </style>
+                                        <script>
+                                            document.getElementById('openModalBtn').addEventListener('click', function() {
+                                                    document.getElementById('customModal').style.display = 'block';
+                                                    document.getElementById('ritual-head').style.position = 'static';
+                                                    document.getElementById('ritual-head-inn').style.opacity = '0';
+                                                    
+
+                                                    
+                                                });
+
+                                                document.getElementById('customModal').addEventListener('click', function() {
+                                                    document.getElementById('customModal').style.display = 'none';
+                                                });
+
+                                                // Close the modal if the overlay is clicked
+                                                window.addEventListener('click', function(event) {
+                                                    if (event.target === document.getElementById('customModal')) {
+                                                        document.getElementById('customModal').style.display = 'none';
+                                                    }
+                                                });
+
+                                        </script>
                                         <div class=" mb-4 text-center col-w">
                                             <div
                                                 class="second_slider_img vac-bx mx-xl-4 h-100 rounded-5 position-relative">

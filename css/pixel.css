@@ -2721,6 +2721,9 @@ Ritual page
     bottom: 47px;
     right: 27px;
 }
+.light_grey{
+    color: #333333 !important;
+}
 @media screen and (max-width:2700px){
     .h-minus {
         margin-bottom: 16px;

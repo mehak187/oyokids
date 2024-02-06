@@ -217,7 +217,7 @@ document.addEventListener('DOMContentLoaded', function () {
             gradient = 'linear-gradient(to right, lightgrey 0%, lightgrey 0%)';
         } else {
             // When volume is not muted, set the gradient to represent the volume level.
-            gradient = 'linear-gradient(to right, white ' + (volume * 100) + '%, lightgrey ' + (volume * 100) + '%)';
+            gradient = 'linear-gradient(to right, white ' + (volume * 100) + '%, #ccc ' + (volume * 100) + '%)';
         }
         volumeRange.style.background = gradient;
     }
