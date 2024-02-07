@@ -434,8 +434,8 @@ $(document).ready(function () {
 // ------------------------
 // slide 2 click preview 
 //-------------------------
-    $(".click-preview").click(function () {
-        $(".preview-popup").hide();
-        $(this).parent().siblings(".preview-popup").show();
-    });
+//     $(".click-preview").click(function () {
+//         $(".preview-popup").hide();
+//         $(this).parent().siblings(".preview-popup").show();
+//     });
 });

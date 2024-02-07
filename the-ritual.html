@@ -339,8 +339,8 @@
             <div class="carousel-item carousel-item2" style="background-color: #b1d570;">
                 <div>
                     <div class="min-100 container-fluid ritual-logo-con mx-auto">
-                        <div class="d-flex justify-content-between pb-4 pb-md-0 position-relative z-9">
-                            <div class="d-flex align-items-end position-relative ritual-head">
+                        <div class="d-flex justify-content-between pb-4 pb-md-0 position-relative z-9" id="rtual-head">
+                            <div class="d-flex align-items-end ritual-head position-relative " id="ritual-head-inn">
                                 <a href="adventure-map.html" class="hero-img me-3 d-block opacity-6 opacity-hover">
                                     <img src="./img/Logo_OyoKids.png" alt="" class="img-fluid">
                                 </a>
@@ -364,7 +364,7 @@
                                     <img src="img/Search Botton.png" alt="Search">
                                 </a>
                                 <a href="#" class="ps-2">
-                                    <img src="img/Ideia Botton.png" alt="Ideia">
+                                    <img src="img/Ideia Botton.png" alt="Idea">
                                 </a>
                                 <a href="#" class="ps-2">
                                     <img src="img/Profile Botton.png" alt="Profile">
@@ -382,27 +382,26 @@
                                                     <div>
                                                         <img src="./img/vac-1.png" class="second_slider_img img-fluid "
                                                             alt="">
+                                                            <p class="d-none modeltext">Stand Up</p>
                                                     </div>
-                                                    <button class="playPauseButtontwo mx-0 click-preview" class="position-absolute">
+                                                    <button id="openModalBtn" class="playPauseButtontwo mx-0 click-preview openmodal1" class="position-absolute">
                                                         <i class="fas fa-play fs-6 bg-white rounded-circle video-play-ic"
                                                             style="color: #f9c575"></i>
                                                     </button>
                                                 </div>
-                                                <div class="position-absolute preview-popup preview-popup1">
-                                                    <div class="position-relative">
-                                                        <div class="in-preview-popup rounded-5 vac-bx">
-                                                            <img src="./img/vac-1.png" alt="">
+                                                <div class="modal fade" id="customModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered">
+                                                      <div class="modal-content">
+                                                        <div class="position-relative relative-modal">
+                                                            <img src="img/acc1.png" id="modalImage"  alt="" class="w-100 h-100 acc-img">
+                                                        <div class="position-absolute-button">
+                                                                <i class="bi bi-play-fill"></i>
+                                                                <p id="customtext" class="mb-0">Stand up</p>
                                                         </div>
-                                                        <div
-                                                            class="d-flex align-items-center px-sm-2 py-c bg-white rounded-pill position-absolute preview-txt justify-content-center w-100 ">
-                                                            <button class="playPauseButtontwo me-2 new-abs">
-                                                                <i class="fas fa-play fs-5 bg-white rounded-circle video-play-ic"
-                                                                    style="color: #f9c575"></i>
-                                                            </button>
-                                                            <p class="mb-0 small text-center poppin-font">Stand up</p>
                                                         </div>
+                                                      </div>
                                                     </div>
-                                                </div>
+                                                  </div>
                                             </div>
                                         </div>
                                         <div class=" mb-4 text-center col-w">
@@ -412,8 +411,9 @@
                                                     <div>
                                                         <img src="./img/vac-2.png" alt=""
                                                             class="second_slider_img img-fluid">
+                                                        <p class="d-none modeltext">Sit down</p>  
                                                     </div>
-                                                    <button class="playPauseButtontwo mx-0 click-preview" class="position-absolute">
+                                                    <button id="openModalBtn" class="playPauseButtontwo mx-0 click-preview openmodal1" class="position-absolute">
                                                         <i class="fas fa-play fs-6 bg-white rounded-circle video-play-ic"
                                                             style="color: #f9c575"></i>
                                                     </button>
@@ -441,8 +441,9 @@
                                                     <div>
                                                         <img src="./img/vac-3.png" alt=""
                                                             class="second_slider_img img-fluid">
+                                                            <p class="d-none modeltext">Open Your Book</p>    
                                                     </div>
-                                                    <button class="playPauseButtontwo mx-0 click-preview" class="position-absolute">
+                                                    <button id="openModalBtn" class="playPauseButtontwo mx-0 click-preview openmodal1" class="position-absolute">
                                                         <i class="fas fa-play fs-6 bg-white rounded-circle video-play-ic"
                                                             style="color: #f9c575"></i>
                                                     </button>
@@ -471,8 +472,9 @@
                                                     <div>
                                                         <img src="./img/vac-4.png" class="second_slider_img img-fluid "
                                                             alt="">
+                                                            <p class="d-none modeltext">Talk</p>    
                                                     </div>
-                                                    <button class="playPauseButtontwo mx-0 click-preview" class="position-absolute">
+                                                    <button id="openModalBtn" class="playPauseButtontwo mx-0 click-preview openmodal1" class="position-absolute">
                                                         <i class="fas fa-play fs-6 bg-white rounded-circle video-play-ic"
                                                             style="color: #f9c575"></i>
                                                     </button>
@@ -501,8 +503,10 @@
                                                     <div>
                                                         <img src="./img/vac-5.png" alt=""
                                                             class="second_slider_img img-fluid">
+                                                            <p class="d-none modeltext">Put up your
+                                                                hand</p>
                                                     </div>
-                                                    <button class="playPauseButtontwo mx-0 click-preview" class="position-absolute">
+                                                    <button id="openModalBtn" class="playPauseButtontwo mx-0 click-preview openmodal1" class="position-absolute">
                                                         <i class="fas fa-play fs-6 bg-white rounded-circle video-play-ic"
                                                             style="color: #f9c575"></i>
                                                     </button>
@@ -531,8 +535,9 @@
                                                     <div>
                                                         <img src="./img/vac-6.png" alt=""
                                                             class="second_slider_img img-fluid">
+                                                            <p class="d-none modeltext">Listen</p>
                                                     </div>
-                                                    <button class="playPauseButtontwo mx-0 click-preview" class="position-absolute">
+                                                    <button id="openModalBtn" class="playPauseButtontwo mx-0 click-preview openmodal1" class="position-absolute">
                                                         <i class="fas fa-play fs-6 bg-white rounded-circle video-play-ic"
                                                             style="color: #f9c575"></i>
                                                     </button>
@@ -560,8 +565,9 @@
                                                     <div>
                                                         <img src="./img/vac-7.png" class="second_slider_img img-fluid "
                                                             alt="">
+                                                            <p class="d-none modeltext">Be Quiet</p>
                                                     </div>
-                                                    <button class="playPauseButtontwo mx-0 click-preview" class="position-absolute">
+                                                    <button id="openModalBtn" class="playPauseButtontwo mx-0 click-preview openmodal1" class="position-absolute">
                                                         <i class="fas fa-play fs-6 bg-white rounded-circle video-play-ic"
                                                             style="color: #f9c575"></i>
                                                     </button>
@@ -590,8 +596,9 @@
                                                     <div>
                                                         <img src="./img/vac-8.png" alt=""
                                                             class="second_slider_img img-fluid">
+                                                            <p class="d-none modeltext">Repeat</p>
                                                     </div>
-                                                    <button class="playPauseButtontwo mx-0 click-preview" class="position-absolute">
+                                                    <button id="openModalBtn" class="playPauseButtontwo mx-0 click-preview openmodal1" class="position-absolute">
                                                         <i class="fas fa-play fs-6 bg-white rounded-circle video-play-ic"
                                                             style="color: #f9c575"></i>
                                                     </button>
@@ -619,8 +626,9 @@
                                                     <div>
                                                         <img src="./img/vac-9.png" alt=""
                                                             class="second_slider_img img-fluid">
+                                                            <p class="d-none modeltext">Write</p>
                                                     </div>
-                                                    <button class="playPauseButtontwo mx-0 click-preview" class="position-absolute">
+                                                    <button id="openModalBtn" class="playPauseButtontwo mx-0 click-preview openmodal1" class="position-absolute">
                                                         <i class="fas fa-play fs-6 bg-white rounded-circle video-play-ic"
                                                             style="color: #f9c575"></i>
                                                     </button>
@@ -1438,6 +1446,55 @@ $('.stop-icon').on('click', function() {
             margin-left: 8px;
         }
     </style>
+
+
+
+<script>
+    // Select all buttons with the class openModalBtn
+    var buttons = document.querySelectorAll('.openmodal1');
+    console.log(buttons)
+    // Loop through each button and add click event listener
+    buttons.forEach(function(button) {
+        button.addEventListener('click', function() {
+            console.log("buttons")
+            var modalImg = document.getElementById('modalImage');
+            var modal = document.getElementById('customModal');
+            // Get the previous sibling element, which is the div containing the image
+            var imageDiv = this.previousElementSibling;
+            console.log(imageDiv)
+            // Check if imageDiv exists and if it contains an img element
+            if (imageDiv && imageDiv.querySelector('img')) {
+                // Find the img element inside the div and get its src attribute
+                var imageSrc = imageDiv.querySelector('img').getAttribute('src');
+                var imagtext = imageDiv.querySelector('p').textContent;
+                console.log(imagtext)
+
+                modalImg.src = imageSrc;
+                document.getElementById('customtext').textContent = imagtext;
+
+                // Open the modal
+                $('#customModal').modal('show');
+
+                // Add event listener to close modal when overlay is clicked
+                
+            } else {
+                console.error("Image not found.");
+            }
+        });
+    });
+
+
+    $(document).on('click', function(event) { 
+      if(!$(event.target).closest('.modal-content').length &&
+         !$(event.target).is('#customModal')) {
+            $('.modal-backdrop').remove();
+        $('#customModal').hide();
+
+      }        
+    });
+</script>
+
+
 </body>
 
 </html>
