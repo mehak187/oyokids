@@ -217,7 +217,7 @@ document.addEventListener('DOMContentLoaded', function () {
             gradient = 'linear-gradient(to right, lightgrey 0%, lightgrey 0%)';
         } else {
             // When volume is not muted, set the gradient to represent the volume level.
-            gradient = 'linear-gradient(to right, white ' + (volume * 100) + '%, #ccc ' + (volume * 100) + '%)';
+            gradient = 'linear-gradient(to right, white ' + (volume * 100) + '%, lightgrey ' + (volume * 100) + '%)';
         }
         volumeRange.style.background = gradient;
     }
@@ -434,8 +434,8 @@ $(document).ready(function () {
 // ------------------------
 // slide 2 click preview 
 //-------------------------
-    $(".click-preview").click(function () {
-        $(".preview-popup").hide();
-        $(this).parent().siblings(".preview-popup").show();
-    });
+//     $(".click-preview").click(function () {
+//         $(".preview-popup").hide();
+//         $(this).parent().siblings(".preview-popup").show();
+//     });
 });
