@@ -940,7 +940,7 @@ background-size:150px, 155px, 330px, 225px;
  .y-video {
     border: 37px solid white;
     border-radius: 40px;
-    max-width: 692px !important;
+    max-width: 696px !important;
     height: 403px !important;
 }
 
@@ -1103,7 +1103,7 @@ background-size:150px, 155px, 330px, 225px;
     }
     .y-video {
         border: 34px solid #fff;
-        max-width: 97vh;
+        /* max-width: 97vh; */
         border-radius: 105px;
     }
     /* .y-video video {
