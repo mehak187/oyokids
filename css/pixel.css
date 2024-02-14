@@ -1161,16 +1161,23 @@ background-size:150px, 155px, 330px, 225px;
 .h-minus3 {
     height: 68vh;
 }
+
 .y-video {
-    border: 22px solid #fff;
-    border-radius: 70px;
+    border: 16px solid #fff;
+    border-radius: 55px;
+    max-width: 863px !important;
+    height: 499px !important;
+}
+.y-video video {
+    border-radius: 40px;
+}
+.yel-video {
+    border-radius: 0 0 36px 36px;
 }
 /* .y-video video {
     border-bottom: 18px solid #fff !important;
 } */
-.yel-video {
-    border-radius: 0 0 50px 50px;
-}
+
 .carousel-item3 .timeBar {
     min-height: 10px;
 }
@@ -1219,7 +1226,11 @@ background-size:150px, 155px, 330px, 225px;
         border-bottom: none;
         border-radius: 33px;
     }
+    .y-video {
+        max-width: 692px !important;
+        height: 402px !important;
     }
+}
         @media screen and (max-height:650px) {
             .h-minus3 {
                 height: 56vh;
