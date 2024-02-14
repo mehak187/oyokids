@@ -344,7 +344,7 @@
                                 <a href="adventure-map.html" class="hero-img me-3 d-block opacity-6 opacity-hover">
                                     <img src="./img/Logo_OyoKids.png" alt="" class="img-fluid">
                                 </a>
-                                <div class="ritual-nav d-flex poppin-font align-items-center" id="scrollable-div">
+                                <div class="ritual-nav d-flex poppin-font align-items-center scrollable-divv" id="scrollable-div">
                                     <a href="at-school.html"
                                         class="d-block text-center position-relative z-9 disable first">At School</a>
                                     <a href="#" class="d-block text-center position-relative z-8 disable">Lesson 1
@@ -1450,48 +1450,41 @@ $('.stop-icon').on('click', function() {
 
 
 <script>
-    // Select all buttons with the class openModalBtn
     var buttons = document.querySelectorAll('.openmodal1');
     console.log(buttons)
-    // Loop through each button and add click event listener
     buttons.forEach(function(button) {
         button.addEventListener('click', function() {
             console.log("buttons")
             var modalImg = document.getElementById('modalImage');
             var modal = document.getElementById('customModal');
-            // Get the previous sibling element, which is the div containing the image
             var imageDiv = this.previousElementSibling;
             console.log(imageDiv)
-            // Check if imageDiv exists and if it contains an img element
             if (imageDiv && imageDiv.querySelector('img')) {
-                // Find the img element inside the div and get its src attribute
                 var imageSrc = imageDiv.querySelector('img').getAttribute('src');
                 var imagtext = imageDiv.querySelector('p').textContent;
                 console.log(imagtext)
-
                 modalImg.src = imageSrc;
                 document.getElementById('customtext').textContent = imagtext;
-
-                // Open the modal
                 $('#customModal').modal('show');
-
-                // Add event listener to close modal when overlay is clicked
-                
             } else {
                 console.error("Image not found.");
             }
         });
     });
 
-
     $(document).on('click', function(event) { 
-      if(!$(event.target).closest('.modal-content').length &&
-         !$(event.target).is('#customModal')) {
-            $('.modal-backdrop').remove();
+  if(!$(event.target).closest('.modal-content').length &&
+     !$(event.target).is('#customModal')) {
+        $('.modal-backdrop').remove();
         $('#customModal').hide();
+        if ($('.row-bw.modal').hasClass('show')) {
+            $('.scrollable-divv').addClass('op');
+        } else {
+            $('.scrollable-divv').removeClass('op');
+        }
+  }
+});
 
-      }        
-    });
 </script>
 
 

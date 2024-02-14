@@ -916,7 +916,7 @@ background-size:150px, 155px, 330px, 225px;
 
 
  .y-video video {
-     height: 100% !important;
+     /* height: 100% !important; */
      border-top: 0;
      vertical-align: bottom;
      border-bottom: none !important;
@@ -957,7 +957,7 @@ background-size:150px, 155px, 330px, 225px;
     font-size: 30px;
 }
 .yel-video {
-    height: 22% !important;
+    height: 25% !important;
     border-bottom-right-radius: 65px;
     border-bottom-left-radius: 65px;
     /* padding: 30px 0; */
@@ -965,6 +965,7 @@ background-size:150px, 155px, 330px, 225px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-top: 14px solid #fff;
  }
  .volume-slider3 input[type="range"] {
     height: 5px;
@@ -1118,7 +1119,7 @@ background-size:150px, 155px, 330px, 225px;
     .y-video {
         border: 26px solid #fff;
         border-radius: 90px;
-        max-width: 106vh;
+        max-width: 109.5vh;
     }
     .playPauseButton {
         width: 140px;
@@ -2735,6 +2736,8 @@ Ritual page
     }
     .row-bw .modal-dialog{
         max-width: 300px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
     }
     .row-bw .modal-content {
        background-color: transparent !important;
@@ -2793,12 +2796,19 @@ padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 
 .row-bw .acc-img{
 max-width: 270px;
 object-fit: cover;
+}
+
+.op {
+    opacity: 0.5;
 }
 @media screen and (max-width:2700px){
     .h-minus {
@@ -5323,9 +5333,9 @@ object-fit: cover;
   .ritual-nav::-webkit-scrollbar-thumb:hover {
     background-color: rgb(177 213 112);
   }
-  .y-video {
+  /* .y-video {
     max-width: 90vh;
-}
+} */
 }
 @media screen and (max-width:768px){
     .p-lang .my-container {
@@ -5432,7 +5442,7 @@ object-fit: cover;
         max-height: 547px;
     }
     .h-minus-other {
-        max-width: 500px;
+        /* max-width: 500px; */
         width: 100%;
     }
     .learn-td {
@@ -5571,6 +5581,19 @@ object-fit: cover;
     .player-name {
         font-size: 18px !important;
     }
+    .y-video {
+        max-width: 558px !important;
+        height: 326px !important
+    }
+    .yel-video {
+        height: 27% !important;
+    }
+    .main_time_bar {
+        bottom: -13px !important;
+    }
+    .vol-3-main {
+        margin: 24px auto 0 !important;
+    }
 }
 @media screen and (max-width:700px){
 
@@ -5588,7 +5611,7 @@ object-fit: cover;
 }
 .vol-3-main {
     width: 90%;
-    margin: 20px auto 0;
+    /* margin: 20px auto 0; */
 }
 }
 @media screen and (max-width:650px){
@@ -5681,6 +5704,23 @@ object-fit: cover;
     .cardd {
         max-width: 90%;
     }
+    .y-video {
+    max-width: 463px !important;
+    height: 271px !important
+}
+.vol-3-main {
+    margin: 20px auto 0 !important;
+}
+.yel-video {
+    border-top: 11px solid #fff;
+}
+.playPauseButton {
+    width: 50px;
+    height: 50px;
+}
+.playPauseButton i {
+    font-size: 21px !important;
+}
 }
 @media screen and (max-width:556px){
     .music_icon img {
@@ -5837,6 +5877,13 @@ object-fit: cover;
     .py-c {
         padding: 7px 7px;
     }
+    .y-video {
+        max-width: 408px !important;
+        height: 240px !important;
+    }
+    .yel-video {
+        height: 29% !important;
+    }
 }
 @media screen and (max-width:440px){
 .dot {
@@ -5947,6 +5994,13 @@ object-fit: cover;
 .cards-det {
     max-width: 162px !important;
 }
+.y-video {
+    max-width: 338px !important;
+    height: 201px !important;
+}
+.yel-video {
+    height: 35% !important;
+}
 }
 @media screen and (max-width:375px){
 .dot {
@@ -6034,6 +6088,21 @@ object-fit: cover;
 }
 .timer {
     bottom: -75px;
+}
+.y-video {
+    max-width: 306px !important;
+    height: 173px !important;
+}
+
+.yel-video {
+    height: 43% !important;
+}
+.playPauseButton {
+    width: 40px;
+    height: 40px;
+}
+.playPauseButton i {
+    font-size: 17px !important;
 }
 }
 @media screen and (max-height:750px){
@@ -6160,6 +6229,21 @@ object-fit: cover;
     .a5 {
         bottom: 90px;
         left: 250px;
+    }
+    .playPauseButton {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .playPauseButton i {
+        font-size: 14px !important;
+    }
+    .playPauseButton {
+        position: absolute;
+        top: 30% !important;
+    }
+    .y-video {
+        max-width: 287px !important;
+        height: 172px !important;
     }
 }
 @media screen and (max-height:1200px) {
