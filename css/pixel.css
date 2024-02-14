@@ -940,7 +940,8 @@ background-size:150px, 155px, 330px, 225px;
  .y-video {
     border: 37px solid white;
     border-radius: 40px;
-  
+    max-width: 686px !important;
+    height: 401px !important;
 }
 .y-video video {
     /* border-bottom: 32px solid #fff !important; */
@@ -1121,8 +1122,8 @@ background-size:150px, 155px, 330px, 225px;
     .y-video {
         border: 26px solid #fff;
         border-radius: 90px;
-        max-width: 691px;
-        height: 402px;
+        /* max-width: 691px;
+        height: 402px; */
     }
     .playPauseButton {
         width: 140px;
