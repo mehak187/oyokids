@@ -213,35 +213,6 @@
         calendar.render();
     });
 </script>
-  <!-- <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      var calendarEl = document.getElementById('calendar');
-      var calendar = new FullCalendar.Calendar(calendarEl, {
-        initialView: 'dayGrid',
-        events: [
-          {
-            title: 'Row 1, Column 1',
-            description: 'Row 1, Column 2',
-            start: '2023-08-01',
-          },
-          {
-            title: 'Row 2, Column 1',
-            description: 'Row 2, Column 2',
-            start: '2023-08-02',
-          },
-          // Add more events as needed
-        ],
-        eventContent: function (arg) {
-          return {
-            html: '<table>' +
-              '<tr><td>' + arg.event.title + '</td><td>' + arg.event.extendedProps.description + '</td></tr>' +
-              '</table>'
-          };
-        }
-      });
-      calendar.render();
-    });
-  </script> -->
   <script>
     $("#hidden").click(function () {
       $(".cards").toggle();

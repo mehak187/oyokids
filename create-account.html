@@ -139,10 +139,8 @@
 
   <script>
  $(document).ready(function () {
-    // Add event handler for radio buttons
     $("#teacherRadio").change(function () {
         if (this.checked) {
-            // If "Are you a teacher?" is selected
             $("label[for='teacherRadio']").removeClass("disabled");
             $("label[for='schoolRadio']").addClass("disabled");
         }
@@ -150,7 +148,6 @@
 
     $("#schoolRadio").change(function () {
         if (this.checked) {
-            // If "Are you a school?" is selected
             $("label[for='schoolRadio']").removeClass("disabled");
             $("label[for='teacherRadio']").addClass("disabled");
         }
